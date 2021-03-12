@@ -1,5 +1,5 @@
-
- let arrowGesture = document.getElementById('arrow_gesture');
+//I get my elements to store them in a variable
+let arrowGesture = document.getElementById('arrow_gesture');
 let dropDownGesture = document.getElementsByClassName('drop_down_ecos_gestures_li');
 let arrowSelective = document.getElementById('arrow_selective');
 let dropDownSelective = document.getElementsByClassName('drop_down_selective_sorting_li');
@@ -21,6 +21,8 @@ let equipement = document.getElementById('equipement');
 let dropDownEquipement = document.getElementById('drop_down_equipement');
 let dechet = document.getElementById('dechet');
 let dropDownDechet = document.getElementById('drop_down_dechet');
+
+//I create a listening on the buttons to give an animation
 
 arrowGesture.addEventListener('click', function () {
     for (let i = 0; i < dropDownGesture.length; i++) {
