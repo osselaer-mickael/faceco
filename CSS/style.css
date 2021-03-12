@@ -169,7 +169,7 @@ span {
     border: none;
 }
 
-#temperature, #drop_down_salle_de_bain, #salon {
+#temperature, #drop_down_salle_de_bain, #drop_down_salon {
     display: none;
     margin-right: 1rem;
     margin-left: 7rem;

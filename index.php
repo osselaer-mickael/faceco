@@ -77,9 +77,9 @@
                 </div>
                 <li class="drop_down_ecos_gestures_li">
                         <i class="fas fa-tv"></i>
-                        <span>Salon</span>
+                        <span id="salon">Salon</span>
                 </li>
-                <div id="salon">
+                <div id="drop_down_salon">
                    <ul>
                        <li class="elec_li">
                            <a href="">

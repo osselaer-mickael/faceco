@@ -9,6 +9,8 @@ let dropDownBed = document.getElementById('chambre');
 let temperature = document.getElementById('temperature');
 let salleDeBain = document.getElementById('salle_de_bain');
 let dropDownSalleDeBain = document.getElementById('drop_down_salle_de_bain');
+let salon = document.getElementById('salon');
+let dropDownSalon = document.getElementById('drop_down_salon');
 
 arrowGesture.addEventListener('click', function () {
     for (let i = 0; i < dropDownGesture.length; i++) {
@@ -22,6 +24,7 @@ arrowGesture.addEventListener('click', function () {
             dropDownGesture[i].style.display = "none";
             temperature.style.display = "none";
             dropDownSalleDeBain.style.display = "none";
+            dropDownSalon.style.display = "none";
             if ( i === dropDownGesture.length - 1) {
                 arrowGesture.style.rotate = "360deg";
             }
@@ -82,5 +85,13 @@ dropDownBed.addEventListener('click', function () {
      }
  });
 
+ salon.addEventListener('click', function () {
+     if(dropDownSalon.style.display !== "block") {
+         dropDownSalon.style.display = "block";
+     }
+     else {
+         dropDownSalon.style.display = "none";
+     }
+ });
 
 
