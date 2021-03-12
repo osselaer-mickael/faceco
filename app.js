@@ -5,6 +5,10 @@ let arrowSelective = document.getElementById('arrow_selective');
 let dropDownSelective = document.getElementsByClassName('drop_down_selective_sorting_li');
 let arrowFollow = document.getElementById('arrow_follow_up');
 let dropDownFollow = document.getElementsByClassName('drop_down_follow_up_li');
+let dropDownBed = document.getElementById('chambre');
+let temperature = document.getElementById('temperature');
+let salleDeBain = document.getElementById('salle_de_bain');
+let dropDownSalleDeBain = document.getElementById('drop_down_salle_de_bain');
 
 arrowGesture.addEventListener('click', function () {
     for (let i = 0; i < dropDownGesture.length; i++) {
@@ -16,6 +20,8 @@ arrowGesture.addEventListener('click', function () {
         }
         else {
             dropDownGesture[i].style.display = "none";
+            temperature.style.display = "none";
+            dropDownSalleDeBain.style.display = "none";
             if ( i === dropDownGesture.length - 1) {
                 arrowGesture.style.rotate = "360deg";
             }
@@ -57,5 +63,24 @@ arrowFollow.addEventListener('click', function () {
         }
     }
 });
+
+dropDownBed.addEventListener('click', function () {
+    if(temperature.style.display !== "block") {
+        temperature.style.display = "block";
+    }
+    else {
+        temperature.style.display = "none";
+    }
+});
+
+ salleDeBain.addEventListener('click', function () {
+     if(dropDownSalleDeBain.style.display !== "block") {
+         dropDownSalleDeBain.style.display = "block";
+     }
+     else {
+         dropDownSalleDeBain.style.display = "none";
+     }
+ });
+
 
 

@@ -30,7 +30,7 @@
     <div id="principal_container">
         <div class="ecos_gesture">
             <img src="IMG/logo_eco_gestes.png" alt="ecos_geste" class="ecos_gestes">
-            <h2>Les éco-gestes au quotidien</h2>
+            <h2>éco-gestes au quotidien</h2>
             <div  class="arrow">
                 <button id="arrow_gesture">
                     <i class="fas fa-sort-down"></i>
@@ -40,45 +40,81 @@
         <div id="drop_down_ecos_gesture">
             <ul>
                 <li class="drop_down_ecos_gestures_li">
-                    <a href="#">
-                        <i class="fas fa-bed"></i>
-                        Chambre
-                    </a>
+                    <i class="fas fa-bed"></i>
+                    <span id="chambre">Chambre</span>
                 </li>
+                <div id="temperature">
+                    <ul>
+                        <li class="temperature_li">
+                            <a href="#">
+                                <span>Agir sur la température</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <li class="drop_down_ecos_gestures_li">
-                    <a href="#">
                         <i class="fas fa-bath"></i>
-                        Salle de bain
-                    </a>
+                        <span id="salle_de_bain">Salle de bain</span>
                 </li>
+                <div id="drop_down_salle_de_bain">
+                    <ul>
+                        <li class="temp_li">
+                            <a href="#">
+                                <span>Agir sur la température</span>
+                            </a>
+                        </li>
+                        <li class="elec_li">
+                            <a href="#">
+                                <span>Agir sur l'éléctricité</span>
+                            </a>
+                        </li>
+                        <li class="eau_li">
+                            <a href="#">
+                                <span>Agir sur l'eau</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <li class="drop_down_ecos_gestures_li">
-                    <a href="#">
                         <i class="fas fa-tv"></i>
-                        Salon
-                    </a>
+                        <span>Salon</span>
                 </li>
+                <div id="salon">
+                   <ul>
+                       <li class="elec_li">
+                           <a href="">
+                               <span>Agir sur l'éléctricité</span>
+                           </a>
+                       </li>
+                       <li class="air_li">
+                           <a href="#">
+                               <span>Agir sur la qualitée de l'air</span>
+                           </a>
+                       </li>
+                   </ul>
+                </div>
                 <li class="drop_down_ecos_gestures_li">
                     <a href="#">
                         <i class="fas fa-utensils"></i>
-                        Cuisine
+                        <span>Cuisine</span>
                     </a>
                 </li>
                 <li class="drop_down_ecos_gestures_li">
                     <a href="#">
                         <i class="fas fa-tshirt"></i>
-                        Buanderie
+                        <span>Buanderie</span>
                     </a>
                 </li>
                 <li class="drop_down_ecos_gestures_li">
                     <a href="#">
                         <i class="fas fa-sort-amount-down"></i>
-                        Des chiffres qui parlent
+                        <span>Infos pratique</span>
                     </a>
                 </li>
                 <li class="drop_down_ecos_gestures_li">
                     <a href="#">
                         <i class="fas fa-euro-sign"></i>
-                        Des petits investissements astucieux
+                        <span>Petits équipements astucieux</span>
                     </a>
                 </li>
             </ul>
@@ -89,7 +125,7 @@
 
         <div class="selective_sorting">
             <img src="IMG/logo_tri.png" alt="tri_selectif" class="tri_selectif">
-            <h2>Le tri-sélectif</h2>
+            <h2>Tri-sélectif</h2>
             <div class="arrow">
                 <button id="arrow_selective">
                     <i class="fas fa-sort-down"></i>
@@ -131,36 +167,35 @@
                 </button>
             </div>
         </div>
+        <div class="drop_down_follow_up">
+            <ul>
+                <li class="drop_down_follow_up_li">
+                    <a href="#">
+                        <i class="fas fa-bolt"></i>
+                        Consommation d'éléctricité
+                    </a>
+                </li>
+                <li class="drop_down_follow_up_li">
+                    <a href="#">
+                        <i class="fas fa-hand-holding-water"></i>
+                        Consommation d'eau
+                    </a>
+                </li>
+                <li class="drop_down_follow_up_li">
+                    <a href="#">
+                        <i class="fas fa-burn"></i>
+                        Consommation de gaz
+                    </a>
+                </li>
+                <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                        Mon compte
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="drop_down_follow_up">
-        <ul>
-            <li class="drop_down_follow_up_li">
-                <a href="#">
-                    <i class="fas fa-bolt"></i>
-                    Consommation d'éléctricité
-                </a>
-            </li>
-            <li class="drop_down_follow_up_li">
-                <a href="#">
-                    <i class="fas fa-hand-holding-water"></i>
-                    Consommation d'eau
-                </a>
-            </li>
-            <li class="drop_down_follow_up_li">
-                <a href="#">
-                    <i class="fas fa-burn"></i>
-                    Consommation de gaz
-                </a>
-            </li>
-            <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
-                <a href="#">
-                    <i class="fas fa-user"></i>
-                    Mon compte
-                </a>
-            </li>
-        </ul>
-    </div>
-
     <!--Creation of footer. -->
     <!--Création du bas de page.  -->
 
