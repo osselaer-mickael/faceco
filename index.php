@@ -53,8 +53,8 @@
                     </ul>
                 </div>
                 <li class="drop_down_ecos_gestures_li">
-                        <i class="fas fa-bath"></i>
-                        <span id="salle_de_bain">Salle de bain</span>
+                    <i class="fas fa-bath"></i>
+                    <span id="salle_de_bain">Salle de bain</span>
                 </li>
                 <div id="drop_down_salle_de_bain">
                     <ul>
@@ -76,13 +76,13 @@
                     </ul>
                 </div>
                 <li class="drop_down_ecos_gestures_li">
-                        <i class="fas fa-tv"></i>
-                        <span id="salon">Salon</span>
+                    <i class="fas fa-tv"></i>
+                    <span id="salon">Salon</span>
                 </li>
                 <div id="drop_down_salon">
                    <ul>
                        <li class="elec_li">
-                           <a href="">
+                           <a href="#">
                                <span>Agir sur l'éléctricité</span>
                            </a>
                        </li>
@@ -94,29 +94,72 @@
                    </ul>
                 </div>
                 <li class="drop_down_ecos_gestures_li">
-                    <a href="#">
                         <i class="fas fa-utensils"></i>
-                        <span>Cuisine</span>
-                    </a>
+                        <span id="cuisine">Cuisine</span>
                 </li>
+                <div id="drop_down_cuisne">
+                    <ul>
+                        <li class="elec_li">
+                            <a href="#">
+                                <span>Agir sur l'éléctricité</span>
+                            </a>
+                        </li>
+                        <li class="eau_li">
+                            <a href="#">
+                                <span>Agir sur l'eau</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <li class="drop_down_ecos_gestures_li">
-                    <a href="#">
-                        <i class="fas fa-tshirt"></i>
-                        <span>Buanderie</span>
-                    </a>
+                    <i class="fas fa-tshirt"></i>
+                    <span id="buandrie">Buanderie</span>
                 </li>
+                <div id="drop_down_buandrie">
+                    <ul>
+                        <li class="eau_li">
+                            <a href="#">
+                                <span>Agir sur l'eau</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <li class="drop_down_ecos_gestures_li">
-                    <a href="#">
-                        <i class="fas fa-sort-amount-down"></i>
-                        <span>Infos pratique</span>
-                    </a>
+                    <i class="fas fa-sort-amount-down"></i>
+                    <span id="infos">Infos pratique</span>
                 </li>
+                <div id="drop_down_infos">
+                    <ul>
+                        <li class="eau_li">
+                            <a href="#">
+                                <span>Budget énergie d'un ménage</span>
+                            </a>
+                        </li>
+                        <li class="elec_li">
+                            <a href="#">
+                                <span>Plus d'éléctricité consommé</span>
+                            </a>
+                        </li>
+                        <li class="eau_li">
+                            <a href="#">
+                                <span>L'eau potable de plus en plsu utilisé</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <li class="drop_down_ecos_gestures_li">
-                    <a href="#">
-                        <i class="fas fa-euro-sign"></i>
-                        <span>Petits équipements astucieux</span>
-                    </a>
+                    <i class="fas fa-euro-sign"></i>
+                    <span id="equipement">Petits équipements astucieux</span>
                 </li>
+                <div id="drop_down_equipement">
+                    <ul>
+                        <li class="elec_li">
+                            <a href="https://www.ademe.fr/">
+                                <span>Lien vers ADEME</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </ul>
         </div>
 
@@ -135,21 +178,32 @@
         <div id="drop_down_selective_sorting">
             <ul>
                 <li class="drop_down_selective_sorting_li">
-                    <a href="#">
-                        <i class="fas fa-globe-europe"></i>
-                        Comment trier ses déchets
-                    </a>
+                    <i class="fas fa-globe-europe"></i>
+                    <span id="dechet">Trier ses déchets</span>
                 </li>
+                <div id="drop_down_dechet">
+                    <ul>
+                        <li class="trie_dechet">
+                            <a href="#">
+                                <span>Les différentes poubelles</span>
+                            </a>
+                        </li>
+                        <li class="trie_dechet">
+                            <a href="#">
+                                <span>Les consignes de tri</span>
+                            </a>
+                        </li>
+                        <li class="trie_dechet">
+                            <a href="#">
+                                <span>Comment réduire ses déchets ?</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <li class="drop_down_selective_sorting_li">
                     <a href="#">
                         <i class="fas fa-gamepad"></i>
-                        Jeu
-                    </a>
-                </li>
-                <li class="drop_down_selective_sorting_li">
-                    <a href="#">
-                        <i class="fas fa-sort-amount-down"></i>
-                        Des chiffres qui parlent
+                        <span>Jeu</span>
                     </a>
                 </li>
             </ul>
