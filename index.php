@@ -29,7 +29,7 @@
 
     <div id="principal_container">
         <div class="ecos_gesture">
-            <img src="IMG/e_action_target_hand.png" alt="ecos_geste" class="ecos_gestes">
+            <img src="IMG/logo_eco_gestes.png" alt="ecos_geste" class="ecos_gestes">
             <h2>Les éco-gestes au quotidien</h2>
             <div  class="arrow">
                 <button id="arrow_gesture">
@@ -59,13 +59,13 @@
                 </li>
                 <li class="drop_down_ecos_gestures_li">
                     <a href="#">
-                        <i class="fas fa-coffee"></i>
+                        <i class="fas fa-utensils"></i>
                         Cuisine
                     </a>
                 </li>
                 <li class="drop_down_ecos_gestures_li">
                     <a href="#">
-                        <i class="fas fa-socks"></i>
+                        <i class="fas fa-tshirt"></i>
                         Buanderie
                     </a>
                 </li>
@@ -88,7 +88,7 @@
     <!-- Création du menu déroulant de l'onglet "Tri selectif". -->
 
         <div class="selective_sorting">
-            <img src="IMG/tri_selectif.png" alt="tri_selectif" class="tri_selectif">
+            <img src="IMG/logo_tri.png" alt="tri_selectif" class="tri_selectif">
             <h2>Le tri-sélectif</h2>
             <div class="arrow">
                 <button id="arrow_selective">
@@ -123,7 +123,7 @@
     <!-- Création du menu déroulant de l'onglet "Mon suivi". -->
 
         <div class="my_follow_up">
-            <img src="IMG/eclair.png" alt="eclair" class="eclair">
+            <img src="IMG/logo_mon_suivi.png" alt="eclair" class="eclair">
             <h2>Mon suivi</h2>
             <div class="arrow">
                 <button id="arrow_follow_up">

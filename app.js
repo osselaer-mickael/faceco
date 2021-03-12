@@ -1,4 +1,5 @@
-let arrowGesture = document.getElementById('arrow_gesture');
+
+ let arrowGesture = document.getElementById('arrow_gesture');
 let dropDownGesture = document.getElementsByClassName('drop_down_ecos_gestures_li');
 let arrowSelective = document.getElementById('arrow_selective');
 let dropDownSelective = document.getElementsByClassName('drop_down_selective_sorting_li');

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +20,10 @@ body {
 /* Je créée le disagne de la page. */
 
 #container_top {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     width: 100%;
     height: 7rem;
-    background-color: #575a6e;
     z-index: 2;
     display: flex;
     align-items: center;
@@ -28,8 +31,8 @@ body {
 }
 
 #logo_faceco {
-    width: 30%;
-    height: 5rem;
+    width: 40%;
+    height: 7rem;
 }
 /**/
 
@@ -47,7 +50,8 @@ body {
 h2 {
     width: 100%;
     color: white;
-    font-family: "Arial Black", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
     display: flex;
     align-items: center;
 }
@@ -68,15 +72,15 @@ h2 {
 
 .ecos_gesture {
     margin-top: 3rem;
-    background-color: #31c095;
+    background-color: #4093a4;
 }
 
 .selective_sorting {
-    background-color: #f4a733;
+    background-color: #58ac34;
 }
 
 .my_follow_up {
-    background-color: #ca365a;
+    background-color: #2c3256;
 }
 
 .arrow {
@@ -102,9 +106,9 @@ h2 {
     margin: 1rem;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     list-style: none;
-    font-family: "Arial Black", sans-serif;
-    font-size: 1.2rem;
-    border-bottom: 2px solid #31c095;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #4093a4;
     display: none;
 }
 
@@ -112,9 +116,9 @@ h2 {
     margin: 1rem;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     list-style: none;
-    font-family: "Arial Black", sans-serif;
-    font-size: 1.2rem;
-    border-bottom: 2px solid #f4a733;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #58ac34;
     display: none;
 }
 
@@ -122,22 +126,18 @@ h2 {
     margin: 1rem;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     list-style: none;
-    font-family: "Arial Black", sans-serif;
-    font-size: 1.2rem;
-    border-bottom: 2px solid #ca365a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #2c3256;
     display: none;
 }
 
-.fa-bed, .fa-bath, .fa-tv, .fa-coffee, .fa-socks,.fa-sort-amount-down, .fa-euro-sign, .fa-globe-europe, .fa-gamepad,
+.fa-bed, .fa-bath, .fa-tv, .fa-utensils, .fa-tshirt,.fa-sort-amount-down, .fa-euro-sign, .fa-globe-europe, .fa-gamepad,
 .fa-bolt, .fa-hand-holding-water, .fa-burn, .fa-user {
-    width: auto;
-    height: auto;
+    width: 5%;
+    height: 1.5rem;
     margin-right: 1rem;
     color: #575a6e;
-}
-
-.fa-hand-holding-water {
-    margin-right: 0.5rem;
 }
 
 .drop_down_follow_up {
@@ -151,17 +151,17 @@ h2 {
 }
 
 #arrow_gesture {
-    background-color: #31c095;
+    background-color: #4093a4;
     border: none;
 }
 
 #arrow_selective {
-    background-color: #f4a733;
+    background-color: #58ac34;
     border: none;
 }
 
 #arrow_follow_up {
-    background-color: #ca365a;
+    background-color: #2c3256;
     border: none;
 }
 
