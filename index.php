@@ -88,6 +88,7 @@
     <!-- Création du menu déroulant de l'onglet "Tri selectif". -->
 
         <div class="selective_sorting">
+            bla
             <img src="IMG/logo_tri.png" alt="tri_selectif" class="tri_selectif">
             <h2>Le tri-sélectif</h2>
             <div class="arrow">
