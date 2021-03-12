@@ -17,7 +17,7 @@ arrowGesture.addEventListener('click', function () {
         if (dropDownGesture[i].style.display !== "block") {
             dropDownGesture[i].style.display = "block";
             if ( i === dropDownGesture.length - 1) {
-                arrowGesture.style.rotate = "180deg";
+                arrowGesture.classList.add('arrow-down-animation');
             }
         }
         else {
@@ -26,7 +26,7 @@ arrowGesture.addEventListener('click', function () {
             dropDownSalleDeBain.style.display = "none";
             dropDownSalon.style.display = "none";
             if ( i === dropDownGesture.length - 1) {
-                arrowGesture.style.rotate = "360deg";
+                arrowGesture.classList.remove('arrow-down-animation');
             }
         }
     }
@@ -38,13 +38,13 @@ arrowSelective.addEventListener('click', function () {
         if (dropDownSelective[i].style.display !== "block") {
             dropDownSelective[i].style.display = "block";
             if ( i === dropDownSelective.length - 1) {
-                arrowSelective.style.rotate = "180deg";
+                arrowSelective.classList.add('arrow-down-animation');
             }
         }
         else {
             dropDownSelective[i].style.display = "none";
             if ( i === dropDownSelective.length - 1) {
-                arrowSelective.style.rotate = "360deg";
+                arrowSelective.classList.remove('arrow-down-animation');
             }
         }
     }
@@ -56,12 +56,12 @@ arrowFollow.addEventListener('click', function () {
         if (dropDownFollow[i].style.display !== "block") {
             dropDownFollow[i].style.display = "block";
             if ( i === dropDownFollow.length -1) {
-                arrowFollow.style.rotate = "180deg";
+                arrowFollow.classList.add('arrow-down-animation');
             }
         } else {
             dropDownFollow[i].style.display = "none";
             if ( i === dropDownFollow.length -1) {
-                arrowFollow.style.rotate = "360deg";
+                arrowFollow.classList.remove('arrow-down-animation');
             }
         }
     }

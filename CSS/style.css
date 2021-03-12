@@ -112,6 +112,7 @@ h2 {
     border-bottom: 2px solid #4093a4;
     display: none;
 }
+
 span {
     color: #575a6e;
 }
@@ -157,16 +158,22 @@ span {
 #arrow_gesture {
     background-color: #4093a4;
     border: none;
+    outline: none !important;
+    user-select: none;
 }
 
 #arrow_selective {
     background-color: #58ac34;
     border: none;
+    outline: none !important;
+    user-select: none;
 }
 
 #arrow_follow_up {
     background-color: #2c3256;
     border: none;
+    outline: none !important;
+    user-select: none;
 }
 
 #temperature, #drop_down_salle_de_bain, #drop_down_salon {
@@ -256,5 +263,30 @@ a {
 
 #chambre, #salle_de_bain, .fa-sort-down, #salon, .drop_down_ecos_gestures_li {
     cursor: pointer;
+}
+
+.arrow-down-animation {
+    -webkit-animation: spin-down .0s linear forwards;
+    -moz-animation: spin-down .0s linear forwards;
+    animation: spin-down .0s linear forwards;
+}
+
+@-moz-keyframes spin-down {
+    100% {
+        -moz-transform: rotate(180deg);
+    }
+}
+
+@-webkit-keyframes spin-down {
+    100% {
+        -webkit-transform: rotate(180deg);
+    }
+}
+
+@keyframes spin-down {
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform:rotate(180deg);
+    }
 }
 
