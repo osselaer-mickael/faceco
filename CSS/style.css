@@ -57,6 +57,7 @@ h2 {
     font-size: 2rem;
     display: flex;
     align-items: center;
+    cursor: default;
 }
 
 button {
