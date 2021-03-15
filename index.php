@@ -226,31 +226,32 @@
                 <li class="drop_down_follow_up_li">
                     <a href="#">
                         <i class="fas fa-bolt"></i>
-                        Consommation d'éléctricité
+                        <span>Consommation d'éléctricité</span>
                     </a>
                 </li>
                 <li class="drop_down_follow_up_li">
                     <a href="#">
                         <i class="fas fa-hand-holding-water"></i>
-                        Consommation d'eau
+                        <span>Consommation d'eau</span>
                     </a>
                 </li>
                 <li class="drop_down_follow_up_li">
                     <a href="#">
                         <i class="fas fa-burn"></i>
-                        Consommation de gaz
+                        <span>Consommation de gaz</span>
                     </a>
                 </li>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
                     <a href="#">
                         <i class="fas fa-user"></i>
-                        Mon compte
+                        <span>Mon compte</span>
                     </a>
                 </li>
             </ul>
         </div>
     </div>
-    <!--Creation of footer. -->
+
+    <!--Creation of the footer. -->
     <!--Création du bas de page.  -->
 
     <footer>
@@ -275,6 +276,5 @@
     </footer>
 
     <script src="app.js"></script>
-
 </body>
 </html>
