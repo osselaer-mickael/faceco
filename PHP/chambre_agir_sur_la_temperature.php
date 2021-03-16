@@ -12,7 +12,7 @@
 
     <div id="title">
         <img src="../IMG/logo_ecobleu.png/" alt="logo_ecobleu" class="logo_ecobleu">
-        <h1>écos-gestes au quotidien</h1>
+        <h1>éco-gestes au quotidien</h1>
     </div>
     <div id="container_title">
         <h2>Chambre</h2>
