@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-    font-weight: bold;
 }
 
 body {
@@ -17,3 +11,55 @@ body {
     flex-direction: column;
 }
 
+/*Responsive Mode*/
+@media screen and (min-width: 750px) {
+
+    html {
+        font-size: 72.5%;
+        font-weight: bold;
+    }
+
+    #logo_faceco{
+        width: 35%;
+        height: 10rem;
+        margin: auto;
+    }
+
+    #container_top {
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+        width: 100%;
+        height: 7rem;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #principal_container{
+        margin-left: 4.5rem;
+        margin-right: 5.5rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        z-index: 1;
+    }
+
+    footer{
+        height: 5.5vh;
+        margin-top: 3rem;
+        background-color: white;
+    }
+
+    #container_bottom {
+        width: 100%;
+        height: 7rem;
+        display: flex;
+        flex-direction: row;
+        z-index: 1;
+        position: fixed;
+        background-color: white;
+        top: calc(100vh - 5.5rem);
+    }
+}

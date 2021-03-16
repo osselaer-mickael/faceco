@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/chambre_agir_sur_la_temperature.css">
+    <link rel="stylesheet" href="../CSS_TABLETTE/chambre_agir_sur_la_temperature_tablette.css">
     <title>Fac'eco-chambre-agir-sur-la-temperature</title>
 </head>
 <body>
