@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Responsive Mode*/
+@media screen and (min-width : 750px) {
+
+    html {
+        font-size: 72.5%;
+        font-weight: bold;
+    }
+
+    .logo_ecobleu {
+        width: 13%;
+        height: 8rem;
+        margin-left: -27.5rem;
+        margin-right: 0.5rem;
+    }
+
+    h1, h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2rem;
+        color:  #4093a4;
+    }
+
+    h2{
+        color: black;
+    }
+
+    #text_one, #text_two, #text_three, #text_four, #text_five {
+        margin-left: 10.5rem;
+        margin-right: 15.5rem;
+        margin-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+        border-bottom: 2px solid #ffa384;
+        font-size: 1rem;
+    }
+
+    #text_five {
+        margin-bottom: 1rem;
+    }
+
+    p, span {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    span {
+        margin-top: 1rem;
+        font-style: italic;
+        color: #ffa384;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    html {
+        font-size: 72.5%;
+        font-weight: bold;
+    }
+
+    .logo_ecobleu {
+        width: 15%;
+        height: 10rem;
+        margin-left: -37.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .chambre{
+        height: 40rem;
+        margin-right: 45rem;
+    }
+
+    h1, h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 3rem;
+        color:  #4093a4;
+    }
+
+    h2{
+        color: black;
+    }
+
+    #text_one, #text_two, #text_three, #text_four, #text_five {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 3rem;
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    #text_five {
+        margin-bottom: 1rem;
+    }
+
+    p, span {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    span {
+        margin-top: 1rem;
+        font-style: italic;
+        color: #ffa384;
+    }
+
+    #container_text{
+        margin-left: 45.5rem;
+        margin-right: 0.5rem;
+        margin-top: -46rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+        font-size: 1rem;
+    }
+}
