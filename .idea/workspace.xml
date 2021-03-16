@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/salle_de_bain_agir_sur_la_temperature.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/salle_de_bain_agir_sur_la_temperature.php" afterDir="false" />
+    <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="commit.2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/chambre_agir_sur_la_temperature.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/chambre_agir_sur_la_temperature.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/salle_de_bain_agir_sur_la_temperature.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/salle_de_bain_agir_sur_la_temperature.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/chambre_agir_sur_la_temperature.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/chambre_agir_sur_la_temperature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/salle_de_bain_agir_sur_la_temperature.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/salle_de_bain_agir_sur_la_temperature.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +16,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615898324492</updated>
       <workItem from="1615898326684" duration="22000" />
-      <workItem from="1615898596841" duration="633000" />
+      <workItem from="1615898596841" duration="4845000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615898648547</created>
@@ -51,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615898648547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit.">
+      <created>1615899249914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615899249914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,6 +75,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="commit." />
   </component>
 </project>

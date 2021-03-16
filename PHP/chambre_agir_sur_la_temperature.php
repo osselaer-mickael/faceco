@@ -20,7 +20,7 @@
     <div id="image">
         <img src="../IMG/Chambre.png/" alt="chambre" class="chambre">
     </div>
-        <div id="container_text">
+    <div id="container_temperature">
         <div id="container_title">
             <h2>Agir sur la température</h2>
         </div>

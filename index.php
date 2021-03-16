@@ -60,7 +60,7 @@
                 <div id="drop_down_salle_de_bain">
                     <ul>
                         <li class="temp_li">
-                            <a href="#">
+                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php">
                                 <span>Agir sur la température</span>
                             </a>
                         </li>
