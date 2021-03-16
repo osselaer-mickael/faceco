@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="CSS/style.css">
     <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
-    <title>Faceco</title>
+    <title>Fac'eco</title>
 </head>
 
 <body>
@@ -46,7 +46,7 @@
                 <div id="temperature">
                     <ul>
                         <li class="temperature_li">
-                            <a href="#">
+                            <a href="./PHP/chambre_agir_sur_la_temperature.php">
                                 <span>Agir sur la température</span>
                             </a>
                         </li>
