@@ -59,18 +59,18 @@
                 </li>
                 <div id="drop_down_salle_de_bain">
                     <ul>
-                        <li class="temp_li">
+                        <li class="temp_li" id="temperature_salle_de_bain">
                             <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php">
                                 <span>Agir sur la température</span>
                             </a>
                         </li>
-                        <li class="elec_li">
-                            <a href="#">
+                        <li class="elec_li"  id="electricite_salle_de_bain">
+                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php">
                                 <span>Agir sur l'éléctricité</span>
                             </a>
                         </li>
-                        <li class="eau_li">
-                            <a href="#">
+                        <li class="eau_li"  id="eau_salle_bain">
+                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php">
                                 <span>Agir sur l'eau</span>
                             </a>
                         </li>
@@ -275,6 +275,7 @@
         </div>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="JS/app.js"></script>
+
 </body>
 </html>

@@ -83,7 +83,6 @@
         <div id="text_eigth_eau">
             <p>Remplissez complètement votre lave-linge avant de l’utiliser</p>
         </div>
-
     </div>
 </body>
 </html>
