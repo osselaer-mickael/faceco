@@ -271,7 +271,6 @@
                     <img src="IMG/Twitter.png" alt="twitter" class="twitter">
                 </a>
             </div>
-
         </div>
     </footer>
 
