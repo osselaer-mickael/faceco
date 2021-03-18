@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/chambre_agir_sur_la_temperature.css">
     <link rel="stylesheet" href="../CSS_TABLETTE/chambre_agir_sur_la_temperature_tablette.css">
+    <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <title>Fac'eco-chambre-agir-sur-la-temperature</title>
 </head>
 <body>
@@ -41,6 +42,12 @@
         <div id="text_five">
             <p>Installer des rideaux épais et fermez-les la nuit</p>
         </div>
+    </div>
+    <div id="retour">
+        <a href="../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+        <h3>Retour menu</h3>
     </div>
 </body>
 </html>

@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/buandrie.css">
     <title>Buandrie</title>
 </head>
@@ -35,6 +36,12 @@
         <div id="text_four">
             <p>Si vous partez plus d’une journée, mettez le chauffage en mode hors-gel et coupez le ballon d’eau chaude électrique</p>
         </div>
+    </div>
+    <div id="retour">
+        <a href="../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+        <h3>Retour menu</h3>
     </div>
 
 </body>

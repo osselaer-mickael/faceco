@@ -100,11 +100,17 @@ span {
     margin: 2rem 1.5rem 2rem 1.5rem;
     background-color: #58ac34;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #container_title_elec {
     width: 57%;
     background-color: #2c3256;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title_air, .title_elec {
@@ -125,3 +131,23 @@ span {
     color: #2c3256;
 }
 
+#retour {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #4093a4;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
