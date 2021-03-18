@@ -101,6 +101,10 @@
         color: #ffa384;
     }
 
+    #container_principal{
+        display: flex;
+    }
+
     #container_title_temp {
         width: 26%;
         border-radius: 5px;
