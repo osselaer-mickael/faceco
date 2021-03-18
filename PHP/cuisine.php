@@ -24,38 +24,38 @@
             <h2 class="title_elec">Agir sur l'électricité</h2>
         </div>
         <div id="text_one_elec">
-            <p>- Nettoyer régulièrement la grille arrière du réfrigérateur</p>
+            <p>Nettoyer régulièrement la grille arrière du réfrigérateur</p>
         </div>
         <div id="text_two_elec">
-            <p>- Nettoyer régulièrement le filtre de votre lave-vaisselle</p>
+            <p>Nettoyer régulièrement le filtre de votre lave-vaisselle</p>
         </div>
         <div id="text_three_elec">
-            <p>- Dégivrer régulièrement le congélateur et le réfrigérateur</p>
+            <p>Dégivrer régulièrement le congélateur et le réfrigérateur</p>
         </div>
         <div id="text_four_elec">
-            <p>- Remplissez complètement votre lave-vaisselle</p>
+            <p>Remplissez complètement votre lave-vaisselle</p>
         </div>
         <div id="text_five_elec">
-            <p>- Laisser refroidir les plats avant de les mettre au réfrigérateur</p>
+            <p>Laisser refroidir les plats avant de les mettre au réfrigérateur</p>
         </div>
         <div id="text_six_elec">
-            <p>- Utiliser des casseroles adaptées à la taille des plaques</p>
+            <p>Utiliser des casseroles adaptées à la taille des plaques</p>
         </div>
         <div id="text_seven_elec">
-            <p>- Pendant la cuisson, couvrez les casseroles</p>
+            <p>Pendant la cuisson, couvrez les casseroles</p>
             <span class="italic_ardoise">= 4x moins d’électricité ou de gaz consommés</span>
         </div>
         <div id="text_eight_elec">
-            <p>- Coupez les plaques électriques un peu avant la fin de la cuisson</p>
+            <p>Coupez les plaques électriques un peu avant la fin de la cuisson</p>
         </div>
         <div id="text_nine_elec">
-            <p>- J’ouvre le congélateur et le réfrigérateur le moins longtemps possible pour ne pas laisser le froid s’échapper</p>
+            <p>J’ouvre le congélateur et le réfrigérateur le moins longtemps possible pour ne pas laisser le froid s’échapper</p>
         </div>
         <div id="text_ten_elec">
-            <p>- J’évite de mettre des plats encore chaud au réfrigérateur</p>
+            <p>J’évite de mettre des plats encore chaud au réfrigérateur</p>
         </div>
         <div id="text_eleven_elec">
-            <p>- Je choisis des appareils électroménagers économes, classés de A+ à A+++</p>
+            <p>Je choisis des appareils électroménagers économes, classés de A+ à A+++</p>
             <span class="italic_ardoise">Un appareil A+++ consomme jusqu’à 50% de moins</span>
         </div>
     </div>

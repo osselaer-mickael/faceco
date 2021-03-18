@@ -86,8 +86,21 @@ span {
     color: #ffa384;
 }
 
+#container_title_temp {
+    width: 68%;
+    border-radius: 5px;
+    background-color: #ffa384;
+    padding: 1rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+}
 
+.title_temp {
+    color: white;
+}
 
+.italic_temp {
+    color: #ffa384;
+}
 
 
 
