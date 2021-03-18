@@ -78,9 +78,10 @@
     </div>
     <div id="container_title_eau">
         <a href="./cuisine.php?container_eau">
-        <h2 class="title_eau">Agir sur l'eau</h2>
+            <h2 class="title_eau">Agir sur l'eau</h2>
+        </a>
     </div>
-    <div id="eau  <?= $container_eau ?>">
+    <div id="eau"  <?= $container_eau ?>>
         <div id="text_one_eau">
             <p>Ne prélavez pas la vaisselle</p>
         </div>

@@ -34,9 +34,18 @@ h1, h2 {
     color:  #4093a4;
 }
 
-#container_title {
-    margin-top: 2rem;
-    padding-left: 3rem;
+#container_title_energie {
+    margin: 2rem 1.5rem;
+    padding: 1rem;
+}
+
+#container_title_energie {
+    background-color: #58ac34;
+    border-radius: 5px;
+}
+
+.energie {
+    color: white;
 }
 
 h2 {
@@ -60,4 +69,36 @@ p {
     font-weight: bold;
     color: #2c3256;
 }
+
+#image {
+    margin: 2rem 1.5rem 2rem 0;;
+    width: 100%;
+}
+
+.image {
+    height: 12rem;
+}
+
+#retour {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #4093a4;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
 

@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/infos_budget.css">
     <title>Infos pratique</title>
 </head>
@@ -13,8 +14,8 @@
     <img src="../IMG/logo_ecobleu.png/" alt="logo_ecobleu" class="logo_ecobleu">
     <h1>éco-gestes au quotidien</h1>
 </div>
-    <div id="container_title">
-        <h2>Le budget énergie d’un ménage</h2>
+    <div id="container_title_energie">
+        <h2 class="energie">Le budget énergie d’un ménage</h2>
     </div>
     <div id="text_one">
         <p>
@@ -27,7 +28,20 @@
         </p>
     </div>
     <div id="image">
-        <img src="" alt="image_conso">
+        <img src="../IMG/Des_chffres_qui_parlent_1.png" alt="image_conso" class="image">
     </div>
+    <div id="container_title_elec">
+        <h2 class="energie">De plus en plus d’électricité consommée</h2>
+    </div>
+    <div id="text_two">
+        <img src="" alt="">
+    </div>
+    <div id="retour">
+        <a href="../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+        <h3>Retour menu</h3>
+    </div>
+    <script src="../JS/show_titles.js"></script>
 </body>
 </html>
