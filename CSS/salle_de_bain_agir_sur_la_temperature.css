@@ -113,6 +113,9 @@ span {
     padding: 1rem;
     margin: 2rem 1.5rem 2rem 1.5rem;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .title_temp {
     color: white;
@@ -124,6 +127,9 @@ span {
     padding: 1rem;
     margin: 2rem 1.5rem 2rem 1.5rem;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title_elec {
@@ -140,6 +146,9 @@ span {
     padding: 1rem;
     margin: 2rem 1.5rem 2rem 1.5rem;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title_eau {
