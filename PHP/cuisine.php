@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/cuisine.css">
+    <link rel="stylesheet" href="../CSS_TABLETTE/cuisine_tablette.css">
     <title>Cuisine</title>
 </head>
 <body>

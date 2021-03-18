@@ -16,7 +16,7 @@ body {
 
 @media screen and (min-width : 750px) {
     html {
-        font-size: 72.5%;
+        font-size: 62.5%;
         font-weight: bold;
     }
 
@@ -39,6 +39,22 @@ body {
 }
 
 @media screen and (min-width: 1024px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 72.5%;
+    }
+
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
     .logo_ecobleu {
         width: 15%;

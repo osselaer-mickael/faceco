@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/salon.css">
+    <link rel="stylesheet" href="../CSS_TABLETTE/salon_tablette.css">
     <title>Salon</title>
 </head>
 <body>
