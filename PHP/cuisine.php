@@ -1,3 +1,16 @@
+<?php
+    $container_electricite = "style='display: none'";
+    $container_eau = "style='display: none'";
+
+    if(isset($_GET['container_elec'])) {
+        $container_electricite = "style='display: block'";
+    }
+
+    if(isset($_GET['container_eau'])) {
+        $container_eau = "style='display: block'";
+    }
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
