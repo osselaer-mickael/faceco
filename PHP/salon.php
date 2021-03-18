@@ -1,3 +1,15 @@
+<?php
+    $container_elec = "style='display: none'";
+    $container_air = "style='display: none'";
+
+    if(isset($_GET['container_elec'])) {
+        $container_elec = "style='display: block'";
+    }
+
+    if(isset($_GET['container_air'])) {
+        $container_air = "style='display: block'";
+    }
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -22,10 +34,12 @@
     <div id="image">
         <img src="../IMG/Salon.png/" alt="salon" class="salon">
     </div>
-    <div id="electricite">
-        <div id="container_title_elec">
+    <div id="container_title_elec">
+        <a href="./salon.php?container_elec">
             <h2 class="title_elec">Agir sur l'électricité</h2>
-        </div>
+        </a>
+    </div>
+    <div id="electricite" <?= $container_elec ?>>
         <div id="text_one_elec">
             <p>Éteindre les lumières en sortant d’une pièce</p>
             <span class="italic_ardoise">L’éclairage représente 10% de la consommation d'électricité en France</span>
@@ -38,10 +52,12 @@
             <span class="italic_ardoise">Jusqu’à 10% d’économie d’énergie</span>
         </div>
     </div>
-    <div id="air">
-        <div id="container_title_air">
+    <div id="container_title_air">
+        <a href="./salon.php?container_air">
             <h2 class="title_air">Agir sur la qualité de l’air</h2>
-        </div>
+        </a>
+    </div>
+    <div id="air" <?= $container_air ?>>
         <div id="text_one_air">
             <p>Aérer les pièces 5 à 10 min par jour</p>
         </div>
