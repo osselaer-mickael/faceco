@@ -83,12 +83,12 @@
                 <div id="drop_down_salon">
                    <ul>
                        <li class="elec_li">
-                           <a href="./PHP/salon.php">
+                           <a href="./PHP/salon.php?container_elec">
                                <span>Agir sur l'éléctricité</span>
                            </a>
                        </li>
                        <li class="air_li">
-                           <a href="./PHP/salon.php">
+                           <a href="./PHP/salon.php?container_air">
                                <span>Agir sur la qualitée de l'air</span>
                            </a>
                        </li>
