@@ -21,12 +21,12 @@
         <img src="../IMG/Chambre.png/" alt="chambre" class="chambre">
     </div>
     <div id="container_temperature">
-        <div id="container_title">
-            <h2>Agir sur la température</h2>
+        <div id="container_title_temp">
+            <h2 class="title_temp">Agir sur la température</h2>
         </div>
         <div id="text_one">
             <p>16 à 18° température recommandée la nuit</p>
-            <span>Baisser le chauffage de 1°C = -7% d'énergie consommée</span>
+            <span class="italic_temp">Baisser le chauffage de 1°C = -7% d'énergie consommée</span>
         </div>
         <div id="text_two">
             <p>Eviter de faire pendre vos rideaux devant les radiateurs</p>

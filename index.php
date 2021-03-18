@@ -83,12 +83,12 @@
                 <div id="drop_down_salon">
                    <ul>
                        <li class="elec_li">
-                           <a href="#">
+                           <a href="./PHP/salon.php">
                                <span>Agir sur l'éléctricité</span>
                            </a>
                        </li>
                        <li class="air_li">
-                           <a href="#">
+                           <a href="./PHP/salon.php">
                                <span>Agir sur la qualitée de l'air</span>
                            </a>
                        </li>
@@ -101,12 +101,12 @@
                 <div id="drop_down_cuisne">
                     <ul>
                         <li class="elec_li">
-                            <a href="#">
+                            <a href="./PHP/cuisine.php">
                                 <span>Agir sur l'éléctricité</span>
                             </a>
                         </li>
                         <li class="eau_li">
-                            <a href="#">
+                            <a href="./PHP/cuisine.php">
                                 <span>Agir sur l'eau</span>
                             </a>
                         </li>
@@ -119,8 +119,8 @@
                 <div id="drop_down_buandrie">
                     <ul>
                         <li class="eau_li">
-                            <a href="#">
-                                <span>Agir sur l'eau</span>
+                            <a href="./PHP/buandrie.php">
+                                <span>Agir sur la température</span>
                             </a>
                         </li>
                     </ul>
