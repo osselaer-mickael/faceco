@@ -49,33 +49,26 @@ h2 {
     align-items: center;
 }
 
-.chambre {
+.salle_de_bain {
     height: 25rem;
 }
 
-#text_one {
-    margin: 1.5rem 1.5rem 0;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    border-bottom: 2px solid #ffa384;
-}
-
-#text_two, #text_three, #text_four, #text_five {
+#text_one, #text_two, #text_three {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid #ffa384;
 }
 
-#text_five {
+#text_three {
     margin-bottom: 1rem;
 }
 
 p, span {
+    margin-bottom: 0.5rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
 }
@@ -86,9 +79,31 @@ span {
     color: #ffa384;
 }
 
+#text_one_elec, #text_two_elec, #text_three_elec {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+}
 
+#text_three_elec {
+    margin-bottom: 1rem;
+}
 
+#text_one_eau, #text_two_eau, #text_three_eau, #text_four_eau, #text_five_eau, #text_six_eau, #text_seven_eau, #text_eigth_eau {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #4093a4;
+}
 
-
-
+#text_eigth_eau {
+    margin-bottom: 1rem;
+}
 
