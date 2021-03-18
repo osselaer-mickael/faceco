@@ -34,10 +34,12 @@
     <div id="image">
         <img src="../IMG/Cuisine.png/" alt="cuisine" class="cuisine">
     </div>
-    <div id="electricite">
-        <div id="container_title_elec">
+    <div id="container_title_elec">
+        <a href="./cuisine.php?container_elec">
             <h2 class="title_elec">Agir sur l'électricité</h2>
-        </div>
+        </a>
+    </div>
+    <div id="electricite" <?= $container_electricite ?>>
         <div id="text_one_elec">
             <p>Nettoyer régulièrement la grille arrière du réfrigérateur</p>
         </div>
@@ -74,10 +76,11 @@
             <span class="italic_ardoise">Un appareil A+++ consomme jusqu’à 50% de moins</span>
         </div>
     </div>
-    <div id="eau">
-        <div id="container_title_eau">
-            <h2 class="title_eau">Agir sur l'eau</h2>
-        </div>
+    <div id="container_title_eau">
+        <a href="./cuisine.php?container_eau">
+        <h2 class="title_eau">Agir sur l'eau</h2>
+    </div>
+    <div id="eau  <?= $container_eau ?>">
         <div id="text_one_eau">
             <p>Ne prélavez pas la vaisselle</p>
         </div>
