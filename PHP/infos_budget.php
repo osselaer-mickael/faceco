@@ -1,3 +1,20 @@
+<?php
+    $container_energie = "style='display: none'";
+    $container_electricite = "style='display: none'";
+    $container_eau = "style='display: none'";
+
+    if(isset($_GET['energie'])) {
+        $container_energie = "style='display: block'";
+    }
+
+    if(isset($_GET['electricite'])) {
+        $container_electricite = "style='display: block'";
+    }
+
+    if(isset($_GET['eau'])) {
+        $container_eau = "style='display: block'";
+}
+?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -15,8 +32,11 @@
     <h1>éco-gestes au quotidien</h1>
 </div>
     <div id="container_title_energie">
-        <h2 class="energie">Le budget énergie d’un ménage</h2>
+        <a href="./infos_budget.php?energie">
+            <h2 class="energie">Le budget énergie d’un ménage</h2>
+        </a>
     </div>
+<div id="energie" <?= $container_energie ?>>
     <div id="text_one">
         <p>
             Un ménage consacre en moyenne 8,5% de son budget annuel à ses factures d’énergies : pour ses déplacements
@@ -30,20 +50,29 @@
     <div id="image">
         <img src="../IMG/Des_chffres_qui_parlent_1.png" alt="image_conso" class="image">
     </div>
+</div>
     <div id="container_title_elec">
-        <h2 class="energie">De plus en plus d’électricité consommée</h2>
+        <a href="./infos_budget.php?electricite">
+            <h2 class="energie">De plus en plus d’électricité consommée</h2>
+        </a>
     </div>
-    <div id="text_two">
-        <img src="../IMG/Des_chiffres_qui_parlent_2.png" alt="image_consommation" class="image_two">
+    <div id="electricite" <?= $container_electricite ?>>
+        <div id="text_two">
+            <img src="../IMG/Des_chiffres_qui_parlent_2.png" alt="image_consommation" class="image_two">
+        </div>
     </div>
     <div id="container_title_eau">
-        <h2 class="energie">L’eau potable : attention aux fuites !</h2>
+        <a href="./infos_budget.php?eau">
+            <h2 class="energie">L’eau potable : attention aux fuites !</h2>
+        </a>
     </div>
-    <div id="text_three">
-        <p class="eau">143 litres d’eau potable par français/jour c’est beaucoup !</p>
-    </div>
-    <div id="image3">
-        <img src="../IMG/Des_chiffres_qui_parlent_3.png" alt="image_eau" class="image_three">
+    <div id="eau" <?= $container_eau ?>>
+        <div id="text_three">
+            <p class="eau">143 litres d’eau potable par français/jour c’est beaucoup !</p>
+        </div>
+        <div id="image3">
+            <img src="../IMG/Des_chiffres_qui_parlent_3.png" alt="image_eau" class="image_three">
+        </div>
     </div>
     <div id="retour">
         <a href="../index.php">

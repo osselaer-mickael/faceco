@@ -132,17 +132,17 @@
                 <div id="drop_down_infos">
                     <ul>
                         <li class="eau_li">
-                            <a href="./PHP/infos_budget.php">
+                            <a href="./PHP/infos_budget.php?energie">
                                 <span>Budget énergie d'un ménage</span>
                             </a>
                         </li>
                         <li class="elec_li">
-                            <a href="#">
+                            <a href="./PHP/infos_budget.php?electricite">
                                 <span>Plus d'éléctricité consommé</span>
                             </a>
                         </li>
                         <li class="eau_li">
-                            <a href="#">
+                            <a href="./PHP/infos_budget.php?eau">
                                 <span>L'eau potable de plus en plus utilisé</span>
                             </a>
                         </li>
