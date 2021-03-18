@@ -34,13 +34,13 @@
         <img src="../IMG/logo_ecobleu.png/" alt="logo_ecobleu" class="logo_ecobleu">
         <h1>éco-gestes au quotidien</h1>
     </div>
+    <div id="container_title">
+        <h2 >Salle de bain</h2>
+    </div>
+    <div id="image">
+        <img src="../IMG/Salle_de_bain.png/" alt="salle_de_bain" class="salle_de_bain">
+    </div>
     <div id="container-principal">
-        <div id="container_title">
-            <h2 >Salle de bain</h2>
-        </div>
-        <div id="image">
-            <img src="../IMG/Salle_de_bain.png/" alt="salle_de_bain" class="salle_de_bain">
-        </div>
         <div id="container_title_temp">
             <a href="./salle_de_bain_agir_sur_la_temperature.php?container_temperature">
                 <h2 class="title_temp">Agir sur la température</h2>

@@ -15,13 +15,13 @@
         <img src="../IMG/logo_ecobleu.png/" alt="logo_ecobleu" class="logo_ecobleu">
         <h1>éco-gestes au quotidien</h1>
     </div>
+    <div id="container_title">
+        <h2>Chambre</h2>
+    </div>
+    <div id="image">
+        <img src="../IMG/Chambre.png/" alt="chambre" class="chambre">
+    </div>
     <div id="container_principal">
-        <div id="container_title">
-            <h2>Chambre</h2>
-        </div>
-        <div id="image">
-            <img src="../IMG/Chambre.png/" alt="chambre" class="chambre">
-        </div>
         <div id="container_temperature">
             <div id="container_title_temp">
                 <h2 class="title_temp">Agir sur la température</h2>
