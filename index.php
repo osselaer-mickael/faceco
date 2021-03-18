@@ -143,7 +143,7 @@
                         </li>
                         <li class="eau_li">
                             <a href="#">
-                                <span>L'eau potable de plus en plsu utilisé</span>
+                                <span>L'eau potable de plus en plus utilisé</span>
                             </a>
                         </li>
                     </ul>

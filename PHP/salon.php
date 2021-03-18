@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/salon.css">
     <title>Salon</title>
 </head>
@@ -59,6 +60,12 @@
             <p>Utilisez des lampes à LED</p>
             <span class="italic_vert">Elles consomment 5 à 10 fois moins que les vieilles ampoules et durent 20 à 50 fois plus longtemps</span>
         </div>
+    </div>
+    <div id="retour">
+        <a href="../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+        <h3>Retour menu</h3>
     </div>
 
 </body>

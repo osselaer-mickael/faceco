@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/cuisine.css">
     <title>Cuisine</title>
@@ -69,5 +70,12 @@
         <div id="text_two_eau">
             <p>Utilisez 2 bacs pour faire la vaisselle afin d’éviter de laisser couler l’eau</p>
         </div>
+    </div>
+    <div id="retour">
+        <a href="../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+        <h3>Retour menu</h3>
+    </div>
 </body>
 </html>

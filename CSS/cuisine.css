@@ -142,3 +142,44 @@ span {
 #text_two_eau {
     margin-bottom: 1rem;
 }
+
+.title_eau {
+    color: white;
+}
+
+#text_one_eau, #text_two_eau {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #4093a4;
+
+}
+
+#text_two_eau {
+    margin-bottom: 1rem;
+}
+
+#retour {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #4093a4;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}

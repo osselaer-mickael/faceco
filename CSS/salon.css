@@ -131,3 +131,23 @@ span {
     color: #2c3256;
 }
 
+#retour {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #4093a4;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
