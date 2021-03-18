@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_ecobleu {
+    width: 20%;
+    height: 7rem;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color:  #4093a4;
+}
+
+
+#container_title {
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+
+h2 {
+    color: black;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buandrie {
+    height: 25rem;
+}
+
+#container_title_temp {
+    width: auto;
+    padding: 1rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+    background-color: #ffa384;
+    border-radius: 5px;
+}
+
+.title_temp {
+    color: white;
+}
+
+
+#text_one {
+    margin: 1.5rem 1.5rem 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ffa384;
+}
+
+#text_two, #text_three, #text_four{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ffa384;
+}
+
+#text_four {
+    margin-bottom: 1rem;
+}
+
+p, span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
