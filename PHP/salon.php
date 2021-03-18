@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/salon.css">
+    <link rel="stylesheet" href="../CSS_TABLETTE/salon_tablette.css">
     <title>Salon</title>
 </head>
 <body>

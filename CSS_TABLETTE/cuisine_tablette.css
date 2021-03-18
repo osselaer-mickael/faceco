@@ -1,0 +1,50 @@
+@media screen and (min-width: 1024px){
+
+    .logo_ecobleu {
+        width: 15%;
+        height: 11rem;
+        margin-left: -63.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .cuisine{
+        height: 40rem;
+        margin-right: 45rem;
+    }
+
+    #electricite{
+        margin-left: 45.5rem;
+        margin-right: 0.5rem;
+        margin-top: -46rem;
+        padding-left: 6rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+        font-size: 1rem;
+    }
+
+    #eau{
+        margin-left: 45.5rem;
+        margin-right: 0.5rem;
+        margin-top: 0rem;
+        padding-left: 6rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+        font-size: 1rem;
+    }
+
+    #container_title_elec{
+        width: 39%;
+        background-color: #2c3256;
+        padding: 1rem;
+        margin: 2rem 1.5rem 2rem 1.5rem;
+        border-radius: 5px
+    }
+
+    #container_title_eau{
+        width: 28%;
+        background-color: #4093a4;
+        padding: 1rem;
+        margin: 2rem 1.5rem 2rem 1.5rem;
+        border-radius: 5px
+    }
+}
