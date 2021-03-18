@@ -4,7 +4,6 @@
     <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="COMMIT 3.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/infos_budget.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/infos_budget.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/cuisine.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/cuisine.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/infos_budget.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/infos_budget.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <workItem from="1615898596841" duration="10473000" />
       <workItem from="1616054569994" duration="120000" />
       <workItem from="1616054702590" duration="5201000" />
-      <workItem from="1616060025487" duration="15084000" />
+      <workItem from="1616060025487" duration="15798000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615898648547</created>
