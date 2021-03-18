@@ -36,14 +36,14 @@
     <div id="text_two">
         <img src="../IMG/Des_chiffres_qui_parlent_2.png" alt="image_consommation" class="image_two">
     </div>
-    <div id="container_title_elec">
+    <div id="container_title_eau">
         <h2 class="energie">L’eau potable : attention aux fuites !</h2>
     </div>
-    <div id="text_two">
+    <div id="text_three">
         <p class="eau">143 litres d’eau potable par français/jour c’est beaucoup !</p>
     </div>
     <div id="image3">
-        <img src="" alt="">
+        <img src="../IMG/Des_chiffres_qui_parlent_3.png" alt="image_eau" class="image_three">
     </div>
     <div id="retour">
         <a href="../index.php">
