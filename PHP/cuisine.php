@@ -94,5 +94,7 @@
         </a>
         <h3>Retour menu</h3>
     </div>
+
+    <script src="../JS/show_titles.js"></script>
 </body>
 </html>
