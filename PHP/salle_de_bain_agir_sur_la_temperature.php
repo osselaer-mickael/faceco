@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/salle_de_bain_agir_sur_la_temperature.css">
+    <link rel="stylesheet" href="../CSS_TABLETTE/salle_de_bain_agir_sur_la_temperature_tablette.css">
     <title>Salle-de-bain-agir-sur-la-temperature</title>
 </head>
 <body>
