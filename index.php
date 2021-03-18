@@ -132,7 +132,7 @@
                 <div id="drop_down_infos">
                     <ul>
                         <li class="eau_li">
-                            <a href="#">
+                            <a href="./PHP/infos_budget.php">
                                 <span>Budget énergie d'un ménage</span>
                             </a>
                         </li>

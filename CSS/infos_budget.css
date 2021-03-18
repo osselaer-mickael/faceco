@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_ecobleu {
+    width: 20%;
+    height: 7rem;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color:  #4093a4;
+}
+
+#container_title {
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+
+h2 {
+    color: black;
+}
+
+#text_one {
+    margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+p {
+    line-height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.gras {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color: #2c3256;
+}
+
