@@ -1,3 +1,21 @@
+<?php
+    $container_temperature = "style='display: none'";
+    $container_electricite = "style='display: none'";
+    $container_eau = "style='display: none'";
+
+    if(isset($_GET['container_temperature'])) {
+        $container_temperature = "style='display: block'";
+    }
+
+    if(isset($_GET['container_elec'])) {
+        $container_electricite = "style='display: block'";
+    }
+
+    if(isset($_GET['container_eau'])) {
+        $container_eau = "style='display: block'";
+    }
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -22,18 +40,22 @@
     <div id="image">
         <img src="../IMG/Salle_de_bain.png/" alt="salle_de_bain" class="salle_de_bain">
     </div>
-    <div id="container_temperature">
-        <div id="container_title_temp">
+    <div id="container_title_temp">
+        <a href="./salle_de_bain_agir_sur_la_temperature.php?container_temperature">
             <h2 class="title_temp">Agir sur la température</h2>
-        </div>
+        </a>
+    </div>
+    <div id="container_temperature" <?= $container_temperature ?>>
         <div id="text_one">
-            <p>22° température recommandée pendant la toilette (18° le reste du temps</p>
+            <p>22° température recommandée pendant la toilette (18° le reste du temps)</p>
         </div>
     </div>
-    <div id="electricite">
-        <div id="container_title_elec">
+    <div id="container_title_elec">
+        <a href="./salle_de_bain_agir_sur_la_temperature.php?container_elec">
             <h2 class="title_elec">Agir sur l'électricité</h2>
-        </div>
+        </a>
+    </div>
+    <div id="electricite" <?= $container_electricite ?>>
         <div id="text_one_elec">
             <p>Laver son linge a 30°</p>
             <span class="italic_elec">= 3x moins d'électricité qu’à 90°C</span>
@@ -49,10 +71,12 @@
             </span>
         </div>
     </div>
-    <div id="eau">
-        <div id="container_title_eau">
+    <div id="container_title_eau">
+        <a href="./salle_de_bain_agir_sur_la_temperature.php?container_eau">
             <h2 class="title_eau">Agir sur l'eau</h2>
-        </div>
+        </a>
+    </div>
+    <div id="eau" <?= $container_eau ?>>
         <div id="text_one_eau">
             <p>Coupez l’eau pendant le savonnage</p>
 

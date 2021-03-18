@@ -60,17 +60,17 @@
                 <div id="drop_down_salle_de_bain">
                     <ul>
                         <li class="temp_li" id="temperature_salle_de_bain">
-                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php">
+                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php?container_temperature">
                                 <span>Agir sur la température</span>
                             </a>
                         </li>
                         <li class="elec_li"  id="electricite_salle_de_bain">
-                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php">
+                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php?container_elec">
                                 <span>Agir sur l'éléctricité</span>
                             </a>
                         </li>
                         <li class="eau_li"  id="eau_salle_bain">
-                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php">
+                            <a href="./PHP/salle_de_bain_agir_sur_la_temperature.php?container_eau">
                                 <span>Agir sur l'eau</span>
                             </a>
                         </li>
