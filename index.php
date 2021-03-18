@@ -101,12 +101,12 @@
                 <div id="drop_down_cuisne">
                     <ul>
                         <li class="elec_li">
-                            <a href="./PHP/cuisine.php">
+                            <a href="./PHP/cuisine.php?container_elec">
                                 <span>Agir sur l'éléctricité</span>
                             </a>
                         </li>
                         <li class="eau_li">
-                            <a href="./PHP/cuisine.php">
+                            <a href="./PHP/cuisine.php?container_eau">
                                 <span>Agir sur l'eau</span>
                             </a>
                         </li>
