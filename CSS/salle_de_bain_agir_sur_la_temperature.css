@@ -107,3 +107,45 @@ span {
     margin-bottom: 1rem;
 }
 
+#container_title_temp {
+    width: 68%;
+    background-color: #ffa384;
+    padding: 1rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+    border-radius: 5px;
+}
+.title_temp {
+    color: white;
+}
+
+#container_title_elec {
+    width: 57%;
+    background-color: #2c3256;
+    padding: 1rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+    border-radius: 5px;
+}
+
+.title_elec {
+    color: white;
+}
+
+.italic_elec {
+    color: #2c3256;
+}
+
+#container_title_eau {
+    width: 41%;
+    background-color: #4093a4;
+    padding: 1rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+    border-radius: 5px;
+}
+
+.title_eau {
+    color: white;
+}
+
+.italic_eau {
+    color: #4093a4;
+}
