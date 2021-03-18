@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 
     * {
         margin: 0;
@@ -9,8 +9,7 @@
     }
 
     html {
-        font-size: 72.5%;
-        font-weight: bold;
+        font-size: 62.5%;
     }
 
     body {
@@ -27,14 +26,31 @@
     }
 
     .logo_ecobleu {
-        width: 15%;
+        width: 13%;
         height: 10rem;
+    }
+
+    #image{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+    }
+
+    .chambre{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: left;
+    }
+
+    .chambre{
+        height: 31rem;
     }
 
     h1, h2, h3 {
         font-family: 'Open Sans', sans-serif;
         font-size: 2rem;
-        color:  #4093a4;
+        color: #4093a4;
     }
 
     #container_title {
@@ -51,35 +67,14 @@
         font-family: 'Open Sans', sans-serif;
     }
 
-    #image {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-    }
-
-    .chambre {
-        height: 30rem;
-    }
-
-    #container_temperature{
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        flex-direction: column;
-    }
-
     #text_one, #text_two, #text_three, #text_four, #text_five {
         margin-left: 2.5rem;
-        margin-right: 5.5rem;
+        margin-right: 15.5rem;
         margin-top: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 2rem;
         border-bottom: 2px solid #ffa384;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        flex-direction: column;
     }
 
     #text_five {
@@ -91,48 +86,20 @@
         font-size: 1.5rem;
     }
 
-    span {
+    span{
         margin-top: 1rem;
         font-style: italic;
         color: #ffa384;
     }
 
-    #container_principal{
-        display: flex;
-        justify-content: right;
-        flex-direction: row;
-    }
-
     #container_title_temp {
-        width: 86%;
+        width: 70%;
         border-radius: 5px;
         background-color: #ffa384;
         padding: 1rem;
         margin: 2rem 1.5rem 2rem 1.5rem;
         display: flex;
-        justify-content: right;
-        align-items: center;
-    }
-
-    #container_title_elec{
-        width: 57%;
-        background-color: #2c3256;
-        padding: 1rem;
-        margin: 2rem 1.5rem 2rem 1.5rem;
-        border-radius: 5px;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-    }
-
-    #container_title_eau {
-        width: 14%;
-        background-color: #4093a4;
-        padding: 1rem;
-        margin: 2rem 1.5rem 2rem 1.5rem;
-        border-radius: 5px;
-        display: flex;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
     }
 
@@ -144,6 +111,17 @@
         color: #ffa384;
     }
 
+    #container_temperature{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #container_principal{
+        display: flex;
+    }
+
     #retour {
         margin: 2rem;
         display: flex;
@@ -151,6 +129,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .fa-undo {
         margin-bottom: 1rem;
         font-size: 4rem;
