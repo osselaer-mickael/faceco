@@ -20,8 +20,16 @@
     .logo_ecobleu {
         width: 15%;
         height: 11rem;
-        margin-left: -49.5rem;
-        margin-right: 0.5rem;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    #title {
+        margin: 1rem;
+        display: flex;
+        justify-content: left;
+        align-items: center;
     }
 
     .cuisine{

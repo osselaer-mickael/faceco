@@ -8,7 +8,7 @@
     }
 
     html {
-        font-size: 72.5%;
+        font-size: 62.5%;
     }
 
     body {
@@ -19,14 +19,19 @@
 
     #title {
         margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 3rem;
         display: flex;
         align-items: center;
-        justify-content: right;
+        justify-content: left;
     }
 
     .logo_ecobleu {
         width: 15%;
         height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: left;
     }
 
     h1, h2 {
@@ -46,20 +51,17 @@
 
     #image {
         display: flex;
-        justify-content: right;
+        justify-content: left;
         align-items: center;
     }
 
     .salle_de_bain {
-        height: 30rem;
+        height: 35rem;
     }
 
     #container_principal{
         display: flex;
-    }
-
-    #container_principal{
-        display: flex;
+        height: 30%;
     }
 
     #text_one, #text_two, #text_three {
@@ -70,9 +72,6 @@
         padding-right: 1rem;
         padding-bottom: 1rem;
         border-bottom: 2px solid #ffa384;
-        display: flex;
-        justify-content: right;
-        align-items: center;
     }
 
     #text_three {
@@ -91,23 +90,23 @@
         color: #ffa384;
     }
 
-    #text_one-elec, #text_two_elec, #text_three_elec{
+    #text_one_elec, #text_two_elec, #text_three_elec {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
         margin-top: 2rem;
+        padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 1rem;
         border-bottom: 2px solid black;
         display: flex;
         justify-content: right;
-        align-items: center;
     }
 
     #text_three_elec {
         margin-bottom: 1rem;
     }
 
-    #text_one_eau, #text_two_eau, #text_three_eau, #text_four_eau, #text_five_eau, #text_six_eau, #text_seven_eau, #text_eigth_eau{
+    #text_one_eau, #text_two_eau, #text_three_eau, #text_four_eau, #text_five_eau, #text_six_eau, #text_seven_eau, #text_eigth_eau {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
         margin-top: 2rem;
@@ -115,6 +114,8 @@
         padding-right: 1rem;
         padding-bottom: 1rem;
         border-bottom: 2px solid #4093a4;
+        display: flex;
+        justify-content: right;
     }
 
     #text_eigth_eau {
@@ -122,11 +123,11 @@
     }
 
     #container_title_temp {
-        width: 26%;
+        width: 84%;
+        border-radius: 5px;
         background-color: #ffa384;
         padding: 1rem;
-        margin: 2rem 1.5rem 2rem 1.5rem;
-        border-radius: 5px;
+        margin: 2rem 1.5rem 1rem 0.5rem;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -136,8 +137,8 @@
         color: white;
     }
 
-    #container_title_elec{
-        width: 22%;
+    #container_title_elec {
+        width: 57%;
         background-color: #2c3256;
         padding: 1rem;
         margin: 2rem 1.5rem 2rem 1.5rem;
@@ -155,8 +156,8 @@
         color: #2c3256;
     }
 
-    #container_title_eau{
-        width: 16%;
+    #container_title_eau {
+        width: 41%;
         background-color: #4093a4;
         padding: 1rem;
         margin: 2rem 1.5rem 2rem 1.5rem;
@@ -170,19 +171,18 @@
         color: white;
     }
 
-    .italic_eau{
+    .italic_eau {
         color: #4093a4;
     }
 
-    #retour{
+    #retour {
         margin: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
-    .fa-undo{
+    .fa-undo {
         margin-bottom: 1rem;
         font-size: 4rem;
         color: #4093a4;

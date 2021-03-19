@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 @media screen and (min-width: 1024px) {
-
     * {
         margin: 0;
         padding: 0;
@@ -9,7 +8,7 @@
     }
 
     html {
-        font-size: 62.5%;
+        font-size: 71.5%;
     }
 
     body {
@@ -20,37 +19,25 @@
 
     #title {
         margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 3rem;
         display: flex;
         align-items: center;
-        justify-content: right;
+        justify-content: left;
     }
 
     .logo_ecobleu {
-        width: 13%;
+        width: 15%;
         height: 10rem;
-    }
-
-    #image{
-        margin-top: 1rem;
         display: flex;
+        align-items: center;
         justify-content: left;
-        flex-direction: row;
-    }
-
-    .chambre{
-        margin-top: 1rem;
-        display: flex;
-        justify-content: left;
-    }
-
-    .chambre{
-        height: 31rem;
     }
 
     h1, h2, h3 {
         font-family: 'Open Sans', sans-serif;
         font-size: 2rem;
-        color: #4093a4;
+        color:  #4093a4;
     }
 
     #container_title {
@@ -67,13 +54,36 @@
         font-family: 'Open Sans', sans-serif;
     }
 
-    #text_one, #text_two, #text_three, #text_four, #text_five {
-        margin-left: 2.5rem;
-        margin-right: 15.5rem;
-        margin-top: 1rem;
+    #image {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .chambre {
+        height: 35rem;
+    }
+
+    #container_principal{
+        display: flex;
+        height: 30%;
+    }
+
+    #text_one {
+        margin: 0.5rem 0.5rem 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid #ffa384;
+    }
+
+    #text_two, #text_three, #text_four, #text_five {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         border-bottom: 2px solid #ffa384;
     }
 
@@ -86,18 +96,18 @@
         font-size: 1.5rem;
     }
 
-    span{
+    span {
         margin-top: 1rem;
         font-style: italic;
         color: #ffa384;
     }
 
     #container_title_temp {
-        width: 70%;
+        width: 84%;
         border-radius: 5px;
         background-color: #ffa384;
         padding: 1rem;
-        margin: 2rem 1.5rem 2rem 1.5rem;
+        margin: 2rem 1.5rem 1rem 0.5rem;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -111,26 +121,13 @@
         color: #ffa384;
     }
 
-    #container_temperature{
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #container_principal{
-        display: flex;
-        justify-content: right;
-    }
-
     #retour {
-        margin: 2rem;
+        margin: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
     .fa-undo {
         margin-bottom: 1rem;
         font-size: 4rem;
