@@ -15,3 +15,26 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+#title_my_follow_up {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow {
+    width: 20%;
+    height: 6rem;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    color: #2c3256;
+}
+
+h2 {
+
+}

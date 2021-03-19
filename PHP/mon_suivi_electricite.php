@@ -9,14 +9,19 @@
     <title>Mon-suivi-electricite</title>
 </head>
 <body>
-    <div class="my_follow_up">
-        <img src="../IMG/logo_mon_suivi.png" alt="eclair" class="eclair">
+    <div id="title_my_follow_up">
+        <img src="../IMG/logo_mon_suivi_bleu" alt="follow" class="follow">
         <h1>Mon suivi</h1>
     </div>
-    <canvas id="myChart" width="400" height="400"></canvas>
-
-    <canvas id="myGraphic" width="400" height="400"></canvas>
-
+    <div id="suivi_conso">
+        <h2>Ma consommation :</h2>
+    </div>
+    <div id="graphic_one">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    <div id="graphic_two">
+        <canvas id="myGraphic" width="400" height="400"></canvas>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="../JS/graphic.js"></script>
 </body>
