@@ -7,7 +7,7 @@ var myChart = new Chart(ctx, {
         labels: ['Janvier', 'Février', 'Mars', 'Avirl', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
         datasets: [{
             label: '',
-            data: [12.5, 19, 3, 5, 2, 30,12, 19, 3, 5, 2, 300],
+            data: ["", "", "10", "", "", "", "", "", "", "", "", ""],
             backgroundColor: [
                 '#2c3256',
                 '#2c3256',
@@ -42,7 +42,7 @@ var myGraphic = new Chart(euros, {
         labels: ['Janvier', 'Février', 'Mars', 'Avirl', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
         datasets: [{
             label: '',
-            data: [12, 19, 3, 5, 2, 30,12, 19, 3, 5, 2, 300],
+            data: ["", "", "", "", "", "37", "", "", "", "", "", ""],
             backgroundColor: [
                 '#2c3256',
                 '#2c3256',

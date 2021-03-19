@@ -27,9 +27,10 @@ body {
 .follow {
     width: 20%;
     height: 6rem;
+    margin-right: 1rem;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color: #2c3256;
@@ -38,6 +39,11 @@ h1, h2 {
 h2 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    color: black;
+}
+
+h3 {
+    font-size: 1.2rem;
     color: black;
 }
 
@@ -63,6 +69,24 @@ input {
 #graphic_one, #graphic_two {
     margin: 1rem;
     padding: 1rem;
+}
+
+#retour {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #2c3256;
+}
+
+a {
+    text-decoration: none;
 }
 
 .select-test {

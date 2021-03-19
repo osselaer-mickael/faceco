@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title_my_follow_up {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow {
+    width: 20%;
+    height: 6rem;
+    margin-right: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #2c3256;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+#suivi_conso, #suivi_depense {
+    width: 90%;
+    margin: 1rem 2rem;
+    border-bottom: 2px solid #4093a4;
+}
+
+.month, .eau {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 25%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#graphic_one, #graphic_two {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#retour {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #2c3256;
+}
+
+a {
+    text-decoration: none;
+}
+
+.select-test {
+    margin-bottom: 1em;
+    padding: .4em;
+    border: 0;
+    border-bottom: 2px solid #4093a4;
+    font-weight: bold;
+    letter-spacing: .15em;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: '';
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    cursor: auto;
+}
+
+.input-test {
+    border: 0;
+    border-bottom: 2px solid #4093a4;
+    border-radius: 0;
+    text-align: center;
+    outline: none;
+}
+
+.select-test:focus, .select-test:active {
+    outline: 0;
+    border-bottom-color: #4093a4;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

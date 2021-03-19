@@ -225,13 +225,13 @@
                     </a>
                 </li>
                 <li class="drop_down_follow_up_li">
-                    <a href="#">
+                    <a href="./PHP/mon_suivi_eau.php">
                         <i class="fas fa-hand-holding-water"></i>
                         <span>Consommation d'eau</span>
                     </a>
                 </li>
                 <li class="drop_down_follow_up_li">
-                    <a href="#">
+                    <a href="./PHP/mon_suivi_gaz.php">
                         <i class="fas fa-burn"></i>
                         <span>Consommation de gaz</span>
                     </a>

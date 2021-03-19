@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/mon_suivi_electricite.css">
+    <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <title>Mon-suivi-electricite</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
         <h1>Mon suivi</h1>
     </div>
     <div id="suivi_conso">
-        <h2>Ma consommation électrique (kw/w) :</h2>
+        <h2>Ma consommation électrique (kw/h) :</h2>
     </div>
     <div id="container_input">
         <div class="month">
@@ -69,7 +70,13 @@
     <div id="graphic_two">
         <canvas id="myGraphic" width="400" height="400"></canvas>
     </div>
+    <div id="retour">
+        <a href="../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+        <h3>Menu</h3>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script src="../JS/graphic.js"></script>
+    <script src="../JS/graphic_electricite.js"></script>
 </body>
 </html>
