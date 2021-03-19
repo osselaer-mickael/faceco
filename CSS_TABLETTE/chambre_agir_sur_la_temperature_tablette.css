@@ -1,103 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-/*Responsive Mode*/
-@media screen and (min-width : 750px) {
+@media screen and (min-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
     html {
-        font-size: 72.5%;
-        font-weight: bold;
+        font-size: 71.5%;
     }
 
-    .logo_ecobleu {
-        width: 13%;
-        height: 8rem;
-        margin-left: -27.5rem;
-        margin-right: 0.5rem;
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
-    h1, h2 {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 2rem;
-        color:  #4093a4;
-    }
-
-    h2{
-        color: black;
-    }
-
-    #text_one, #text_two, #text_three, #text_four, #text_five {
-        margin-left: 10.5rem;
-        margin-right: 15.5rem;
-        margin-top: 3rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 3rem;
-        border-bottom: 2px solid #ffa384;
-        font-size: 1rem;
-    }
-
-    #text_five {
-        margin-bottom: 1rem;
-    }
-
-    p, span {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.5rem;
-    }
-
-    span {
+    #title {
         margin-top: 1rem;
-        font-style: italic;
-        color: #ffa384;
-    }
-}
-
-@media screen and (min-width: 1024px){
-
-    html {
-        font-size: 72.5%;
+        margin-right: 1rem;
+        margin-left: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: left;
     }
 
     .logo_ecobleu {
         width: 15%;
         height: 10rem;
-        margin-left: -37.5rem;
-        margin-right: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: left;
     }
 
-    .chambre{
-        height: 40rem;
-        margin-right: 45rem;
-    }
-
-    h1, h2 {
+    h1, h2, h3 {
         font-family: 'Open Sans', sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
         color:  #4093a4;
     }
 
-    h2{
+    #container_title {
+        margin-top: 2rem;
+        padding-left: 3rem;
+    }
+
+    h2, h3 {
         color: black;
     }
 
-    #text_one, #text_two, #text_three, #text_four, #text_five {
+    h3 {
+        font-size: 1.5rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #image {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .chambre {
+        height: 35rem;
+    }
+
+    #container_principal{
+        display: flex;
+        height: 30%;
+    }
+
+    #text_one {
+        margin: 0.5rem 0.5rem 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid #ffa384;
+    }
+
+    #text_two, #text_three, #text_four, #text_five {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
         padding-left: 1rem;
-        padding-bottom: 3rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #ffa384;
     }
 
     #text_five {
@@ -115,21 +102,39 @@ body {
         color: #ffa384;
     }
 
-    #container_temperature{
-        margin-left: 45.5rem;
-        margin-right: 0.5rem;
-        margin-top: -46rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 3rem;
-        font-size: 1rem;
-    }
-
-    #container_title_temp{
-        width: 83%;
+    #container_title_temp {
+        width: 84%;
         border-radius: 5px;
         background-color: #ffa384;
         padding: 1rem;
-        margin: 2rem 1.5rem 2rem 1.5rem;
+        margin: 2rem 1.5rem 1rem 0.5rem;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .title_temp {
+        color: white;
+    }
+
+    .italic_temp {
+        color: #ffa384;
+    }
+
+    #retour {
+        margin: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-undo {
+        margin-bottom: 1rem;
+        font-size: 4rem;
+        color: #4093a4;
+    }
+
+    a {
+        text-decoration: none;
     }
 }

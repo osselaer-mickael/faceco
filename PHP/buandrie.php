@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/buandrie.css">
+    <link rel="stylesheet" href="../CSS_TABLETTE/buandrie_tablette.css">
     <title>Buandrie</title>
 </head>
 <body>
