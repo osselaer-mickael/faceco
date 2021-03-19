@@ -219,7 +219,7 @@
         <div class="drop_down_follow_up">
             <ul>
                 <li class="drop_down_follow_up_li">
-                    <a href="#">
+                    <a href="./PHP/mon_suivi_electricite.php">
                         <i class="fas fa-bolt"></i>
                         <span>Consommation d'éléctricité</span>
                     </a>
