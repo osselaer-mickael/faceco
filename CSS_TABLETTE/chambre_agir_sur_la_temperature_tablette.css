@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 @media screen and (min-width: 1024px) {
+
     * {
         margin: 0;
         padding: 0;
@@ -8,7 +9,7 @@
     }
 
     html {
-        font-size: 71.5%;
+        font-size: 72.5%;
     }
 
     body {
@@ -19,8 +20,6 @@
 
     #title {
         margin-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 3rem;
         display: flex;
         align-items: center;
         justify-content: left;
@@ -28,10 +27,7 @@
 
     .logo_ecobleu {
         width: 15%;
-        height: 10rem;
-        display: flex;
-        align-items: center;
-        justify-content: left;
+        height: 11rem;
     }
 
     h1, h2, h3 {
@@ -40,21 +36,21 @@
         color:  #4093a4;
     }
 
-    #container_title {
-        margin-top: 2rem;
-        padding-left: 3rem;
-    }
-
     h2, h3 {
         color: black;
     }
 
     h3 {
-        font-size: 1.5rem;
-        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    #container_title {
+        margin-top: 2rem;
+        padding-left: 3rem;
     }
 
     #image {
+        margin-top: 2rem;
         display: flex;
         justify-content: left;
         align-items: center;
@@ -62,33 +58,39 @@
 
     .chambre {
         height: 35rem;
+        margin-top: 1rem;
     }
 
-    #container_principal{
+    #container_principal {
+        margin-top: -35rem;
+        margin-left: 46rem;
         display: flex;
-        height: 30%;
+        align-items: center;
+        justify-content: center;
     }
 
     #text_one {
-        margin: 0.5rem 0.5rem 0;
+        margin: 0 1.5rem;
         padding: 1rem;
+        border-bottom: 2px solid #ff6666;
         display: flex;
         flex-direction: column;
-        border-bottom: 2px solid #ffa384;
+        justify-content: right;
+
     }
 
     #text_two, #text_three, #text_four, #text_five {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        margin-top: 2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 1rem;
-        border-bottom: 2px solid #ffa384;
+        margin: 0 1.5rem;
+        padding: 1rem;
+        border-bottom: 2px solid #ff6666;
+        display: flex;
+        justify-content: right;
     }
 
     #text_five {
         margin-bottom: 1rem;
+        display: flex;
+        justify-content: right;
     }
 
     p, span {
@@ -99,15 +101,21 @@
     span {
         margin-top: 1rem;
         font-style: italic;
-        color: #ffa384;
+        color: #ff6666;
+    }
+
+    #container_temperature {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
     }
 
     #container_title_temp {
-        width: 84%;
-        border-radius: 5px;
-        background-color: #ffa384;
+        width: 65%;
         padding: 1rem;
-        margin: 2rem 1.5rem 1rem 0.5rem;
+        margin: 2rem;
+        border-radius: 5px;
+        background-color: #ff6666;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -122,15 +130,16 @@
     }
 
     #retour {
-        margin: 3rem;
+        margin: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .fa-undo {
         margin-bottom: 1rem;
-        font-size: 4rem;
+        font-size: 3rem;
         color: #4093a4;
     }
 
