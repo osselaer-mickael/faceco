@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="COMMIT 3.0">
+      <change afterPath="$PROJECT_DIR$/CSS/mon_suivi_eau.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/mon_suivi_electricite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/mon_suivi_gaz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/graphic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/mon_suivi_eau.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/mon_suivi_electricite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/mon_suivi_gaz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/faceco.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/faceco.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/infos_budget.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/infos_budget.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/infos_budget.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/infos_budget.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +68,9 @@
       <workItem from="1615898596841" duration="10473000" />
       <workItem from="1616054569994" duration="120000" />
       <workItem from="1616054702590" duration="5201000" />
-      <workItem from="1616060025487" duration="15798000" />
+      <workItem from="1616060025487" duration="18569000" />
+      <workItem from="1616102255055" duration="5775000" />
+      <workItem from="1616140724784" duration="14468000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615898648547</created>
@@ -174,7 +184,49 @@
       <option name="project" value="LOCAL" />
       <updated>1616072989257</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="page infos pratique">
+      <created>1616079294713</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1616079294713</updated>
+    </task>
+    <task id="LOCAL-00018" summary="COMMIT 3.0">
+      <created>1616079567003</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616079567003</updated>
+    </task>
+    <task id="LOCAL-00019" summary="COMMIT 5.0">
+      <created>1616080660696</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616080660696</updated>
+    </task>
+    <task id="LOCAL-00020" summary="COMMIT 3.0">
+      <created>1616110016933</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1616110016933</updated>
+    </task>
+    <task id="LOCAL-00021" summary="rafraichissement CSS">
+      <created>1616143121505</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1616143121505</updated>
+    </task>
+    <task id="LOCAL-00022" summary="rectification couleur et margin">
+      <created>1616152663576</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616152663576</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,8 +253,12 @@
     <MESSAGE value="COMMIT 2.0" />
     <MESSAGE value="création du bouton retour" />
     <MESSAGE value="COMMIT 4.0" />
-    <MESSAGE value="COMMIT 3.0" />
     <MESSAGE value="fonctionnalité JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="fonctionnalité JS" />
+    <MESSAGE value="page infos pratique" />
+    <MESSAGE value="COMMIT 5.0" />
+    <MESSAGE value="COMMIT 3.0" />
+    <MESSAGE value="rafraichissement CSS" />
+    <MESSAGE value="rectification couleur et margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="rectification couleur et margin" />
   </component>
 </project>
