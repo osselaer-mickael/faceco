@@ -28,20 +28,24 @@ body {
     height: 7rem;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color:  #4093a4;
 }
 
+h2 {
+    color: black;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: black;
+}
 
 #container_title {
     margin-top: 2rem;
     padding-left: 3rem;
-}
-
-h2 {
-    color: black;
 }
 
 #image {
@@ -68,7 +72,6 @@ h2 {
     color: white;
 }
 
-
 #text_one {
     margin: 1.5rem 1.5rem 0;
     padding: 1rem;
@@ -78,12 +81,8 @@ h2 {
 }
 
 #text_two, #text_three, #text_four{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+    margin: 2rem;
+    padding: 1rem;
     border-bottom: 2px solid #ffa384;
 }
 
@@ -103,15 +102,11 @@ p, span {
     justify-content: center;
     align-items: center;
 }
+
 .fa-undo {
     margin-bottom: 1rem;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #4093a4;
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
 }
 
 a {

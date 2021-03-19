@@ -82,7 +82,7 @@
         <a href="../index.php">
             <i class="fas fa-undo"></i>
         </a>
-        <h3>Retour menu</h3>
+        <h3>Menu</h3>
     </div>
 
     <script src="../JS/show_titles.js"></script>
