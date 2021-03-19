@@ -24,6 +24,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSS/infos_budget.css">
+    <link rel="stylesheet" href="../CSS_TABLETTE/infos_budget_tablette.css">
     <title>Infos pratique</title>
 </head>
 <body>
