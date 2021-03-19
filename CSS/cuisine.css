@@ -104,7 +104,7 @@ span {
 
 #text_one_elec, #text_two_elec, #text_three_elec, #text_four_elec, #text_five_elec, #text_six_elec, #text_seven_elec,
 #text_eight_elec, #text_nine_elec, #text_ten_elec, #text_eleven_elec, #text_one_eau, #text_two_eau {
-    margin: 2rem;
+    margin: 0 2rem;
     padding: 1rem;
     border-bottom: 2px solid #2c3256;
 }

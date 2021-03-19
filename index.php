@@ -152,15 +152,9 @@
                     <i class="fas fa-euro-sign"></i>
                     <span id="equipement">Petits équipements astucieux</span>
                 </li>
-                <div id="drop_down_equipement">
-                    <ul>
-                        <li class="elec_li">
-                            <a href="https://www.ademe.fr/">
-                                <span>Lien vers ADEME</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <a href="#">
+                    <div id="drop_down_equipement"></div>
+                </a>
             </ul>
         </div>
 

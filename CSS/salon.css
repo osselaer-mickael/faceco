@@ -69,13 +69,10 @@ span {
     font-style: italic;
 }
 
-#text_one_elec, #text_two_elec, #text_three_elec {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+#text_one_elec, #text_two_elec, #text_three_elec, #text_one_air, #text_two_air, #text_three_air, #text_four_air,
+#text_five_air, #text_six_air {
+    margin: 0 1.5rem;
+    padding: 1rem;
     border-bottom: 2px solid  #2c3256;
 }
 
@@ -84,12 +81,6 @@ span {
 }
 
 #text_one_air, #text_two_air, #text_three_air, #text_four_air, #text_five_air, #text_six_air {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
     border-bottom: 2px solid #58ac34;
 }
 
@@ -98,7 +89,6 @@ span {
 }
 
 #container_title_air, #container_title_elec {
-
     padding: 1rem;
     margin: 2rem 1.5rem 2rem 1.5rem;
     background-color: #58ac34;

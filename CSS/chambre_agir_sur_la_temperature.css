@@ -34,11 +34,6 @@ h1, h2, h3 {
     color:  #4093a4;
 }
 
-#container_title {
-    margin-top: 2rem;
-    padding-left: 3rem;
-}
-
 h2, h3 {
     color: black;
 }
@@ -47,7 +42,13 @@ h3 {
     font-size: 1.2rem;
 }
 
+#container_title {
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+
 #image {
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,21 +56,22 @@ h3 {
 
 .chambre {
     height: 25rem;
+    margin-top: 1rem;
 }
 
 #text_one {
-    margin: 1.5rem 1.5rem 0;
+    margin: 0 1.5rem;
     padding: 1rem;
-    border-bottom: 2px solid #ffa384;
+    border-bottom: 2px solid #ff6666;
     display: flex;
     flex-direction: column;
 
 }
 
 #text_two, #text_three, #text_four, #text_five {
-    margin: 1rem 1.5rem 0;
+    margin: 0 1.5rem;
     padding: 1rem;
-    border-bottom: 2px solid #ffa384;
+    border-bottom: 2px solid #ff6666;
 }
 
 #text_five {
@@ -84,14 +86,14 @@ p, span {
 span {
     margin-top: 1rem;
     font-style: italic;
-    color: #ffa384;
+    color: #ff6666;
 }
 
 #container_title_temp {
     padding: 1rem;
     margin: 2rem;
     border-radius: 5px;
-    background-color: #ffa384;
+    background-color: #ff6666;
     display: flex;
     justify-content: center;
     align-items: center;
