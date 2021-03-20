@@ -28,39 +28,35 @@
     <title>Infos pratique</title>
 </head>
 <body>
-<div id="title">
-    <img src="../IMG/logo_ecobleu.png/" alt="logo_ecobleu" class="logo_ecobleu">
-    <h1>éco-gestes au quotidien</h1>
-</div>
-    <div id="container_title_energie">
-        <a href="./infos_budget.php?energie">
-            <h2 class="energie">Le budget énergie d’un ménage</h2>
-        </a>
+    <div id="title">
+        <img src="../IMG/logo_ecobleu.png/" alt="logo_ecobleu" class="logo_ecobleu">
+        <h1>éco-gestes au quotidien</h1>
     </div>
-<div id="energie" <?= $container_energie ?>>
-    <div id="text_one">
-        <p>
-            Un ménage consacre en moyenne 8,5% de son budget annuel à ses factures d’énergies : pour ses déplacements
-            (48%) et pour son logement (52%).
-        </p>
-        <p class="gras">
-            Cela vous semble peu ?
-            Pourtant cela représente en moyenne 2900€ par ménage et par an.
-        </p>
+        <div id="container_title_energie">
+            <a href="./infos_budget.php?energie">
+                <h2 class="energie">Le budget énergie d’un ménage</h2>
+            </a>
+        </div>
+    <div id="energie" <?= $container_energie ?>>
+        <div id="text_one">
+            <p>
+                Un ménage consacre en moyenne 8,5% de son budget annuel à ses factures d’énergies : pour ses déplacements
+                (48%) et pour son logement (52%).
+            </p>
+            <p class="gras">
+                Cela vous semble peu ?
+                Pourtant cela représente en moyenne 2900€ par ménage et par an.
+            </p>
+        </div>
+        <div id="image1"></div>
     </div>
-    <div id="image">
-        <img src="../IMG/Des_chffres_qui_parlent_1.png" alt="image_conso" class="image">
-    </div>
-</div>
     <div id="container_title_elec">
         <a href="./infos_budget.php?electricite">
             <h2 class="energie">De plus en plus d’électricité consommée</h2>
         </a>
     </div>
     <div id="electricite" <?= $container_electricite ?>>
-        <div id="text_two">
-            <img src="../IMG/Des_chiffres_qui_parlent_2.png" alt="image_consommation" class="image_two">
-        </div>
+        <div id="image2"></div>
     </div>
     <div id="container_title_eau">
         <a href="./infos_budget.php?eau">
@@ -71,8 +67,9 @@
         <div id="text_three">
             <p class="eau">143 litres d’eau potable par français/jour c’est beaucoup !</p>
         </div>
-        <div id="image3">
-            <img src="../IMG/Des_chiffres_qui_parlent_3.png" alt="image_eau" class="image_three">
+        <div id="container_image3_and_image4">
+            <div id="image3"></div>
+            <div id="image4"></div>
         </div>
     </div>
     <div id="retour">
