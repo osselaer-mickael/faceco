@@ -48,7 +48,9 @@
                 Pourtant cela représente en moyenne 2900€ par ménage et par an.
             </p>
         </div>
-        <div id="image1"></div>
+        <div id="image1">
+            <img src="../IMG/Des_chffres_qui_parlent_1.png" alt="image1" class="image1">
+        </div>
     </div>
     <div id="container_title_elec">
         <a href="./infos_budget.php?electricite">
@@ -56,7 +58,9 @@
         </a>
     </div>
     <div id="electricite" <?= $container_electricite ?>>
-        <div id="image2"></div>
+        <div id="image2">
+            <img src="../IMG/Des_chiffres_qui_parlent_2.png" alt="image2" class="image2">
+        </div>
     </div>
     <div id="container_title_eau">
         <a href="./infos_budget.php?eau">
@@ -68,8 +72,12 @@
             <p class="eau">143 litres d’eau potable par français/jour c’est beaucoup !</p>
         </div>
         <div id="container_image3_and_image4">
-            <div id="image3"></div>
-            <div id="image4"></div>
+            <div id="image3">
+                <img src="../IMG/Des_chiffres_qui_parlent_3.png" alt="image3" class="image3">
+            </div>
+            <div id="image4">
+                <img src="../IMG/Des_chiffres_qui_parlent_4.png" alt="image4" class="image4">
+            </div>
         </div>
     </div>
     <div id="retour">
