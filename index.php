@@ -150,11 +150,10 @@
                 </div>
                 <li class="drop_down_ecos_gestures_li">
                     <i class="fas fa-euro-sign"></i>
-                    <span id="equipement">Petits équipements astucieux</span>
+                    <a href="./PHP/petits_equipement_astucieux.php">
+                        <span id="equipement">Petits équipements astucieux</span>
+                    </a>
                 </li>
-                <a href="#">
-                    <div id="drop_down_equipement"></div>
-                </a>
             </ul>
         </div>
 
