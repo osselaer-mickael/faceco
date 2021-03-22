@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="COMMIT 3.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/les_consignes_de_tri.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/les_consignes_de_tri.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/les_consignes_de_tri.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/les_consignes_de_tri.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BetterWorld" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -72,7 +69,8 @@
       <workItem from="1616314072841" duration="6071000" />
       <workItem from="1616322836847" duration="1078000" />
       <workItem from="1616340173105" duration="682000" />
-      <workItem from="1616400115313" duration="8812000" />
+      <workItem from="1616400115313" duration="24535000" />
+      <workItem from="1616426135505" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615898648547</created>
@@ -270,7 +268,42 @@
       <option name="project" value="LOCAL" />
       <updated>1616403759446</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="COMMIT 3.0">
+      <created>1616410398531</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1616410398531</updated>
+    </task>
+    <task id="LOCAL-00030" summary="COMMIT 3.0">
+      <created>1616414591284</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1616414591284</updated>
+    </task>
+    <task id="LOCAL-00031" summary="COMMIT 3.0">
+      <created>1616415957657</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1616415957657</updated>
+    </task>
+    <task id="LOCAL-00032" summary="COMMIT 3.0">
+      <created>1616424663441</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1616424663441</updated>
+    </task>
+    <task id="LOCAL-00033" summary="COMMIT 3.0">
+      <created>1616426595506</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1616426595506</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
