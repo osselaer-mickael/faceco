@@ -6,7 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS_TABLETTE/style_tablette.css">
     <script src="https://kit.fontawesome.com/0fa7bf339b.js" crossorigin="anonymous"></script>
     <title>Fac'eco</title>
 </head>
@@ -31,7 +30,7 @@
     <div id="principal_container">
         <div class="ecos_gesture">
             <img src="IMG/logo_eco_gestes.png" alt="ecos_geste" class="ecos_gestes">
-            <h2>éco-gestes au quotidien</h2>
+            <h2>Eco-gestes au quotidien</h2>
             <div  class="arrow">
                 <button id="arrow_gesture">
                     <i class="fas fa-sort-down"></i>
