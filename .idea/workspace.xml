@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="COMMIT 3.0" />
+    <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="COMMIT 3.0">
+      <change afterPath="$PROJECT_DIR$/CSS/les_consignes_de_tri.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/les_consignes_de_tri.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/buandrie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/buandrie.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +70,7 @@
       <workItem from="1616314072841" duration="6071000" />
       <workItem from="1616322836847" duration="1078000" />
       <workItem from="1616340173105" duration="682000" />
-      <workItem from="1616400115313" duration="5021000" />
+      <workItem from="1616400115313" duration="5338000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615898648547</created>
