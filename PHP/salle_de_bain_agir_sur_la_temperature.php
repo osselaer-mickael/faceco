@@ -32,7 +32,7 @@
 
     <div id="title">
         <img src="../IMG/logo_ecobleu.png/" alt="logo_ecobleu" class="logo_ecobleu">
-        <h1>éco-gestes au quotidien</h1>
+        <h1>Eco-gestes au quotidien</h1>
     </div>
     <div id="image">
         <img src="../IMG/Salle_de_bain.png/" alt="salle_de_bain" class="salle_de_bain">

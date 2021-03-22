@@ -62,12 +62,12 @@ h3 {
 
 .image1 {
     width: 35%;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .image2 {
     width: 30%;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .image3, .image4, .image5 {

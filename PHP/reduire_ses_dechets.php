@@ -31,7 +31,6 @@
         <br>
         <span>
             Chaque français jette en moyenne en un an 29 kg de produits alimentaires dont 7 kg encore emballés.
-
         </span>
         <p>
             Achetez la juste quantité d’aliments, cuisinez les restes…

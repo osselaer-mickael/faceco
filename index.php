@@ -177,11 +177,11 @@
                 </li>
                 <div id="drop_down_dechet">
                     <ul>
-                        <!--  <li class="trie_dechet">
+                        <li class="trie_dechet">
                             <a href="#">
                                 <span>Les différentes poubelles</span>
                             </a>
-                        </li>-->
+                        </li>
                         <li class="trie_dechet">
                             <a href="./PHP/les_consignes_de_tri.php">
                                 <span>Les consignes de tri</span>

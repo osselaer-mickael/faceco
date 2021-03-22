@@ -19,7 +19,6 @@ let dropDownBuandrie = document.getElementById('drop_down_buandrie');
 let infos = document.getElementById('infos');
 let dropDownInfos = document.getElementById('drop_down_infos');
 let equipement = document.getElementById('equipement');
-let dropDownEquipement = document.getElementById('drop_down_equipement');
 let dechet = document.getElementById('dechet');
 let dropDownDechet = document.getElementById('drop_down_dechet');
 
@@ -38,10 +37,9 @@ arrowGesture.addEventListener('click', function () {
             temperature.style.display = "none";
             dropDownSalleDeBain.style.display = "none";
             dropDownSalon.style.display = "none";
-            dropDownCuisine.style.display = "none"
+            dropDownCuisine.style.display = "none";
             dropDownBuandrie.style.display = "none";
             dropDownInfos.style.display = "none";
-            dropDownEquipement.style.display = "none";
             if ( i === dropDownGesture.length - 1) {
                 arrowGesture.classList.remove('arrow-down-animation');
             }
