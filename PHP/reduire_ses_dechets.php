@@ -49,6 +49,9 @@
             > En installant un compost dans son jardin
         </span>
     </div>
+    <div id="image">
+        <img src="../IMG/Bac_a_compost.png" alt="image" class="bac_composte">
+    </div>
     <div id="retour">
         <a href="../index.php">
             <i class="fas fa-undo"></i>

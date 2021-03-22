@@ -53,10 +53,14 @@ h3 {
     background-color: #58ac34;
 }
 
-#text_one, #text_two, #text_three, #text_four {
+#text_one, #text_two, #text_three, #text_four, #image {
     border-bottom: 2px solid #58ac34;
     margin: 1.5rem;
     padding: 1rem;
+}
+
+#text_four {
+    border: none;
 }
 
 p, span {
@@ -77,6 +81,11 @@ span {
     color: white;
     border-radius: 5px;
 }
+
+.bac_composte {
+    width: 100%;
+}
+
 
 #retour {
     margin: 2rem;
