@@ -22,6 +22,10 @@ let equipement = document.getElementById('equipement');
 let dechet = document.getElementById('dechet');
 let dropDownDechet = document.getElementById('drop_down_dechet');
 
+// je récupere mon id pour créer une fenêtre modal
+
+let monCompte = document.getElementById('mon_compte');
+
 //I create a listening on the buttons and i to give an animation
 
 arrowGesture.addEventListener('click', function () {
@@ -47,7 +51,6 @@ arrowGesture.addEventListener('click', function () {
     }
 });
 
-//
 arrowSelective.addEventListener('click', function () {
     for (let i = 0; i < dropDownSelective.length; i++) {
         if (dropDownSelective[i].style.display !== "block") {
@@ -65,7 +68,6 @@ arrowSelective.addEventListener('click', function () {
         }
     }
 });
-//
 
 arrowFollow.addEventListener('click', function () {
     for (let i = 0; i < dropDownFollow.length; i++) {
@@ -137,15 +139,6 @@ dropDownBed.addEventListener('click', function () {
      }
  });
 
- equipement.addEventListener('click', function () {
-     if(dropDownEquipement.style.display !== "block") {
-         dropDownEquipement.style.display = "block";
-     }
-     else {
-         dropDownEquipement.style.display = "none";
-     }
- });
-
  dechet.addEventListener('click', function () {
      if(dropDownDechet.style.display !== "block") {
          dropDownDechet.style.display = "block";
@@ -154,6 +147,9 @@ dropDownBed.addEventListener('click', function () {
          dropDownDechet.style.display = "none";
      }
  });
+
+
+
 
 
 

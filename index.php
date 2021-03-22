@@ -177,11 +177,11 @@
                 </li>
                 <div id="drop_down_dechet">
                     <ul>
-                        <li class="trie_dechet">
+                        <!--  <li class="trie_dechet">
                             <a href="#">
                                 <span>Les différentes poubelles</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="trie_dechet">
                             <a href="./PHP/les_consignes_de_tri.php">
                                 <span>Les consignes de tri</span>
@@ -236,12 +236,30 @@
                     </a>
                 </li>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
-                    <a href="#">
-                        <i class="fas fa-user"></i>
-                        <span>Mon compte</span>
-                    </a>
+                    <i class="fas fa-user"></i>
+                    <span id="mon_compte">Mon compte</span>
                 </li>
             </ul>
+        </div>
+    </div>
+
+    <div id="fenetre_modal">
+        <div id="modal_container">
+            <div id="close">
+                <i id="close_modal" class="fas fa-times"></i>
+            </div>
+            <img id="logo_faceco" src="IMG/Logo_FACEco.png" alt="logo_faceco" class="logo_modal">
+            <div id="button">
+                <div id="connexion">
+                    <button class="connect">Connexion</button>
+                </div>
+                <div id="ou">
+                    <span class="or">OU</span>
+                </div>
+                <div id="button_inscription">
+                    <button class="inscription">Inscrivez-vous</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -269,6 +287,6 @@
     </footer>
 
     <script src="JS/app.js"></script>
-
+    <script src="./JS/fentre_modal.js"></script>
 </body>
 </html>
