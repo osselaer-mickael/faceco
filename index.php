@@ -183,7 +183,7 @@
                             </a>
                         </li>
                         <li class="trie_dechet">
-                            <a href="#">
+                            <a href="./PHP/les_consignes_de_tri.php">
                                 <span>Les consignes de tri</span>
                             </a>
                         </li>

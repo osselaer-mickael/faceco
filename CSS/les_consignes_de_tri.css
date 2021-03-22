@@ -23,7 +23,7 @@ body {
     justify-content: center;
 }
 
-.logo_ecobleu {
+.logo_tri_selectif {
     width: 20%;
     height: 7rem;
 }
@@ -31,14 +31,53 @@ body {
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
-    color:  #4093a4;
+    color:  #58ac34;
 }
 
 h2 {
-    color: black;
+    color: white;
 }
 
 h3 {
     font-size: 1.5rem;
     color: black;
+}
+
+#title_tri {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #58ac34;
+}
+
+#image1, #image2 {
+    margin: 2rem;
+}
+
+.image1, .image2, .image3, .image4, .image5 {
+    width: 100%;
+}
+
+.drop_down1, .drop_down2 {
+    margin: 2rem;
+}
+
+#retour {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #58ac34;
+}
+
+a {
+    text-decoration: none;
 }

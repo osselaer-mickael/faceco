@@ -11,8 +11,30 @@
 </head>
 <body>
     <div id="title">
-        <img src="../IMG/logo_ecobleu.png/" alt="logo_tri_selectif" class="logo_tri_selectif">
+        <img src="../IMG/logo_tri_vert.png/" alt="logo_tri_selectif" class="logo_tri_selectif">
         <h1>Tri-sélectif</h1>
+    </div>
+    <div id="title_tri">
+        <h2>Les consignes de tri</h2>
+    </div>
+    <div id="image1">
+        <img src="../IMG/Les_consignes_de_tri_1.png" alt="image" class="image1">
+    </div>
+    <div class="drop_down1">
+        <img src="../IMG/Les_consignes_de_tri_1_ss_poubelle.png" alt="image" class="image5">
+    </div>
+    <div id="image2">
+        <img src="../IMG/Les_consignes_de_tri_2.png" alt="image" class="image2">
+    </div>
+    <div class="drop_down2">
+        <img src="../IMG/Les_consignes_de_tri_3_ss_poubelle.png" alt="image" class="image3">
+        <img src="../IMG/Les_consignes_de_tri_2_ss_poubelle.png" alt="image" class="image4">
+    </div>
+    <div id="retour">
+        <a href="../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+        <h3>Menu</h3>
     </div>
 
 </body>
