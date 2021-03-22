@@ -18,15 +18,15 @@
         <h2>Les consignes de tri</h2>
     </div>
     <div id="image1">
-        <img src="../IMG/Les_consignes_de_tri_1.png" alt="image" class="image1">
+        <img src="../IMG/Poubelle_de_tri.png" alt="image" class="image1" id="poubelle_tri">
     </div>
-    <div class="drop_down1">
+    <div id="drop_down1">
         <img src="../IMG/Les_consignes_de_tri_1_ss_poubelle.png" alt="image" class="image5">
     </div>
     <div id="image2">
-        <img src="../IMG/Les_consignes_de_tri_2.png" alt="image" class="image2">
+        <img src="../IMG/Poubelle_noire.png" alt="image" class="image2" id="poubelle_noire">
     </div>
-    <div class="drop_down2">
+    <div id="drop_down2">
         <img src="../IMG/Les_consignes_de_tri_3_ss_poubelle.png" alt="image" class="image3">
         <img src="../IMG/Les_consignes_de_tri_2_ss_poubelle.png" alt="image" class="image4">
     </div>
@@ -36,6 +36,6 @@
         </a>
         <h3>Menu</h3>
     </div>
-
+    <script src="../JS/tri_selectif.js"></script>
 </body>
 </html>
