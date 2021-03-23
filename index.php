@@ -255,29 +255,32 @@
             </div>
             <img id="logo_modal" src="IMG/Logo_FACEco.png" alt="logo_faceco" class="logo_modal">
             <div id="button">
-                <div id="connexion">
-                    <button id="connect">Connexion</button>
-                </div>
-                <div id="ou">
-                    <span class="or">OU</span>
-                </div>
-                <div id="button_inscription">
-                    <button id="inscription">Inscrivez-vous</button>
-                </div>
-                <div id="formulaire">
-                    <div id="connexion_server">
-
+                <div id="close_button">
+                    <div id="connexion">
+                        <button id="connect">Connexion</button>
                     </div>
-                    <div id="inscription_server">
-                        <form action="checkRegister.php" method="post">
-                            <input type="text" name="nom" id="nom" placeholder="Nom" required>
-                            <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
-                            <input type="email" name="mail" id="mail" placeholder="Votre adresse email" required>
-                            <input type="password" name="pass" id="pass" placeholder="Mot de passe" required>
-                            <input type="password" name="verif_pass" id="verif_pass" placeholder="Entrez a nouveau votre mot de passe" required>
-                            <input type="submit" id="submit" value="S'inscrire">
-                        </form>
+                    <div id="ou">
+                        <span class="or">OU</span>
                     </div>
+                    <div id="button_inscription">
+                        <button id="inscription">Inscrivez-vous</button>
+                    </div>
+                </div>
+                <div id="connexion_server">
+                    <form action="">
+                        <input type="text" name="id" id="identifiant" placeholder="Votre adresse email">
+                        <input type="password" name="password" id="password" placeholder="Mot de passe">
+                    </form>
+                </div>
+                <div id="formulaire_server">
+                    <form action="checkRegister.php" method="post">
+                        <input type="text" name="nom" id="nom" placeholder="Nom" required>
+                        <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
+                        <input type="email" name="mail" id="mail" placeholder="Votre adresse email" required>
+                        <input type="password" name="pass" id="pass" placeholder="Mot de passe" required>
+                        <input type="password" name="verif_pass" id="verif_pass" placeholder="Entrez a nouveau votre mot de passe" required>
+                        <input type="submit" id="submit" value="S'inscrire">
+                    </form>
                 </div>
             </div>
         </div>
