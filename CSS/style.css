@@ -388,6 +388,15 @@ input {
 
 #user {
     margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-circle {
+    color: limegreen;
+    margin: 1rem 1rem 0.5rem;
 }
 
 #submit, #login {

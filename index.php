@@ -32,8 +32,10 @@ if(isset($_SESSION["user"])){
     <header>
         <div id="user">
             <?php if($connected){?>
-            <span id="profil"><?php echo $user->getNom() . " " . $user->getPrenom();?></span><?php
+            <span id="profil"><?php echo $user->getNom() . " " . $user->getPrenom();?></span>
+                <i class="fas fa-circle"></i><?php
             } ?>
+
         </div>
         <div id="container_top">
             <img id="logo_faceco" src="IMG/Logo_FACEco.png" alt="logo_faceco">
@@ -258,7 +260,7 @@ if(isset($_SESSION["user"])){
                     <span id="mon_compte">Mon compte</span>
                 </li>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
-                    <a href="#">
+                    <a href="./DOC/Recettes_ateliers_fais_le_toi-meme.pdf" title="pdf">
                         <i class="fas fa-question"></i>
                         <span id="a_propos">A propos</span>
                     </a>
