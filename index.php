@@ -34,10 +34,6 @@ if(isset($_SESSION["user"])){
             <?php if($connected){?>
             <span id="profil"><?php echo $user->getNom() . " " . $user->getPrenom();?></span><?php
             } ?>
-            <form action="utils/deconnect" method="post">
-                <input type="text" name="deconnect" style="display: none;">
-                <input type="submit" value="Déconnexion" id="deconnect">
-            </form>
         </div>
         <div id="container_top">
             <img id="logo_faceco" src="IMG/Logo_FACEco.png" alt="logo_faceco">
@@ -265,6 +261,12 @@ if(isset($_SESSION["user"])){
                     <a href="#">
                         <i class="fas fa-question"></i>
                         <span id="a_propos">A propos</span>
+                    </a>
+                </li>
+                <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
+                    <a href="./utils/deconnect.php">
+                        <i class="fas fa-user-times"></i>
+                        <span id="a_propos">Déconnexion</span>
                     </a>
                 </li>
             </ul>
