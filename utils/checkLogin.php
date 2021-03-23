@@ -46,6 +46,9 @@ if(isset($_POST,
         }
         if($find){
             printR($userVerif);
+            session_start();
+            $_SESSION["user"] = $userVerif;
+            header("Location: ../index.php");
         }
         else{
             echo "mauvaise information";

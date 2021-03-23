@@ -1,3 +1,17 @@
+<?php
+require_once "./Classes/DB.php";
+require_once "./Entity/User.php";
+require_once "./Manager/UserManager.php";
+
+
+session_start();
+$connected = false;
+if(isset($_SESSION["user"])){
+    $user = $_SESSION["user"];
+    $connected = true;
+}
+?>
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -16,6 +30,9 @@
     <!--Création de l'entête de page. -->
 
     <header>
+        <?php if($connected){?>
+        <span><?php echo $user->getNom() . " " . $user->getPrenom();?></span><?php
+        } ?>
         <div id="container_top">
             <img id="logo_faceco" src="IMG/Logo_FACEco.png" alt="logo_faceco">
         </div>
