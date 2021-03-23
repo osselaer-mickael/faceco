@@ -29,6 +29,39 @@ body {
     justify-content: center;
 }
 
+#profil {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    cursor: default;
+    width: 100%;
+}
+
+#user {
+    margin-right: 3rem;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#user input {
+    width: 100%;
+}
+
+#deconnect {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2c3256;
+    cursor: pointer;
+}
+
 #logo_faceco {
     width: 40%;
     height: 7rem;
@@ -361,7 +394,7 @@ form {
     text-align: center;
 }
 
-input {
+input:not(#deconnect) {
     width: 80%;
     padding: 1rem;
     margin: 0.3rem;

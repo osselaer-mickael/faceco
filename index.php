@@ -30,9 +30,15 @@ if(isset($_SESSION["user"])){
     <!--Création de l'entête de page. -->
 
     <header>
-        <?php if($connected){?>
-        <span><?php echo $user->getNom() . " " . $user->getPrenom();?></span><?php
-        } ?>
+        <div id="user">
+            <?php if($connected){?>
+            <span id="profil"><?php echo $user->getNom() . " " . $user->getPrenom();?></span><?php
+            } ?>
+            <form action="utils/deconnect" method="post">
+                <input type="text" name="deconnect" style="display: none;">
+                <input type="submit" value="Déconnexion" id="deconnect">
+            </form>
+        </div>
         <div id="container_top">
             <img id="logo_faceco" src="IMG/Logo_FACEco.png" alt="logo_faceco">
         </div>
