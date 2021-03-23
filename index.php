@@ -238,6 +238,12 @@
                     <i class="fas fa-user"></i>
                     <span id="mon_compte">Mon compte</span>
                 </li>
+                <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        <span id="a_propos">A propos</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -247,16 +253,31 @@
             <div id="close">
                 <i id="close_modal" class="fas fa-times"></i>
             </div>
-            <img id="logo_faceco" src="IMG/Logo_FACEco.png" alt="logo_faceco" class="logo_modal">
+            <img id="logo_modal" src="IMG/Logo_FACEco.png" alt="logo_faceco" class="logo_modal">
             <div id="button">
                 <div id="connexion">
-                    <button class="connect">Connexion</button>
+                    <button id="connect">Connexion</button>
                 </div>
                 <div id="ou">
                     <span class="or">OU</span>
                 </div>
                 <div id="button_inscription">
-                    <button class="inscription">Inscrivez-vous</button>
+                    <button id="inscription">Inscrivez-vous</button>
+                </div>
+                <div id="formulaire">
+                    <div id="connexion_server">
+
+                    </div>
+                    <div id="inscription_server">
+                        <form action="checkRegister.php" method="post">
+                            <input type="text" name="nom" id="nom" placeholder="Nom" required>
+                            <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
+                            <input type="email" name="mail" id="mail" placeholder="Votre adresse email" required>
+                            <input type="password" name="pass" id="pass" placeholder="Mot de passe" required>
+                            <input type="password" name="verif_pass" id="verif_pass" placeholder="Entrez a nouveau votre mot de passe" required>
+                            <input type="submit" id="submit" value="S'inscrire">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
