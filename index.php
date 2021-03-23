@@ -267,9 +267,10 @@
                     </div>
                 </div>
                 <div id="connexion_server">
-                    <form action="">
-                        <input type="text" name="id" id="identifiant" placeholder="Votre adresse email">
-                        <input type="password" name="password" id="password" placeholder="Mot de passe">
+                    <form action="checkLogin.php" method="post">
+                        <input type="text" name="id" id="identifiant" placeholder="Votre adresse email" required>
+                        <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+                        <input type="submit" id="login" value="Connexion">
                     </form>
                 </div>
                 <div id="formulaire_server">

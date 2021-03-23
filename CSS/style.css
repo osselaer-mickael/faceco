@@ -345,11 +345,15 @@ a {
     background-color: #2c3256;
 }
 
+#connexion_server {
+    display: none;
+}
+
 #formulaire_server {
     display: none;
     padding: 1rem;
-    position: absolute;
-    bottom: 1rem;
+    position: relative;
+    bottom: 7rem;
 }
 
 form {
@@ -362,6 +366,18 @@ input {
     padding: 1rem;
     margin: 0.3rem;
     border-radius: 5px;
+}
+
+#submit {
+    width: 40%;
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #58ac34;
+    cursor: pointer;
 }
 
 /* responsive mode */
