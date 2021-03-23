@@ -4,7 +4,8 @@ let close = document.getElementById('close_modal');
 let buttonInscription = document.getElementById('inscription');
 let buttonDiv = document.getElementById('close_button');
 let formulaire = document.getElementById('formulaire_server');
-
+let connexion = document.getElementById('connect');
+let connexionServer = document.getElementById('connexion_server');
 myAccount.addEventListener('click', function () {
    if(fenetreModal.style.display !== "flex") {
        fenetreModal.style.display = "flex";
@@ -26,3 +27,10 @@ buttonInscription.addEventListener('click', function () {
         formulaire.style.display = "center";
     }
 });
+
+connexion.addEventListener('click', function () {
+    if (buttonDiv.style.display !== "none") {
+        buttonDiv.style.display = "none";
+        connexionServer.style.display = "flex";
+    }
+})
