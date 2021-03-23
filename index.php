@@ -263,12 +263,14 @@ if(isset($_SESSION["user"])){
                         <span id="a_propos">A propos</span>
                     </a>
                 </li>
+                <?php if($connected){?>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
                     <a href="./utils/deconnect.php">
                         <i class="fas fa-user-times"></i>
                         <span id="a_propos">Déconnexion</span>
                     </a>
-                </li>
+                </li><?php
+                }?>
             </ul>
         </div>
     </div>
