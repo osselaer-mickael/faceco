@@ -267,14 +267,14 @@
                     </div>
                 </div>
                 <div id="connexion_server">
-                    <form action="checkLogin.php" method="post">
-                        <input type="text" name="id" id="identifiant" placeholder="Votre adresse email" required>
-                        <input type="password" name="password" id="password" placeholder="Mot de passe" required>
+                    <form action="./utils/checkLogin.php" method="post">
+                        <input type="text" name="mail" id="mail" placeholder="Votre adresse email" required>
+                        <input type="password" name="pass" id="pass" placeholder="Mot de passe" required>
                         <input type="submit" id="login" value="Connexion">
                     </form>
                 </div>
                 <div id="formulaire_server">
-                    <form action="checkRegister.php" method="post">
+                    <form action="./utils/checkRegister.php" method="post">
                         <input type="text" name="nom" id="nom" placeholder="Nom" required>
                         <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
                         <input type="email" name="mail" id="mail" placeholder="Votre adresse email" required>

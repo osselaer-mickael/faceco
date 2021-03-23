@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="COMMIT 3.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,10 @@
       <workItem from="1616340173105" duration="682000" />
       <workItem from="1616400115313" duration="24535000" />
       <workItem from="1616426135505" duration="506000" />
+      <workItem from="1616426704043" duration="355000" />
+      <workItem from="1616428881382" duration="195000" />
+      <workItem from="1616435309692" duration="18728000" />
+      <workItem from="1616486853420" duration="10090000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615898648547</created>
@@ -303,7 +308,56 @@
       <option name="project" value="LOCAL" />
       <updated>1616426595506</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="COMMIT 3.0">
+      <created>1616454294398</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1616454294398</updated>
+    </task>
+    <task id="LOCAL-00035" summary="COMMIT 3.0">
+      <created>1616454440470</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1616454440470</updated>
+    </task>
+    <task id="LOCAL-00036" summary="yann">
+      <created>1616492342231</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1616492342231</updated>
+    </task>
+    <task id="LOCAL-00037" summary="yann 2.0">
+      <created>1616495165632</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1616495165632</updated>
+    </task>
+    <task id="LOCAL-00038" summary="YAnn 2.0">
+      <created>1616495541934</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1616495541934</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Yann 3.0">
+      <created>1616496374469</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1616496374469</updated>
+    </task>
+    <task id="LOCAL-00040" summary="YAN 4.0">
+      <created>1616496582698</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1616496582698</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +391,11 @@
     <MESSAGE value="COMMIT 5.0" />
     <MESSAGE value="création des graphiques de consommation" />
     <MESSAGE value="COMMIT 3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="COMMIT 3.0" />
+    <MESSAGE value="yann" />
+    <MESSAGE value="yann 2.0" />
+    <MESSAGE value="YAnn 2.0" />
+    <MESSAGE value="Yann 3.0" />
+    <MESSAGE value="YAN 4.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="YAN 4.0" />
   </component>
 </project>
