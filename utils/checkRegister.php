@@ -60,17 +60,17 @@ if(isset($_POST,
                 echo "User inserted";
             }
             else{
-                echo "mail deja utilisé";
+                echo "email déjà utilisé";
             }
         }
         else{
-            echo "pass different";
+            echo "mot de passe différent";
         }
     }
     else{
-        echo "Tout les champs ne sont pas remplis";
+        echo "Tous les champs ne sont pas remplis";
     }
 }
 else{
-    echo "Tout les champs ne sont pas remplis";
+    echo "Tous les champs ne sont pas remplis";
 }

@@ -51,10 +51,10 @@ if(isset($_POST,
             header("Location: ../index.php");
         }
         else{
-            echo "mauvaise information";
+            echo "Les informations sont incorrect.";
         }
     }
     else{
-        echo "les champs ne sont pas remplis";
+        echo "Veuillez renplir tous les champs.";
     }
 }
