@@ -15,6 +15,9 @@ myAccount.addEventListener('click', function () {
 close.addEventListener('click', function () {
     if(fenetreModal.style.display !== "none") {
         fenetreModal.style.display = "none";
+        formulaire.style.display = "none";
+        connexionServer.style.display = "none";
+        buttonDiv.style.display = "block";
     }
 })
 
