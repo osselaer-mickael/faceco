@@ -112,3 +112,271 @@ p, span {
 a {
     text-decoration: none;
 }
+
+/* responsive mode */
+/* width responsive */
+
+@media screen and (min-width: 480px) {
+    #title {
+        margin-top: 5rem;
+    }
+
+    .logo_ecobleu {
+        width: 15%;
+        height: 10rem;
+    }
+
+    .buandrie {
+        height: 30rem;
+        margin-top: 1rem;
+    }
+
+    #container_principal {
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fa-undo {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #title {
+        margin-top: 5rem;
+    }
+
+    .logo_ecobleu {
+        width: 15%;
+        height: 10rem;
+    }
+
+    .buandrie {
+        height: 30rem;
+        margin-top: 1rem;
+    }
+
+    #container_principal {
+        width: 70%;
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+
+    .fa-undo {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    #title {
+        margin-top: 5rem;
+    }
+
+    .logo_ecobleu {
+        width: 15%;
+        height: 10rem;
+    }
+
+    .buandrie {
+        height: 30rem;
+        margin-top: 1rem;
+    }
+
+    #container_principal {
+        width: 60%;
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 15rem;
+    }
+
+    .fa-undo {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .logo_ecobleu {
+        width: 14%;
+    }
+
+    .buandrie {
+        height: 35rem;
+    }
+
+    #container_principal {
+        margin-left: 17rem;
+    }
+
+    #retour {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #title {
+        justify-content: flex-start;
+    }
+
+    .logo_ecobleu {
+        width: 12%;
+        margin-left: 8rem;
+    }
+
+    #image {
+        justify-content: flex-start;
+    }
+
+    .buandrie {
+        height: 40rem;
+    }
+
+    #responsive {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container_principal {
+        margin-left: 0;
+    }
+
+    #retour {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    .logo_ecobleu {
+        width: 11%;
+    }
+
+    .buandrie {
+        height: 42rem;
+    }
+
+    #responsive {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .logo_ecobleu {
+        width: 10%;
+        height: 13rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .buandrie {
+        height: 45rem;
+        margin-left: 3rem;
+    }
+
+    #responsive {
+        margin-top: 1rem;
+    }
+
+    #retour {
+        margin-top: 8rem;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    #title {
+        margin-top: 3rem;
+    }
+
+    #container_principal {
+        width: 45%;
+    }
+
+    #retour {
+        margin-top: 0;
+    }
+    #responsive {
+        margin-top: 0;
+    }
+}
+
+
+
+/* height responsive */
+
+@media screen and (min-height: 1280px) {
+    #title {
+        justify-content: center;
+    }
+
+    .logo_ecobleu {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .buandrie {
+        margin-top: 5rem;
+    }
+
+    #responsive {
+        flex-direction: column;
+    }
+
+    .buandrie {
+        height: 45rem;
+    }
+
+    #container_temperature {
+        margin-top: 5rem;
+    }
+
+    #retour {
+        margin-top: 10rem;
+    }
+}
+
+
+@media screen and (min-height: 1366px) {
+    #title {
+        justify-content: center;
+    }
+
+    .logo_ecobleu {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .buandrie {
+        margin-top: 5rem;
+    }
+
+    #responsive {
+        flex-direction: column;
+    }
+
+    .buandrie {
+        height: 45rem;
+    }
+
+    #container_temperature {
+        margin-top: 5rem;
+    }
+
+    #retour {
+        margin-top: 10rem;
+    }
+}

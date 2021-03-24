@@ -63,7 +63,6 @@ h3 {
     margin: 0 2rem;
     padding: 1rem;
     border-bottom: 2px solid #ff6666;
-    text-align: center;
 }
 
 #text_three {
@@ -84,7 +83,6 @@ span {
 
 #text_one_elec, #text_two_elec, #text_three_elec {
     border-bottom: 2px solid #2c3256;
-    text-align: center;
 }
 
 #text_three_elec {
@@ -93,7 +91,6 @@ span {
 
 #text_one_eau, #text_two_eau, #text_three_eau, #text_four_eau, #text_five_eau, #text_six_eau, #text_seven_eau, #text_eigth_eau {
     border-bottom: 2px solid #4093a4;
-    text-align: center;
 }
 
 #text_eigth_eau {
@@ -153,6 +150,8 @@ span {
 
 a {
     text-decoration: none;
+    width: 100%;
+    text-align: center;
 }
 
 /* responsive mode */

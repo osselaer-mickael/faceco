@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="Yannn 6.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/checkLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/checkLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/checkRegister.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/checkRegister.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/buandrie.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/buandrie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/cuisine.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/cuisine.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/salle_de_bain_agir_sur_la_temperature.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/salle_de_bain_agir_sur_la_temperature.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/salon.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/salon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_TABLETTE/salon_tablette.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/buandrie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/buandrie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/cuisine.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/cuisine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/salon.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/salon.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +83,10 @@
       <workItem from="1616428881382" duration="195000" />
       <workItem from="1616435309692" duration="18728000" />
       <workItem from="1616486853420" duration="15130000" />
-      <workItem from="1616503681862" duration="6226000" />
+      <workItem from="1616503681862" duration="8674000" />
+      <workItem from="1616525197262" duration="337000" />
+      <workItem from="1616569945622" duration="11995000" />
+      <workItem from="1616584829614" duration="4096000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615898648547</created>
@@ -381,7 +389,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616507644466</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="responsive index.php">
+      <created>1616511978796</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1616511978796</updated>
+    </task>
+    <task id="LOCAL-00045" summary="responsive">
+      <created>1616513985436</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1616513985436</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Yannn 6.0">
+      <created>1616584790568</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1616584790568</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +450,8 @@
     <MESSAGE value="Yann 3.0" />
     <MESSAGE value="YAN 4.0" />
     <MESSAGE value="Yann 4.0" />
+    <MESSAGE value="responsive index.php" />
+    <MESSAGE value="responsive" />
     <MESSAGE value="Yannn 6.0" />
     <option name="LAST_COMMIT_MESSAGE" value="Yannn 6.0" />
   </component>
