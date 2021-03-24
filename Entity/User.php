@@ -17,6 +17,7 @@ class User
      * @param string $nom
      * @param string $pass
      */
+
     public function __construct(int $id = null, string $mail = null, string $prenom = null, string $nom = null, string $pass = null)
     {
         $this->id = $id;
@@ -29,6 +30,7 @@ class User
     /**
      * @return int|null
      */
+
     public function getId(): ?int
     {
         return $this->id;
@@ -37,6 +39,7 @@ class User
     /**
      * @param int|null $id
      */
+
     public function setId(?int $id): User
     {
         $this->id = $id;
@@ -46,6 +49,7 @@ class User
     /**
      * @return string|null
      */
+
     public function getMail(): ?string
     {
         return $this->mail;
@@ -54,6 +58,7 @@ class User
     /**
      * @param string|null $mail
      */
+
     public function setMail(?string $mail): User
     {
         $this->mail = $mail;
@@ -63,6 +68,7 @@ class User
     /**
      * @return string|null
      */
+
     public function getPrenom(): ?string
     {
         return $this->prenom;
@@ -71,6 +77,7 @@ class User
     /**
      * @param string|null $prenom
      */
+
     public function setPrenom(?string $prenom): User
     {
         $this->prenom = $prenom;
@@ -80,6 +87,7 @@ class User
     /**
      * @return string|null
      */
+
     public function getNom(): ?string
     {
         return $this->nom;
@@ -88,6 +96,7 @@ class User
     /**
      * @param string|null $nom
      */
+
     public function setNom(?string $nom): User
     {
         $this->nom = $nom;
@@ -97,6 +106,7 @@ class User
     /**
      * @return string|null
      */
+
     public function getPass(): ?string
     {
         return $this->pass;
@@ -105,11 +115,10 @@ class User
     /**
      * @param string|null $pass
      */
+
     public function setPass(?string $pass): User
     {
         $this->pass = $pass;
         return $this;
     }
-
-
 }

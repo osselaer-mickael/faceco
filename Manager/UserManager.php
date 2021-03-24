@@ -8,6 +8,7 @@ class UserManager
     /**
      * ArticleManager constructor.
      */
+
     public function __construct(){
         $this->db = DB::getInstance();
     }
@@ -26,7 +27,6 @@ class UserManager
                     ->setPrenom($item["prenom"])
                     ->setNom($item["nom"])
                     ->setPass($item["pass"]);
-
                 $users[] = $user;
             }
         }

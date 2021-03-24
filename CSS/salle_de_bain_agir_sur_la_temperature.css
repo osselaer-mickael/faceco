@@ -63,6 +63,7 @@ h3 {
     margin: 0 2rem;
     padding: 1rem;
     border-bottom: 2px solid #ff6666;
+    text-align: center;
 }
 
 #text_three {
@@ -83,6 +84,7 @@ span {
 
 #text_one_elec, #text_two_elec, #text_three_elec {
     border-bottom: 2px solid #2c3256;
+    text-align: center;
 }
 
 #text_three_elec {
@@ -91,6 +93,7 @@ span {
 
 #text_one_eau, #text_two_eau, #text_three_eau, #text_four_eau, #text_five_eau, #text_six_eau, #text_seven_eau, #text_eigth_eau {
     border-bottom: 2px solid #4093a4;
+    text-align: center;
 }
 
 #text_eigth_eau {
@@ -150,4 +153,260 @@ span {
 
 a {
     text-decoration: none;
+}
+
+/* responsive mode */
+/* width responsive */
+
+@media screen and (min-width: 480px) {
+    #title {
+        margin-top: 5rem;
+    }
+
+    .logo_ecobleu {
+        width: 15%;
+        height: 10rem;
+    }
+
+    .salle_de_bain {
+        height: 30rem;
+        margin-top: 1rem;
+    }
+
+    #container-principal {
+        margin-top: 5rem;
+    }
+
+    .fa-undo {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #title {
+        margin-top: 5rem;
+    }
+
+    .logo_ecobleu {
+        width: 15%;
+        height: 10rem;
+    }
+
+    .salle_de_bain{
+        height: 30rem;
+        margin-top: 1rem;
+    }
+
+    #container-principal {
+        width: 70%;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+
+    .fa-undo {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    #title {
+        margin-top: 5rem;
+    }
+
+    .logo_ecobleu {
+        width: 15%;
+        height: 10rem;
+    }
+
+    .salle_de_bain {
+        height: 30rem;
+        margin-top: 1rem;
+    }
+
+    #container-principal {
+        width: 60%;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15rem;
+    }
+
+    .fa-undo {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .logo_ecobleu {
+        width: 14%;
+    }
+
+    .salle_de_bain{
+        height: 35rem;
+    }
+
+    #container-principal {
+        margin-left: 17rem;
+    }
+
+    #retour {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #title {
+        justify-content: flex-start;
+    }
+
+    .logo_ecobleu {
+        width: 12%;
+        margin-left: 8rem;
+    }
+
+    #image {
+        justify-content: flex-start;
+    }
+
+    .salle_de_bain {
+        height: 40rem;
+    }
+
+    #responsive {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container-principal {
+        margin-left: 0;
+    }
+
+    #retour {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    .logo_ecobleu {
+        width: 11%;
+    }
+
+    .salle_de_bain {
+        height: 42rem;
+    }
+
+    #responsive {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .logo_ecobleu {
+        width: 10%;
+        height: 13rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .salle_de_bain{
+        height: 45rem;
+        margin-left: 3rem;
+    }
+
+    #responsive {
+        margin-top: 1rem;
+    }
+
+    #retour {
+        margin-top: 8rem;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    #title {
+        margin-top: 3rem;
+    }
+
+    #container-principal {
+        width: 45%;
+    }
+
+    #retour {
+        margin-top: 0;
+    }
+    #responsive {
+        margin-top: 0;
+    }
+}
+
+/* height responsive */
+
+@media screen and (min-height: 1280px) {
+    #title {
+        justify-content: center;
+    }
+
+    .logo_ecobleu {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #responsive {
+        flex-direction: column;
+    }
+
+    .salle_de_bain{
+        height: 45rem;
+        margin-top: 5rem;
+    }
+
+    #container_temperature {
+        margin-top: 5rem;
+    }
+
+    #retour {
+        margin-top: 10rem;
+    }
+}
+
+
+@media screen and (min-height: 1366px) {
+    #title {
+        justify-content: center;
+    }
+
+    .logo_ecobleu {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .salle_de_bain {
+        margin-top: 5rem;
+        height: 45rem;
+    }
+
+    #responsive {
+        flex-direction: column;
+    }
+
+
+    #container_temperature {
+        margin-top: 5rem;
+    }
+
+    #retour {
+        margin-top: 10rem;
+    }
 }

@@ -33,7 +33,7 @@ class DB
 
     /**
      * On empeche les gens de cloner l'objet
-     * pour sassurer quon a bien quune seul instance de la connexion a la db
+     * pour sassurer quon a bien qu'une seul instance de la connexion a la db
      */
     public function __clone() {}
 }
