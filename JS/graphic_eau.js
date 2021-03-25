@@ -7,7 +7,7 @@ var myChartEau = new Chart(ctx, {
         labels: ['Janvier', 'Février', 'Mars', 'Avirl', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
         datasets: [{
             label: '',
-            data: ["21", "", "", "", "", "", "", "", "", "", "57", ""],
+            data: ["", "", "", "", "", "", "", "", "", "", "", ""],
             backgroundColor: [
                 '#4093a4',
                 '#4093a4',
@@ -42,7 +42,7 @@ var myGraphicEau = new Chart(eurosEau, {
         labels: ['Janvier', 'Février', 'Mars', 'Avirl', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
         datasets: [{
             label: '',
-            data: ["", "", "24", "", "", "", "", "", "", "", "100", ""],
+            data: ["", "", "", "", "", "", "", "", "", "", "", ""],
             backgroundColor: [
                 '#4093a4',
                 '#4093a4',

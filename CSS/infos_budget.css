@@ -162,13 +162,16 @@ a {
         height: 7rem;
     }
 
-    #container-principal {
-        width: 90%;
+    .image1 {
+        height: 20rem;
+    }
+
+    #image3, #image4 {
+        margin-top: 2rem;
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
-        margin-left: 3rem;
+        align-items: center;
+        margin-left: 0;
     }
 
     .fa-undo {
@@ -186,11 +189,17 @@ a {
         height: 10rem;
     }
 
-
-    #container-principal {
-
+    .image3, .image4 {
+        width: 60%;
     }
 
+    .image1 {
+        height: 25rem;
+    }
+
+    .eau {
+        text-align: center;
+    }
     .fa-undo {
         margin-top: 3rem;
     }
@@ -205,14 +214,17 @@ a {
         width: 15%;
         height: 10rem;
     }
-
-
     #container-principal {
+        margin: 10rem auto auto;
+        width: 80%;
+    }
 
+    .image3, .image4 {
+        width: 50%;
     }
 
     .fa-undo {
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
 }
 
@@ -221,14 +233,20 @@ a {
         width: 14%;
     }
 
-
-
     #container-principal {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 4rem auto auto;
+    }
 
+    .image3, .image4 {
+        width: 55%;
     }
 
     #retour {
-        margin-top: 4rem;
+        margin-top: 5rem;
     }
 }
 
@@ -242,10 +260,13 @@ a {
         margin-left: 8rem;
     }
 
-
-
     #container-principal {
+        width: 70%;
+        margin: 10rem auto auto;
+    }
 
+    .image3, .image4 {
+        width: 45%;
     }
 
     #retour {
@@ -258,7 +279,16 @@ a {
         width: 11%;
     }
 
+    #container-principal {
+        width: 65%;
+        margin: 10rem auto auto;
+    }
+}
 
+@media screen and (min-width: 1110px) {
+    #container-principal {
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 1366px) {
@@ -271,7 +301,6 @@ a {
         font-size: 2.5rem;
     }
 
-
     #retour {
         margin-top: 8rem;
     }
@@ -282,12 +311,6 @@ a {
         margin-top: 3rem;
     }
 
-    #container-principal {
-    }
-
-    #retour {
-        margin-top: 0;
-    }
 }
 
 /* height responsive */

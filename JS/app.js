@@ -18,9 +18,10 @@ let buandrie = document.getElementById('buandrie');
 let dropDownBuandrie = document.getElementById('drop_down_buandrie');
 let infos = document.getElementById('infos');
 let dropDownInfos = document.getElementById('drop_down_infos');
-let equipement = document.getElementById('equipement');
 let dechet = document.getElementById('dechet');
 let dropDownDechet = document.getElementById('drop_down_dechet');
+let dropDownAccount = document.getElementById('drop_down_mon_compte');
+let monCompteDrop = document.getElementById('mon_compte')
 
 // je récupere mon id pour créer une fenêtre modal
 
@@ -147,6 +148,12 @@ dropDownBed.addEventListener('click', function () {
          dropDownDechet.style.display = "none";
      }
  });
+
+ monCompteDrop.addEventListener('click', function () {
+     if (dropDownAccount.style.display !== "block") {
+         dropDownAccount.style.display = "block";
+     }
+ })
 
 
 

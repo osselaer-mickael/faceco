@@ -7,7 +7,7 @@ var myChartGaz = new Chart(ctx, {
         labels: ['Janvier', 'Février', 'Mars', 'Avirl', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
         datasets: [{
             label: '',
-            data: ["", "", "10", "", "234", "", "", "214", "", "", "", ""],
+            data: ["", "", "", "", "", "", "", "", "", "", "", ""],
             backgroundColor: [
                 '#58ac34',
                 '#58ac34',
@@ -42,7 +42,7 @@ var myGraphicGaz = new Chart(euros, {
         labels: ['Janvier', 'Février', 'Mars', 'Avirl', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
         datasets: [{
             label: '',
-            data: ["123", "", "", "", "", "37", "", "", "687", "", "", "54"],
+            data: ["", "", "", "", "", "", "", "", "", "", "", ""],
             backgroundColor: [
                 '#58ac34',
                 '#58ac34',

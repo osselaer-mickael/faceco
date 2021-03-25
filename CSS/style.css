@@ -164,6 +164,14 @@ span {
     border-bottom: 2px solid #2c3256;
 }
 
+.drop_down_follow_up_li_2 {
+    padding: 1rem;
+    border-bottom: 1px solid #2c3256;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
 .fa-bed, .fa-bath, .fa-tv, .fa-utensils, .fa-tshirt,.fa-sort-amount-down, .fa-euro-sign, .fa-globe-europe, .fa-gamepad,
 .fa-bolt, .fa-hand-holding-water, .fa-burn, .fa-user, .fa-question, .fa-user-times {
     width: 5%;
@@ -182,7 +190,7 @@ span {
 /*I create the second drop down menu */
 
 #temperature, #drop_down_salle_de_bain, #drop_down_salon, #drop_down_cuisne, #drop_down_buandrie, #drop_down_infos,
-#drop_down_equipement, #drop_down_dechet  {
+#drop_down_equipement, #drop_down_dechet, #drop_down_mon_compte  {
     display: none;
     margin-right: 1rem;
     margin-left: 7rem;
@@ -272,6 +280,7 @@ a {
     color: #575a6e;
     cursor: pointer;
 }
+
 
 /* I create a modal window*/
 
@@ -588,6 +597,21 @@ input {
 
     #inscription {
         margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    #principal_container {
+        width: 55%;
+        margin-left: 24rem;
+    }
+
+    #facebook {
+        margin-left: 22rem;
+    }
+
+    #face_thierache {
+        width: 48%;
     }
 }
 

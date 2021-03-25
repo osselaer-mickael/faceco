@@ -12,28 +12,34 @@ myAccount.addEventListener('click', function () {
    }
 });
 
-close.addEventListener('click', function () {
-    if(fenetreModal.style.display !== "none") {
-        fenetreModal.style.display = "none";
-        formulaire.style.display = "none";
-        connexionServer.style.display = "none";
-        buttonDiv.style.display = "block";
-    }
-})
+if(close) {
+    close.addEventListener('click', function () {
+        if (fenetreModal.style.display !== "none") {
+            fenetreModal.style.display = "none";
+            formulaire.style.display = "none";
+            connexionServer.style.display = "none";
+            buttonDiv.style.display = "block";
+        }
+    })
+}
 
-buttonInscription.addEventListener('click', function () {
-    if (buttonDiv.style.display !== "none") {
-        buttonDiv.style.display = "none";
-        formulaire.style.display = "flex";
-        formulaire.style.flexDirection = "column";
-        formulaire.style.alignItems = "center";
-        formulaire.style.display = "center";
-    }
-});
+if(buttonInscription) {
+    buttonInscription.addEventListener('click', function () {
+        if (buttonDiv.style.display !== "none") {
+            buttonDiv.style.display = "none";
+            formulaire.style.display = "flex";
+            formulaire.style.flexDirection = "column";
+            formulaire.style.alignItems = "center";
+            formulaire.style.display = "center";
+        }
+    });
+}
 
-connexion.addEventListener('click', function () {
-    if (buttonDiv.style.display !== "none") {
-        buttonDiv.style.display = "none";
-        connexionServer.style.display = "flex";
-    }
-})
+if(connexion) {
+    connexion.addEventListener('click', function () {
+        if (buttonDiv.style.display !== "none") {
+            buttonDiv.style.display = "none";
+            connexionServer.style.display = "flex";
+        }
+    });
+}

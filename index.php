@@ -257,8 +257,29 @@ if(isset($_SESSION["user"])){
                 </li>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
                     <i class="fas fa-user"></i>
-                    <span id="mon_compte">Mon compte</span>
+                    <span id="mon_compte"> <?php
+                        if($connected) {
+                            echo 'Mon compte';
+                        }
+                        else {
+                            echo 'Se connecter';
+                        }
+                    ?>
+                    </span>
                 </li>
+                <!-- TODO Mettre à jour ce sous menu -->
+                <?php
+                if($connected) { ?>
+                    <div id="drop_down_mon_compte">
+                        <ul>
+                            <li class="drop_down_follow_up_li_2">
+                                <a href="#">
+                                    <span>Parametre utilisateur</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> <?php
+                } ?>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
                     <a href="./DOC/Recettes_ateliers_fais_le_toi-meme.pdf" title="pdf">
                         <i class="fas fa-question"></i>
@@ -277,7 +298,9 @@ if(isset($_SESSION["user"])){
         </div>
     </div>
 
-    <div id="fenetre_modal">
+    <?php
+    if(!$connected) { ?>
+        <div id="fenetre_modal">
         <div id="modal_container">
             <div id="close">
                 <i id="close_modal" class="fas fa-times"></i>
@@ -314,7 +337,8 @@ if(isset($_SESSION["user"])){
                 </div>
             </div>
         </div>
-    </div>
+    </div> <?php
+    } ?>
 
     <!--Creation of the footer. -->
     <!--Création du bas de page.  -->
