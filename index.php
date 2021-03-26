@@ -236,7 +236,8 @@ if(isset($_SESSION["user"])){
             </div>
         </div>
         <div class="drop_down_follow_up">
-            <ul>
+            <ul><?php
+            if($connected) { ?>
                 <li class="drop_down_follow_up_li">
                     <a href="./PHP/mon_suivi_electricite.php">
                         <i class="fas fa-bolt"></i>
@@ -254,7 +255,8 @@ if(isset($_SESSION["user"])){
                         <i class="fas fa-burn"></i>
                         <span>Consommation de gaz</span>
                     </a>
-                </li>
+                </li> <?php
+                } ?>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
                     <i class="fas fa-user"></i>
                     <span id="mon_compte"> <?php
