@@ -271,12 +271,6 @@ require_once "./includes.php"; ?>
                         </ul>
                     </div> <?php
                 } ?>
-                <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
-                    <a href="./DOC/Recettes_ateliers_fais_le_toi-meme.pdf" title="pdf">
-                        <i class="fas fa-question"></i>
-                        <span id="a_propos">A propos</span>
-                    </a>
-                </li>
                 <?php if($connected){?>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
                     <a href="./utils/deconnect.php">
@@ -333,7 +327,6 @@ require_once "./includes.php"; ?>
 
     <!-- Fin de test -->
 
-
     <!--Creation of the footer. -->
     <!--Création du bas de page.  -->
 
@@ -345,7 +338,7 @@ require_once "./includes.php"; ?>
                 </a>
             </div>
             <div id="face_thierache">
-                <a href="https://www.facethierache.org">
+                <a href="#">
                     <img src="IMG/logoFace.png" alt="logo_face" class="logo_face">
                 </a>
             </div>
