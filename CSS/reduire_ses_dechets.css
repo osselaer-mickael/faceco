@@ -53,7 +53,7 @@ h3 {
 }
 
 
-#text_one, #text_two, #text_three, #text_four, #image {
+#text_one, #text_two, #text_three, #text_four, #text_five, #text_six, #image {
     border-bottom: 2px solid #58ac34;
     margin: 2rem;
     padding: 1rem;
@@ -67,6 +67,13 @@ h3 {
 #text_four {
     border: none;
 }
+
+#image {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 p, span {
     font-family: 'Open Sans', sans-serif;
@@ -86,7 +93,6 @@ span {
     font-style: normal;
 }
 
-
 .gras {
     padding: 0.5rem;
     color: black;
@@ -102,7 +108,7 @@ span {
 }
 
 .bac_composte {
-    width: 100%;
+    width: 50%;
 }
 
 

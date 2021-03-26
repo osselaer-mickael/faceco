@@ -72,6 +72,29 @@
     <div id="image">
         <img src="../IMG/Bac_a_compost.png" alt="image" class="bac_composte">
     </div>
+    <div id="text_five">
+        <span class="gras">
+            En fabriquant ses produits ménagers
+        </span>
+        <p>
+            Lessive, produit vaisselle…. beaucoup de recettes simples existent, ces recettes sont économiques et
+            réduisent vos déchets.
+        </p>
+        <a href="../DOC/Recettes_ateliers_fais_le_toi-meme.pdf">
+            <p>
+                idées recettes en version imprimable
+            </p>
+        </a>
+    </div>
+    <div id="text_six">
+        <span class="gras">
+             En recyclant plutôt qu’en jetant
+        </span>
+        <p>
+            Au lieu de jeter ce qui ne fonctionne plus, pensez à le réparer ou le recycler en déchetterie. Pour les
+            vêtements, les jouets, les meubles, pensez à vendre en ligne ou à donner aux associations.
+        </p>
+    </div>
     <div id="retour">
         <a href="../index.php">
             <i class="fas fa-undo"></i>
