@@ -32,7 +32,8 @@ CREATE TABLE IF NOT EXISTS `consommation` (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_fk` int(10) UNSIGNED NOT NULL,
   `consommation_type_fk` int(10) UNSIGNED NOT NULL,
-  `quantity` int(10) UNSIGNED NOT NULL,
+  `quantity` int(10) NOT NULL,
+  'month' VARCHAR(30) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_fk` (`user_fk`),
   KEY `consommation_user_fk` (`consommation_type_fk`)

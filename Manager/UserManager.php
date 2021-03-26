@@ -33,6 +33,30 @@ class UserManager
         return $users;
     }
 
+    /**
+     * Return a single user based on provided ID.
+     * @param int $id
+     * @return User
+     */
+    public function getUser(int $id): User {
+        $stmt = DB::getInstance()->prepare("SELECT * FROM user WHERE id=:id");
+        $stmt->bindValue(':id', $id);
+        $user = new User();
+        if($stmt->execute()) {
+            $udata = $stmt->fetch();
+            $user = new User();
+            $user->setId($udata['id']);
+            $user->setMail($udata['mail']);
+            $user->setNom($udata['nom']);
+            $user->setPrenom($udata['prenom']);
+            $user->setPass($udata['pass']);
+        }
+        return $user;
+    }
+
+    /**
+     * @param User $user
+     */
     public function insertUser(User $user) : void{
         $conn = $this->db->prepare("INSERT INTO stagemicka.user (nom, prenom, mail, pass) VALUES (:nom, :prenom, :mail, :pass)");
         $conn->bindValue(":nom", $user->getNom());
@@ -42,6 +66,10 @@ class UserManager
         $conn->execute();
     }
 
+    /**
+     * @param string $mail
+     * @return array
+     */
     public function getUserByMail(string $mail){
         $conn = $this->db->prepare("SELECT * FROM stagemicka.user where mail = :mail");
         $conn->bindValue(":mail", $mail);

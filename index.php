@@ -1,23 +1,5 @@
 <?php
-require_once "./Classes/DB.php";
-
-// Entités
-require_once "./Entity/User.php";
-require_once "./Entity/Consommation.php";
-require_once "./Entity/ConsommationType.php";
-
-// Managers.
-require_once "./Manager/UserManager.php";
-require_once "./Manager/ConsommationTypeManager.php";
-
-
-session_start();
-$connected = false;
-if(isset($_SESSION["user"])){
-    $user = $_SESSION["user"];
-    $connected = true;
-}
-?>
+require_once "./includes.php"; ?>
 
 <!doctype html>
 <html lang="fr">
@@ -244,25 +226,25 @@ if(isset($_SESSION["user"])){
         </div>
         <div class="drop_down_follow_up">
             <ul><?php
-            if($connected) { ?>
-                <li class="drop_down_follow_up_li">
-                    <a href="./PHP/mon_suivi_electricite.php">
-                        <i class="fas fa-bolt"></i>
-                        <span>Consommation d'éléctricité</span>
-                    </a>
-                </li>
-                <li class="drop_down_follow_up_li">
-                    <a href="./PHP/mon_suivi_eau.php">
-                        <i class="fas fa-hand-holding-water"></i>
-                        <span>Consommation d'eau</span>
-                    </a>
-                </li>
-                <li class="drop_down_follow_up_li">
-                    <a href="./PHP/mon_suivi_gaz.php">
-                        <i class="fas fa-burn"></i>
-                        <span>Consommation de gaz</span>
-                    </a>
-                </li> <?php
+                if($connected) { ?>
+                    <li class="drop_down_follow_up_li">
+                        <a href="./PHP/mon_suivi_electricite.php">
+                            <i class="fas fa-bolt"></i>
+                            <span>Consommation d'éléctricité</span>
+                        </a>
+                    </li>
+                    <li class="drop_down_follow_up_li">
+                        <a href="./PHP/mon_suivi_eau.php">
+                            <i class="fas fa-hand-holding-water"></i>
+                            <span>Consommation d'eau</span>
+                        </a>
+                    </li>
+                    <li class="drop_down_follow_up_li">
+                        <a href="./PHP/mon_suivi_gaz.php">
+                            <i class="fas fa-burn"></i>
+                            <span>Consommation de gaz</span>
+                        </a>
+                    </li> <?php
                 } ?>
                 <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
                     <i class="fas fa-user"></i>
@@ -348,21 +330,6 @@ if(isset($_SESSION["user"])){
         </div>
     </div> <?php
     } ?>
-
-    <!-- Test, à supprimer -->
-    <?php
-    /*
-    $consommationTypeManager = new ConsommationTypeManager();
-    $consommationsType = $consommationTypeManager->getConsommationsType();
-    foreach($consommationsType as $consoType) {
-        echo $consoType->getName() . " " . $consoType->getUnitPrice() . "<br>";
-    }
-    */
-
-    // Ajouter ue consommation
-    $manager = new ConsommationManager();
-    $manager->addConsommation($user, $typeEau, 1000);
-    ?>
 
     <!-- Fin de test -->
 

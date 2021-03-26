@@ -1,3 +1,23 @@
+<?php
+    require_once "../includes.php";
+    $managerType = new ConsommationTypeManager();
+    $managerConsommation = new ConsommationManager();
+
+    $consommationTypeGaz = $managerType->getByName('gaz');
+
+    // Si les champs sont présents, c'est qu'un ajout a été demandé.
+    if(isset($_POST['month']) && isset($_POST['consommation_kwh'])) {
+        $month = trim(strip_tags($_POST['month']));
+        $amount = intval(trim(strip_tags($_POST['consommation_kwh'])));
+        $conso = $managerConsommation->addConsommation($user, $consommationTypeGaz, $amount, $month);
+        $managerConsommation->save($conso);
+    }
+
+    // Récupération des consommations à afficher dans le graphique.
+    $consos = $managerConsommation->getConsommations($user, $consommationTypeGaz);
+?>
+
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -18,54 +38,48 @@
         <h2>Ma consommation de gaz (kwh) :</h2>
     </div>
     <div id="container_input">
-        <div class="month">
-            <label for="month"></label>
-            <select class="select-test" name="month" id="month">
-                <option value="janvier">Janvier</option>
-                <option value="fevrier">Février</option>
-                <option value="mars">Mars</option>
-                <option value="avril">Avril</option>
-                <option value="mai">Mai</option>
-                <option value="juin">Juin</option>
-                <option value="juillet">Juillet</option>
-                <option value="aout">Août</option>
-                <option value="septembre">Septembre</option>
-                <option value="octobre">Octobre</option>
-                <option value="novembre">Novembre</option>
-                <option value="decembre">Décembre</option>
-            </select>
-        </div>
-        <div class="kilowatt">
-            <input class="input-test" type="number" name="consommation_kwh" placeholder="Kwh">
-        </div>
+        <form action="" method="post">
+            <div class="month">
+                <label for="month"></label>
+                <select class="select-test" name="month" id="month">
+                    <option value="janvier">Janvier</option>
+                    <option value="fevrier">Février</option>
+                    <option value="mars">Mars</option>
+                    <option value="avril">Avril</option>
+                    <option value="mai">Mai</option>
+                    <option value="juin">Juin</option>
+                    <option value="juillet">Juillet</option>
+                    <option value="aout">Août</option>
+                    <option value="septembre">Septembre</option>
+                    <option value="octobre">Octobre</option>
+                    <option value="novembre">Novembre</option>
+                    <option value="decembre">Décembre</option>
+                </select>
+            </div>
+            <div class="kilowatt">
+                <input class="input-test" type="number" name="consommation_kwh" placeholder="Kwh">
+            </div>
+            <input type="submit" name="submit" value="Ajouter conso">
+        </form>
+    </div>
+    <div id="data"> <?php
+        // Création de spans masqués contenant les informations.
+        foreach($consos as $conso) {
+            /* @var Consommation $conso */ ?>
+            <span style="display: none"
+                  id="<?= $conso->getId() ?>"
+                  data-month="<?= $conso->getMonth() ?>"
+                  data-qty="<?= $conso->getQuantity() ?>"
+                  data-unitprice="<?= $conso->getConsommationType()->getUnitPrice() ?>"
+            >
+            </span> <?php
+        } ?>
     </div>
     <div id="graphic_one">
         <canvas id="my_chart_gaz" width="400" height="400"></canvas>
     </div>
     <div id="suivi_depense">
         <h2>Mes dépenses (€) :</h2>
-    </div>
-    <div id="container_input">
-        <div class="month">
-            <label for="month"></label>
-            <select name="month" id="month" class="select-test">
-                <option value="janvier">Janvier</option>
-                <option value="fevrier">Février</option>
-                <option value="mars">Mars</option>
-                <option value="avril">Avril</option>
-                <option value="mai">Mai</option>
-                <option value="juin">Juin</option>
-                <option value="juillet">Juillet</option>
-                <option value="aout">Août</option>
-                <option value="septembre">Septembre</option>
-                <option value="octobre">Octobre</option>
-                <option value="novembre">Novembre</option>
-                <option value="decembre">Décembre</option>
-            </select>
-        </div>
-        <div class="kilowatt">
-            <input class="input-test" type="number" name="depense" placeholder="Dépenses /€">
-        </div>
     </div>
     <div id="graphic_two">
         <canvas id="my_graphic_gaz" width="400" height="400"></canvas>
