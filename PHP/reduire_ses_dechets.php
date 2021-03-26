@@ -73,6 +73,7 @@
         <img src="../IMG/Bac_a_compost.png" alt="image" class="bac_composte">
     </div>
     <div id="text_five">
+        <i class="fas fa-globe-americas"></i>
         <span class="gras">
             En fabriquant ses produits ménagers
         </span>
@@ -87,6 +88,7 @@
         </a>
     </div>
     <div id="text_six">
+        <i class="fas fa-globe-americas"></i>
         <span class="gras">
              En recyclant plutôt qu’en jetant
         </span>

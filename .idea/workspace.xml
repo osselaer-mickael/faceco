@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="php">
-      <change afterPath="$PROJECT_DIR$/includes.php" afterDir="false" />
+    <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="Yannn 6.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/Consommation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/Consommation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/graphic_eau.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/graphic_eau.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/graphic_electricite.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/graphic_electricite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/graphic_gaz.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/graphic_gaz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/ConsommationManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/ConsommationManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/ConsommationTypeManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/ConsommationTypeManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/UserManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/mon_suivi_eau.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/mon_suivi_eau.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/mon_suivi_electricite.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/mon_suivi_electricite.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/mon_suivi_gaz.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/mon_suivi_gaz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stagemicka.sql" beforeDir="false" afterPath="$PROJECT_DIR$/stagemicka.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,20 +83,8 @@
       <workItem from="1616584829614" duration="4096000" />
       <workItem from="1616683092717" duration="3081000" />
       <workItem from="1616745946981" duration="14201000" />
-    </task>
-    <task id="LOCAL-00001" summary="Commit">
-      <created>1615898648547</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1615898648547</updated>
-    </task>
-    <task id="LOCAL-00002" summary="commit.">
-      <created>1615899249914</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1615899249914</updated>
+      <workItem from="1616763431640" duration="6232000" />
+      <workItem from="1616769774917" duration="1649000" />
     </task>
     <task id="LOCAL-00003" summary="CREATION de la page salle de bain">
       <created>1615903601912</created>
@@ -433,7 +408,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616761381283</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Yannn 6.0">
+      <created>1616769066576</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1616769066576</updated>
+    </task>
+    <task id="LOCAL-00050" summary="responsive et changement de logos">
+      <created>1616769737145</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1616769737145</updated>
+    </task>
+    <task id="LOCAL-00051" summary="reduire ses déchets ajout du texte">
+      <created>1616771403742</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1616771403742</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +461,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/faceco" />
     </ignored-roots>
-    <MESSAGE value="Commit" />
     <MESSAGE value="commit." />
     <MESSAGE value="CREATION de la page salle de bain" />
     <MESSAGE value="CREATION de la page salle de bain and merge" />
@@ -487,8 +482,10 @@
     <MESSAGE value="Yann 4.0" />
     <MESSAGE value="responsive index.php" />
     <MESSAGE value="responsive" />
-    <MESSAGE value="Yannn 6.0" />
     <MESSAGE value="php" />
-    <option name="LAST_COMMIT_MESSAGE" value="php" />
+    <MESSAGE value="Yannn 6.0" />
+    <MESSAGE value="responsive et changement de logos" />
+    <MESSAGE value="reduire ses déchets ajout du texte" />
+    <option name="LAST_COMMIT_MESSAGE" value="reduire ses déchets ajout du texte" />
   </component>
 </project>
