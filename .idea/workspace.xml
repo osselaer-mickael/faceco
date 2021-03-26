@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="Yannn 6.0">
+    <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +86,8 @@
       <workItem from="1616683092717" duration="3081000" />
       <workItem from="1616745946981" duration="14201000" />
       <workItem from="1616763431640" duration="6232000" />
-      <workItem from="1616769774917" duration="1649000" />
-    </task>
-    <task id="LOCAL-00003" summary="CREATION de la page salle de bain">
-      <created>1615903601912</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1615903601912</updated>
+      <workItem from="1616769774917" duration="2299000" />
+      <workItem from="1616775593263" duration="15689000" />
     </task>
     <task id="LOCAL-00004" summary="CREATION de la page salle de bain">
       <created>1615907449586</created>
@@ -429,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616771403742</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="ajout icone">
+      <created>1616771517510</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1616771517510</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +464,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/faceco" />
     </ignored-roots>
-    <MESSAGE value="commit." />
     <MESSAGE value="CREATION de la page salle de bain" />
     <MESSAGE value="CREATION de la page salle de bain and merge" />
     <MESSAGE value="COMMIT 2.0" />
@@ -486,6 +488,7 @@
     <MESSAGE value="Yannn 6.0" />
     <MESSAGE value="responsive et changement de logos" />
     <MESSAGE value="reduire ses déchets ajout du texte" />
-    <option name="LAST_COMMIT_MESSAGE" value="reduire ses déchets ajout du texte" />
+    <MESSAGE value="ajout icone" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout icone" />
   </component>
 </project>

@@ -19,12 +19,20 @@ require_once "./includes.php"; ?>
     <!--Création de l'entête de page. -->
 
     <header>
-        <div id="user">
-            <?php if($connected){?>
-            <span id="profil"><?php echo $user->getNom() . " " . $user->getPrenom();?></span>
-                <i class="fas fa-circle"></i><?php
-            } ?>
+        <div id="container_info_and_user">
+            <div id="info">
+                <a href="#" class="lien_info">
+                    <i class="fas fa-info"></i>
+                    <span class="info">A propos</span>
+                </a>
+            </div>
+            <div id="user">
+                <?php if($connected){?>
+                <span id="profil"><?php echo $user->getNom() . " " . $user->getPrenom();?></span>
+                    <i class="fas fa-circle"></i><?php
+                } ?>
 
+            </div>
         </div>
         <div id="container_top">
             <img id="logo_faceco" src="IMG/Logo_FACEco.png" alt="logo_faceco">
@@ -272,7 +280,7 @@ require_once "./includes.php"; ?>
                     </div> <?php
                 } ?>
                 <?php if($connected){?>
-                <li id="drop_down_follow_up_li" class="drop_down_follow_up_li">
+                <li id="drop_down_follow_up_li_3" class="drop_down_follow_up_li">
                     <a href="./utils/deconnect.php">
                         <i class="fas fa-user-times"></i>
                         <span id="a_propos">Déconnexion</span>
@@ -332,19 +340,14 @@ require_once "./includes.php"; ?>
 
     <footer>
         <div id="container_bottom">
-            <div id="info">
-                <a href="#">
-                    <i class="fas fa-info-circle"></i>
+            <div id="facebook">
+                <a href="https://www.facebook.com/facethierache">
+                    <i class="fab fa-facebook-f"></i>
                 </a>
             </div>
             <div id="face_thierache">
                 <a href="#">
                     <img src="IMG/logoFace.png" alt="logo_face" class="logo_face">
-                </a>
-            </div>
-            <div id="facebook">
-                <a href="https://www.facebook.com/facethierache">
-                    <i class="fab fa-facebook-f"></i>
                 </a>
             </div>
             <div id="twitter">

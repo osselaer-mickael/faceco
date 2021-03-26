@@ -14,50 +14,78 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+/* i create the container "info and user" */
+
+header {
+    width: 100%
+}
+
+#container_info_and_user {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#info {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.fa-info {
+    color: #4093a4;
+    font-size: 1.5rem;
+    margin: 1.5rem 1.5rem 0;
+}
+
+.info {
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #4093a4;
+    display: flex;
+    align-items: center;
+}
+
+/* i create the container for the name of user */
+
+#user {
+    margin: 2rem 1rem 1rem;
+    position: absolute;
+    right: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* I create the design of the page. */
 /* Je créée le disagne de la page. */
 
 #container_top {
-    margin-top: 5rem;
+    margin-top: 1.5rem;
     width: 100%;
-    height: 7rem;
     z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#profil {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    cursor: default;
-    width: 100%;
-}
-
-#user {
-    margin-right: 1rem;
-    position: absolute;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 #logo_faceco {
-    width: 40%;
-    height: 7rem;
+    width: 45%;
 }
 
 /*I create the principal container*/
 
 #principal_container {
-    height: auto;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    padding-top: 7rem;
+    width: 95%;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -68,26 +96,25 @@ body {
 
 h2 {
     width: 100%;
-    color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    color: white;
     display: flex;
     align-items: center;
     cursor: default;
+    font-weight: bolder;
 }
 
-button {
+button, span {
     cursor: pointer;
 }
 
 span {
     color: #575a6e;
-    cursor: pointer;
 }
 
 .ecos_gesture, .selective_sorting, .my_follow_up {
     width: 100%;
-    height: 7rem;
     margin-top: 1rem;
     border-radius: 5px;
     display: flex;
@@ -126,14 +153,10 @@ span {
 }
 
 .arrow {
-    width: 10%;
-    margin-top: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
 }
 
 .fa-sort-down {
@@ -197,6 +220,10 @@ span {
     cursor: pointer;
 }
 
+#drop_down_follow_up_li_3 {
+    margin-bottom: 5rem;
+}
+
 .temperature_li, .temp_li, .elec_li, .eau_li, .air_li, .trie_dechet {
     list-style: none;
     border-bottom: 0.05rem solid #4093a4;
@@ -218,37 +245,44 @@ span {
 /*I create the footer*/
 
 footer {
-    height: 5.5vh;
-    margin-top: 3rem;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #container_bottom {
     width: 100%;
-    height: 7rem;
+    background-color: white;
     display: flex;
     flex-direction: row;
-    z-index: 1;
     position: fixed;
-    background-color: white;
+    z-index: 1;
     top: calc(100vh - 5.5rem);
 }
 
-#facebook, #twitter, #info {
+#facebook, #twitter {
+    width: 25%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    justify-content: flex-end;
 }
 
-.fa-facebook-f, .fa-twitter, .fa-info-circle {
-    font-size: 2.5rem;
-    margin: 1rem 1rem 2rem;
+#twitter {
+    justify-content: flex-start;
 }
 
-.fa-info-circle {
-    color: #2c3256;
+#face_thierache {
+    width: 50%;
+    text-align: center;
 }
+
+.fa-facebook-f, .fa-twitter {
+    font-size: 2.2rem;
+}
+
+/* colorie des logos "info, facebook et twitter". */
+
 
 .fa-facebook-f {
     color: #3c5a99;
@@ -258,19 +292,8 @@ footer {
     color: #1da1f2;
 }
 
-#facebook {
-    padding-right: 0.5rem;
-}
-
-#twitter {
-    padding-left: 0;
-}
-
 .logo_face {
-    width: 10rem;
-    height: 5rem;
-    margin-left: 2rem;
-    margin-bottom: 1.5rem;
+    width: 13rem;
     z-index: 2;
 }
 
@@ -304,9 +327,7 @@ a {
 }
 
 #modal_container {
-    width: 100%;
-    height: 70vh;
-    margin: 2rem;
+    width: 90%;
     background-color: white;
     display: flex;
     align-items: center;
@@ -328,11 +349,15 @@ a {
 }
 
 .logo_modal {
+    width: 50%;
     margin: 0 2rem 0 2rem;
 }
 
 #button {
-    margin: 10rem 3rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 2.5rem 2.5rem 1.5rem;
 }
 
 #button_inscription, #connexion {
@@ -346,7 +371,6 @@ a {
 }
 
 #button_inscription {
-    border-bottom: 1px solid #575a6e;
     border-radius: 5px;
 }
 
@@ -360,11 +384,13 @@ a {
 }
 
 #inscription, #connect {
+    width: 100%;
+    margin: 2rem;
     padding: 1rem;
+    border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color: white;
-    border-radius: 5px;
     border: none;
     outline: none;
 }
@@ -383,9 +409,7 @@ a {
 
 #formulaire_server {
     display: none;
-    padding: 1rem;
     position: relative;
-    bottom: 7rem;
 }
 
 form {
@@ -394,9 +418,9 @@ form {
 }
 
 input {
-    width: 80%;
+    width: 100%;
     padding: 1rem;
-    margin: 0.3rem;
+    margin: 0.5rem;
     border-radius: 5px;
     outline: none;
 }
@@ -415,8 +439,8 @@ input {
 }
 
 #submit, #login {
-    width: 40%;
-    margin: 1rem;
+    width: 80%;
+    margin-top: 1.5rem;
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     border: none;
@@ -427,47 +451,22 @@ input {
 }
 
 #login {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     background-color: #58ac34;
 }
 
 /* responsive mode */
 /* width responsive*/
-
-@media screen and (min-width: 320px) {
-    #principal_container{
-        margin-top: 5rem;
-    }
-    #modal_container {
-        width: 90%;
-    }
-
-    .logo_modal {
-        width: 50%;
-    }
-
-    input{
-        width: 100%;
-    }
-
-    #formulaire_server {
-        padding: 0;
-    }
-
-    #login {
-        width: 50%;
-    }
-
-    #formulaire_server {
-        width: 100%;
-        margin: 5rem auto auto;
-    }
-}
+/* TODO the responsive format*/
 
 @media screen and (min-width: 410px) {
+
+    #container_top {
+        margin-top: 4.5rem;
+    }
+
     #principal_container {
-        width: 85%;
-        margin-left: 3rem;
+        width: 90%;
         margin-top: 10rem;
     }
 
@@ -475,107 +474,104 @@ input {
         width: 95%;
     }
 
-    #info {
-        margin-left: 1rem;
+    #logo_faceco {
+        width: 43%;
     }
 }
 
 @media screen and (min-width: 450px) {
     #logo_faceco {
-        height: 9rem;
-    }
-
-    input {
-        width: 75%;
+        width: 42%;
     }
 }
 
 @media screen and (min-width: 500px) {
+    #logo_faceco {
+        width: 40%;
+    }
+
+    #principal_container {
+        width: 85%;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    #container_bottom {
+        width: 96%;
+    }
+
     .logo_modal {
-        width: 35%;
+        width: 45%;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    #submit, #login {
+        width: 65%;
     }
 }
 
 @media screen and (min-width: 600px) {
     #logo_faceco {
-        width: 40%;
-        height: 12rem;
+        width: 33%;
     }
 
     #principal_container {
         width: 80%;
-        margin-left: 6rem;
-        margin-top: 11rem;
-    }
-
-    #facebook {
-        margin-left: 4rem;
-    }
-
-    #face_thierache {
-        width: 67%;
-    }
-
-    #container_bottom {
-        width: 93%;
-    }
-
-    #info {
-        margin-left: 3rem;
-    }
-}
-
-@media screen and (min-width: 720px) {
-    #logo_faceco {
-        width: 35%;
-        height: 12rem;
-    }
-
-    #principal_container {
-        width: 75%;
-        margin-left: 9rem;
-    }
-
-    #facebook {
-        margin-left: 7rem;
-    }
-
-    #face_thierache {
-        width: 63%;
-    }
-}
-
-@media screen and (min-width: 720px) {
-    #info {
-        margin-left: 6rem;
     }
 
     #container_bottom {
         width: 90%;
     }
+
+    .logo_modal {
+        width: 37%;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    #submit, #login {
+        width: 80%;
+    }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 720px) {
     #container_top {
-        margin-top: 10rem;
+        margin-top: 7.5rem;
     }
 
     #logo_faceco {
-        width: 35%;
-        height: 13rem;
+        width: 30%;
     }
 
     #principal_container {
+        width: 75%;
+        margin-top: 15rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    #logo_faceco {
+        width: 27%;
+    }
+
+    #principal_container {
+        width: 65%;
+    }
+
+    #container_bottom {
         width: 80%;
-        margin-left: 7.5rem;
-    }
-
-    #facebook {
-        margin-left: 6rem;
-    }
-
-    #face_thierache {
-        width: 69%;
     }
 
     #modal_container {
@@ -585,316 +581,120 @@ input {
 
 @media screen and (min-width: 900px) {
     #logo_faceco {
-        width: 30%;
+        width: 25%;
     }
 
     #principal_container {
         width: 60%;
-        margin-left: 18rem;
     }
 
-    #facebook {
-        margin-left: 13.5rem;
-    }
-
-    #face_thierache {
-        width: 50%;
-        margin-left: 15rem;
+    #container_bottom {
+        width: 75%;
     }
 
     #modal_container {
         width: 55%;
     }
 
-    #logo_modal {
-        width: 40%;
-    }
-
-    #info {
-        margin-left: 15rem;
-    }
-
-    #container_bottom {
-        width: 83%;
-    }
-}
-
-@media screen and (min-width: 960px) {
-    #container_bottom {
-        width: 81%;
+    #submit, #login {
+        width: 55%;
     }
 }
 
 @media screen and (min-width: 1020px) {
-    #principal_container {
-        width: 60%;
-        margin-left: 20rem;
+    #logo_faceco {
+        width: 21%;
+    }
+    
+    #container_top {
+        margin-top: 5rem;
     }
 
-    #facebook {
-        margin-left: 2rem;
-    }
-
-    #face_thierache {
-        width: 51%;
-        margin-left: 2rem;
-    }
-
-    #modal_container {
-        width: 40%;
-    }
-
-    #logo_modal {
-        width: 40%;
-    }
-
-    #connect {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    #inscription {
-        margin-top: 2rem;
-    }
-
-    #info {
-        margin-left: 17rem;
-    }
-}
-
-@media screen and (min-width: 1110px) {
     #principal_container {
         width: 55%;
-        margin-left: 24rem;
+        margin-top: 5rem;
     }
 
-    #facebook {
-        margin-left: 1rem;
-    }
-
-    #face_thierache {
-        width: 48%;
-    }
-
-    #info {
-        margin-left: 21rem;
+    #container_bottom {
+        width: 60%;
     }
 }
 
 @media screen and (min-width: 1200px) {
     #logo_faceco {
-        width: 25%;
-    }
-
-    #principal_container {
-        width: 50%;
-        margin-left: 29rem;
-    }
-
-    #facebook {
-        margin-left: 0;
-    }
-
-    #face_thierache {
-        width: 44%;
-    }
-
-    #modal_container {
-        width: 40%;
-    }
-
-    #logo_modal {
-        width: 40%;
-    }
-
-    #info {
-        margin-left: 26rem;
-    }
-}
-
-@media screen and (min-width: 1250px) {
-    #container_top {
-        margin-top: 7rem;
-    }
-
-    #logo_faceco {
-        width: 25%;
-    }
-
-    #principal_container {
-        margin-left: 32rem;
-    }
-
-
-    #info {
-        margin-left: 29rem;
-    }
-}
-
-@media screen and (min-width: 1366px) {
-    #principal_container {
-        margin-left: 34rem;
-        margin-top: 11rem;
-    }
-
-    #facebook {
-        margin-left: 1rem;
-    }
-
-    #info {
-        margin-left: 31rem;
-    }
-
-    #modal_container {
-        width: 35%;
-    }
-}
-
-@media screen and (min-width: 1430px) {
-    #logo_faceco {
-        width: 24%;
+        width: 20%;
     }
 
     #principal_container {
         width: 45%;
-        margin-left: 40rem;
     }
 
-    #face_thierache {
-        width: 39%;
+    #container_bottom {
+        width: 50%;
     }
 
     #modal_container {
-        width: 40%;
-    }
-
-    #info {
-        margin-left: 37rem;
-    }
-
-    #facebook {
-        margin-left: 1rem;
+        width: 45%;
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1366px) {
     #logo_faceco {
         width: 18%;
     }
 
     #principal_container {
         width: 40%;
-        margin-left: 45rem;
     }
 
-    #info {
-        margin-left: 42rem;
+    #container_bottom {
+        width: 45%;
     }
 
-    #face_thierache {
-        width: 34.5%;
+    #modal_container {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1430px) {
+    #logo_faceco {
+        width: 17%;
+    }
+
+    #principal_container {
+        width: 38%;
     }
 }
 
 @media screen and (min-width: 1600px) {
+    #logo_faceco {
+        width: 15%;
+    }
+
     #principal_container {
+        width: 34%;
+    }
+
+    #container_bottom {
+        width: 43%;
+    }
+
+    #modal_container {
         width: 35%;
-        margin-left: 51rem;
-    }
-
-    #face_thierache {
-        width: 30%;
-    }
-
-    #info {
-        margin-left: 48rem;
-    }
-}
-
-@media screen and (min-width: 1700px) {
-    #principal_container {
-        width: 30%;
-        margin-left: 58rem;
-    }
-
-    #info {
-        margin-left: 54.5rem;
-    }
-
-    #face_thierache {
-        width: 25%;
-    }
-}
-
-@media screen and (min-width: 1800px) {
-    #principal_container {
-        width: 28%;
-        margin-left: 63rem;
-    }
-
-    #info {
-        margin-left: 59.5rem;
-    }
-
-    #face_thierache {
-        width: 23%;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    #principal_container {
-        width: 26%;
-        margin-left: 70rem;
-    }
-
-    #info {
-        margin-left: 66.5rem;
-    }
-
-    #face_thierache {
-        width: 21.5%;
     }
 }
 
 
 /* heigth responsive */
 
-@media screen and (min-height: 400px) {
 
-    .logo_modal {
-        width: 20%;
-    }
+/*@media screen and (min-height: 400px) {
 
-    #button {
-        margin: 4rem 3rem 3rem;
-    }
-
-    input {
-        padding: 0.5rem;
-    }
 }
 
 @media screen and (min-height: 560px) {
-    #container_top {
-        margin-top: 4rem;
-    }
 
-    #principal_container {
-        padding-top: 4rem;
-    }
-
-    .logo_modal {
-        width: 40%;
-    }
-
-    input:not(#deconnect) {
-        padding: 0.5rem;
-    }
-
-    #modal_container {
-        height: 48rem;
-    }
-}
+}*/
 
 /*I create an adaptation for all browsers*/
 
