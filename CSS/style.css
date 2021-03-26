@@ -435,6 +435,9 @@ input {
 /* width responsive*/
 
 @media screen and (min-width: 320px) {
+    #principal_container{
+        margin-top: 5rem;
+    }
     #modal_container {
         width: 90%;
     }
@@ -454,12 +457,18 @@ input {
     #login {
         width: 50%;
     }
+
+    #formulaire_server {
+        width: 100%;
+        margin: 5rem auto auto;
+    }
 }
 
 @media screen and (min-width: 410px) {
     #principal_container {
         width: 85%;
         margin-left: 3rem;
+        margin-top: 10rem;
     }
 
     #container_bottom {
@@ -496,6 +505,7 @@ input {
     #principal_container {
         width: 80%;
         margin-left: 6rem;
+        margin-top: 11rem;
     }
 
     #facebook {
@@ -850,7 +860,7 @@ input {
 /* heigth responsive */
 
 @media screen and (min-height: 400px) {
-    
+
     .logo_modal {
         width: 20%;
     }
@@ -858,13 +868,7 @@ input {
     #button {
         margin: 4rem 3rem 3rem;
     }
-
-    #formulaire_server {
-        width: 60%;
-        margin-left: 14rem;
-        margin-top: 4rem;
-    }
-
+    
     input {
         padding: 0.5rem;
     }
