@@ -43,6 +43,10 @@ h3 {
     font-size: 1.2rem;
 }
 
+span {
+    font-family: 'Open Sans', sans-serif;
+}
+
 #title_equipement {
     margin: 2rem;
     padding: 1rem;

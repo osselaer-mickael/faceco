@@ -147,7 +147,7 @@ if(isset($_SESSION["user"])){
                 </div>
                 <li class="drop_down_ecos_gestures_li">
                     <i class="fas fa-sort-amount-down"></i>
-                    <span id="infos">Infos pratique</span>
+                    <span id="infos">Infos pratiques</span>
                 </li>
                 <div id="drop_down_infos">
                     <ul>
@@ -217,7 +217,7 @@ if(isset($_SESSION["user"])){
                 <li class="drop_down_selective_sorting_li">
                     <a href="#">
                         <i class="fas fa-gamepad"></i>
-                        <span>Jeu</span>
+                        <span>A vous de jouer !</span>
                     </a>
                 </li>
             </ul>
@@ -347,9 +347,9 @@ if(isset($_SESSION["user"])){
 
     <footer>
         <div id="container_bottom">
-            <div id="facebook">
-                <a href="https://www.facebook.com/facethierache">
-                    <img src="IMG/index_1.png" alt="facebook" class="facebook">
+            <div id="info">
+                <a href="#">
+                    <i class="fas fa-info-circle"></i>
                 </a>
             </div>
             <div id="face_thierache">
@@ -357,9 +357,14 @@ if(isset($_SESSION["user"])){
                     <img src="IMG/logoFace.png" alt="logo_face" class="logo_face">
                 </a>
             </div>
+            <div id="facebook">
+                <a href="https://www.facebook.com/facethierache">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
             <div id="twitter">
                 <a href="https://twitter.com/Facethierache">
-                    <img src="IMG/Twitter.png" alt="twitter" class="twitter">
+                    <i class="fab fa-twitter"></i>
                 </a>
             </div>
         </div>

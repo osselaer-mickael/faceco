@@ -234,11 +234,24 @@ footer {
     top: calc(100vh - 5.5rem);
 }
 
-#facebook, #twitter {
+#facebook, #twitter, #info {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-info-circle {
+    font-size: 3rem;
+    margin: 1rem 1rem 2rem;
+}
+
+.fa-facebook-f {
+    color: #3c5a99;
+}
+
+.fa-twitter {
+    color: #1da1f2;
 }
 
 #facebook {
@@ -249,21 +262,10 @@ footer {
     padding-left: 0;
 }
 
-.facebook, .twitter {
-    width: 4rem;
-    height: 4rem;
-    margin-bottom: 1.5rem;
-    z-index: 2;
-}
-
-.twitter {
-    border-radius: 5px;
-}
-
 .logo_face {
     width: 10rem;
     height: 5rem;
-    margin-right: 1.5rem;
+    margin-left: 2rem;
     margin-bottom: 1.5rem;
     z-index: 2;
 }

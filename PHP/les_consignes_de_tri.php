@@ -22,13 +22,14 @@
     </div>
     <div id="drop_down1">
         <img src="../IMG/Les_consignes_de_tri_1_ss_poubelle.png" alt="image" class="image5">
+        <img src="../IMG/Les_consignes_de_tri_2_ss_poubelle.png" alt="image" class="image4">
     </div>
     <div id="image2">
         <img src="../IMG/Poubelle_noire.png" alt="image" class="image2" id="poubelle_noire">
     </div>
     <div id="drop_down2">
         <img src="../IMG/Les_consignes_de_tri_3_ss_poubelle.png" alt="image" class="image3">
-        <img src="../IMG/Les_consignes_de_tri_2_ss_poubelle.png" alt="image" class="image4">
+
     </div>
     <div id="retour">
         <a href="../index.php">

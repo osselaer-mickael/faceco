@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -53,10 +52,16 @@ h3 {
     background-color: #58ac34;
 }
 
+
 #text_one, #text_two, #text_three, #text_four, #image {
     border-bottom: 2px solid #58ac34;
-    margin: 1.5rem;
+    margin: 2rem;
     padding: 1rem;
+}
+
+#text_one {
+    border-bottom: none;
+    margin-bottom: 0;
 }
 
 #text_four {
@@ -72,14 +77,28 @@ p, span {
 span {
     font-weight: bold;
     font-style: italic;
-    color: #ffa384;
+    color: #58ac34;
 }
+
+.text_haut {
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+}
+
 
 .gras {
     padding: 0.5rem;
-    background-color: #58ac34;
-    color: white;
+    color: black;
     border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.fa-globe-americas {
+    color: #58ac34;
 }
 
 .bac_composte {
