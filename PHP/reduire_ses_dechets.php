@@ -18,15 +18,21 @@
         <h2>Comment réduire ses déchets !</h2>
     </div>
     <div id="text_one">
-        <p>
+        <span class="text_haut">
             580 kg c’est ce que chacun de nous jette en un an !
-            La quantité de déchets a doublé en 40 ans ! Il est donc important de valoriser ses déchets en les triant convenablement.
+        </span>
+        <span class="text_haut">
+             La quantité de déchets a doublé en 40 ans !
+        </span>
+        <p>
+            Il est donc important de valoriser ses déchets en les triant convenablement.
             Mais il est également possible de réduire ses déchets :
         </p>
     </div>
     <div id="text_two">
+        <i class="fas fa-globe-americas"></i>
         <span class="gras">
-            > En évitant le gaspillage alimentaire
+            En évitant le gaspillage alimentaire
         </span>
         <br>
         <span>
@@ -37,17 +43,31 @@
         </p>
     </div>
     <div id="text_three">
+        <i class="fas fa-globe-americas"></i>
         <span class="gras">
-            > En réduisant les emballages
+            En réduisant les emballages
         </span>
         <p>
             Acheter à la coupe ou en vrac, choisissez des éco-recharges, pensezà prendre votre cabas pour les courses…
         </p>
+        <br>
+        <p>
+            Cuisinez au lieu d’acheter. Faire sa soupe, ses compotes, en achetant des produits bruts que vous cuisinez,
+            vous régalerez vos papilles tout en prenant soin de votre santé et en réduisant vos déchets.
+        </p>
     </div>
     <div id="text_four">
+        <i class="fas fa-globe-americas"></i>
         <span class="gras">
-            > En installant un compost dans son jardin
+            En installant un compost
         </span>
+        <br>
+
+        <p>
+            dans son jardin, ou un compost d’intérieur. Le compostage est un processus de transformation des déchets
+            organiques (déchets organiques, déchets verts et de bois) par des micro-organismes et des petits animaux
+            (bactéries, vers de terre) en un produit comparable au terreau.
+        </p>
     </div>
     <div id="image">
         <img src="../IMG/Bac_a_compost.png" alt="image" class="bac_composte">
