@@ -1,7 +1,14 @@
 <?php
 require_once "./Classes/DB.php";
+
+// Entités
 require_once "./Entity/User.php";
+require_once "./Entity/Consommation.php";
+require_once "./Entity/ConsommationType.php";
+
+// Managers.
 require_once "./Manager/UserManager.php";
+require_once "./Manager/ConsommationTypeManager.php";
 
 
 session_start();
@@ -339,6 +346,24 @@ if(isset($_SESSION["user"])){
         </div>
     </div> <?php
     } ?>
+
+    <!-- Test, à supprimer -->
+    <?php
+    /*
+    $consommationTypeManager = new ConsommationTypeManager();
+    $consommationsType = $consommationTypeManager->getConsommationsType();
+    foreach($consommationsType as $consoType) {
+        echo $consoType->getName() . " " . $consoType->getUnitPrice() . "<br>";
+    }
+    */
+
+    // Ajouter ue consommation
+    $manager = new ConsommationManager();
+    $manager->addConsommation($user, $typeEau, 1000);
+    ?>
+
+    <!-- Fin de test -->
+
 
     <!--Creation of the footer. -->
     <!--Création du bas de page.  -->

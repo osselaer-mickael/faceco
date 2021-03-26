@@ -11,11 +11,11 @@ class User
 
     /**
      * User constructor.
-     * @param int $id
-     * @param string $mail
-     * @param string $prenom
-     * @param string $nom
-     * @param string $pass
+     * @param int|null $id
+     * @param string|null $mail
+     * @param string|null $prenom
+     * @param string|null $nom
+     * @param string|null $pass
      */
 
     public function __construct(int $id = null, string $mail = null, string $prenom = null, string $nom = null, string $pass = null)

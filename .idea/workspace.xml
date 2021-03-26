@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="Yannn 6.0">
+      <change afterPath="$PROJECT_DIR$/Entity/Consommation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entity/ConsommationType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/ConsommationManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager/ConsommationTypeManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/buandrie.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/buandrie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/cuisine.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/cuisine.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/salle_de_bain_agir_sur_la_temperature.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/salle_de_bain_agir_sur_la_temperature.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/salon.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/salon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS_TABLETTE/salon_tablette.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/buandrie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/buandrie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/cuisine.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/cuisine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/salon.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/salon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -87,6 +86,7 @@
       <workItem from="1616525197262" duration="337000" />
       <workItem from="1616569945622" duration="11995000" />
       <workItem from="1616584829614" duration="4096000" />
+      <workItem from="1616683092717" duration="3081000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1615898648547</created>
@@ -424,6 +424,17 @@
         <option value="Default.Date" />
         <option value="Default.Subject" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
