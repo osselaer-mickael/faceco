@@ -214,6 +214,7 @@ a {
         width: 15%;
         height: 10rem;
     }
+
     #container-principal {
         margin: 10rem auto auto;
         width: 80%;
@@ -304,11 +305,19 @@ a {
     #retour {
         margin-top: 8rem;
     }
+
+    #container-principal {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 1450px) {
     #title {
         margin-top: 3rem;
+    }
+
+    #container-principal {
+        width: 45%;
     }
 
 }

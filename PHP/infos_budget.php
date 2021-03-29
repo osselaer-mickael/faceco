@@ -59,7 +59,7 @@
         </div>
         <div id="electricite" <?= $container_electricite ?>>
             <div id="image2">
-                <img src="../IMG/Des_chiffres_qui_parlent_2.png" alt="image2" class="image2">
+                <img src="../IMG/Des_chiffres_qui_parlent_2.1.png" alt="image2" class="image2">
             </div>
         </div>
         <div id="container_title_eau">

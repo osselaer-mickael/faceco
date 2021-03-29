@@ -14,95 +14,97 @@
         <img src="../IMG/logo_ecobleu.png/" alt="logo_ecobleu" class="logo_ecobleu">
         <h1>Eco-gestes au quotidien</h1>
     </div>
-    <div id="title_equipement">
-        <h2>Des petits équipements astucieux</h2>
-    </div>
-    <div id="list_equipement">
-        <ul>
-            <li>
-                <div id="thermo">
-                    <img src="../IMG/thermometre.png" alt="thermometre" class="equipement">
-                    <p>
-                        Un thermomètre pour régler votre réfrigérateur, vos radiateurs
-                    </p>
-                    <span class="gras">
-                        < 10 €
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div id="multiprise">
-                      <div class="text">
-                            <p class="para2">
-                                Une multiprise à interrupteur pour éteindre simultanément tous vos équipements en veille.
-                            </p>
-                            <span class="gras2">
-                               5 à 15 €
-                           </span>
-                      </div>
-                    <img src="../IMG/multiprise.png" alt="multiprise" class="equipement2">
-                </div>
-            </li>
-            <li>
-                <div id="minuteur">
-                    <img src="../IMG/minuteur.png" alt="minuteur" class="equipement">
-                    <p>
-                        Une prise programmable mécanique pour automatiser la mise en marche, l’arrêt de vos appareils électriques
-                    </p>
-                    <span class="gras">
-                        < 10 €
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div id="wattmetre">
-                    <div class="text">
+    <div id="container_principal">
+        <div id="title_equipement">
+            <h2>Des petits équipements astucieux</h2>
+        </div>
+        <div id="list_equipement">
+            <ul>
+                <li>
+                    <div id="thermo">
+                        <img src="../IMG/thermometre.png" alt="thermometre" class="equipement">
                         <p>
-                            Un wattmètre relié à une prise, pour vérifier la consommation de vos appareils électriques
+                            Un thermomètre pour régler votre réfrigérateur, vos radiateurs
                         </p>
-                        <span class="gras2">
-                            20 € ~
-                        </span>
-                    </div>
-                    <img src="../IMG/wattmetre.png" alt="wattmetre" class="equipement2">
-                </div>
-            </li>
-            <li>
-                <div id="mousseur">
-                    <img src="../IMG/mousseur.png" alt="mousseur" class="equipement">
-                    <p>
-                        Un mousseur réduit de 30 à 50% le débit du robinet
-                    </p>
-                    <span class="gras">
-                        < 10 €
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div id="sablier">
-                    <div class="text">
-                        <p>
-                            Un sablier ou un minuteur pour ne pas dépasser 5 min sous la douche
-                        </p>
-                        <span class="gras2">
+                        <span class="gras">
                             < 10 €
                         </span>
                     </div>
-                    <img src="../IMG/sablier.png" alt="sablier" class="equipement2">
-                </div>
-            </li>
-            <li>
-                <div id="douchette">
-                    <img src="../IMG/douchette.png" alt="douchette" class="equipement">
-                    <p>
-                        Une douchette économique : à la clé jusqu’à 75% d’économie d’eau
-                    </p>
-                    <span class="gras">
-                        < 10 €
-                    </span>
-                </div>
-            </li>
-        </ul>
+                </li>
+                <li>
+                    <div id="multiprise">
+                          <div class="text">
+                                <p class="para2">
+                                    Une multiprise à interrupteur pour éteindre simultanément tous vos équipements en veille.
+                                </p>
+                                <span class="gras2">
+                                   5 à 15 €
+                               </span>
+                          </div>
+                        <img src="../IMG/multiprise.png" alt="multiprise" class="equipement2">
+                    </div>
+                </li>
+                <li>
+                    <div id="minuteur">
+                        <img src="../IMG/minuteur.png" alt="minuteur" class="equipement">
+                        <p>
+                            Une prise programmable mécanique pour automatiser la mise en marche, l’arrêt de vos appareils électriques
+                        </p>
+                        <span class="gras">
+                            < 10 €
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div id="wattmetre">
+                        <div class="text">
+                            <p>
+                                Un wattmètre relié à une prise, pour vérifier la consommation de vos appareils électriques
+                            </p>
+                            <span class="gras2">
+                                20 € ~
+                            </span>
+                        </div>
+                        <img src="../IMG/wattmetre.png" alt="wattmetre" class="equipement2">
+                    </div>
+                </li>
+                <li>
+                    <div id="mousseur">
+                        <img src="../IMG/mousseur.png" alt="mousseur" class="equipement">
+                        <p>
+                            Un mousseur réduit de 30 à 50% le débit du robinet
+                        </p>
+                        <span class="gras">
+                            < 10 €
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div id="sablier">
+                        <div class="text">
+                            <p>
+                                Un sablier ou un minuteur pour ne pas dépasser 5 min sous la douche
+                            </p>
+                            <span class="gras2">
+                                < 10 €
+                            </span>
+                        </div>
+                        <img src="../IMG/sablier.png" alt="sablier" class="equipement2">
+                    </div>
+                </li>
+                <li>
+                    <div id="douchette">
+                        <img src="../IMG/douchette.png" alt="douchette" class="equipement">
+                        <p>
+                            Une douchette économique : à la clé jusqu’à 75% d’économie d’eau
+                        </p>
+                        <span class="gras">
+                            < 10 €
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <div id="retour">
         <a href="../index.php">

@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Des_chffres_qui_parlent_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/Des_chffres_qui_parlent_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/Des_chiffres_qui_parlent_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/Des_chiffres_qui_parlent_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/infos_budget.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/infos_budget.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/les_consignes_de_tri.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/les_consignes_de_tri.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/petits_equipements_astucieux.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/petits_equipements_astucieux.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/infos_budget.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/infos_budget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/les_consignes_de_tri.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/les_consignes_de_tri.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/petits_equipement_astucieux.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/petits_equipement_astucieux.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +95,7 @@
       <workItem from="1616843842018" duration="1044000" />
       <workItem from="1616877751383" duration="790000" />
       <workItem from="1616918066781" duration="971000" />
-      <workItem from="1617001028227" duration="1193000" />
+      <workItem from="1617001028227" duration="4953000" />
     </task>
     <task id="LOCAL-00005" summary="CREATION de la page salle de bain and merge">
       <created>1615907919387</created>
