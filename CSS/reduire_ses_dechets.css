@@ -129,5 +129,164 @@ a {
     text-decoration: none;
 }
 
+/* responsive mode */
+/* width responsive */
+
+@media screen and (min-width: 480px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #title {
+        margin-top: 5rem;
+    }
+
+    #title_tri {
+        width: 80%;
+        margin-top: 5rem;
+    }
+
+    .logo_tri_selectif {
+        width: 40%;
+    }
+
+    #container_principal {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #title {
+        margin-top: 5rem;
+    }
+
+    #title_tri {
+        width: 75%;
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+    #title {
+        margin-top: 5rem;
+    }
+
+    #title_tri {
+        width: 70%;
+    }
+
+    #container_principal {
+        width: 75%;
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    #title {
+        width: 100%;
+    }
+
+    .logo_tri_selectif {
+        width: 11%;
+    }
+
+    #title_tri {
+        width: 65%;
+    }
+
+    #container_principal {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #title {
+        justify-content: flex-start;
+    }
+
+    .logo_tri_selectif {
+        width: 8%;
+        margin-left: 8rem;
+    }
+
+    #title_tri {
+        width: 55%;
+    }
+
+    #container_principal {
+        width: 75%;
+    }
+
+    .image2 {
+        width: 39%;
+    }
+
+    #drop_down_poubelle_verte, #drop_down_poubelle_noire {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+
+
+    #container_principal {
+        width: 65%;
+    }
+}
+
+
+@media screen and (min-width: 1366px) {
+    .logo_tri_selectif {
+        width: 6%;
+    }
+
+    #title_tri {
+        width: 40%;
+    }
+
+    #container_principal {
+        width: 50%;
+    }
+
+    .image1, .image2 {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    #title {
+        margin-top: 3rem;
+    }
+
+    #container_principal {
+        width: 45%;
+    }
+}
+
+/* height responsive */
+
+@media screen and (min-height: 1280px) {
+    #title {
+        justify-content: center;
+    }
+
+    .logo_tri_selectif {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-height: 1366px) {
+    #title {
+        justify-content: center;
+    }
+
+    .logo_tri_selectif {
+        margin-left: 0;
+    }
+}
+
 
 

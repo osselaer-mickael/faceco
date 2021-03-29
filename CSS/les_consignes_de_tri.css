@@ -142,6 +142,9 @@ a {
         margin-top: 5rem;
     }
 
+    #title_tri {
+        width: 70%;
+    }
 
     #container_principal {
         width: 75%;
@@ -150,7 +153,17 @@ a {
 }
 
 @media screen and (min-width: 830px) {
+    #title {
+        width: 100%;
+    }
 
+    .logo_tri_selectif {
+        width: 11%;
+    }
+
+    #title_tri {
+        width: 65%;
+    }
 
     #container_principal {
         width: 70%;
@@ -163,7 +176,27 @@ a {
     }
 
     .logo_tri_selectif {
+        width: 8%;
         margin-left: 8rem;
+    }
+
+    #title_tri {
+        width: 55%;
+    }
+
+    #container_principal {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image2 {
+        width: 39%;
+    }
+
+    #drop_down_poubelle_verte, #drop_down_poubelle_noire {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -178,10 +211,18 @@ a {
 
 @media screen and (min-width: 1366px) {
     .logo_tri_selectif {
-        width: 10%;
+        width: 6%;
+    }
+
+    #title_tri {
+        width: 40%;
     }
 
     #container_principal {
+        width: 50%;
+    }
+
+    .image1, .image2 {
         width: 50%;
     }
 }

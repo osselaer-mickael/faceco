@@ -18,26 +18,29 @@
         <h2>Les consignes de tri</h2>
     </div>
     <div id="container_principal">
-        <div id="image1">
-            <img src="../IMG/Poubelle_de_tri.png" alt="image" class="image1" id="poubelle_tri">
+        <div id="drop_down_poubelle_verte">
+            <div id="image1">
+                <img src="../IMG/Poubelle_de_tri.png" alt="image" class="image1" id="poubelle_tri">
+            </div>
+            <div id="drop_down1">
+                <img src="../IMG/Les_consignes_de_tri_1_ss_poubelle.png" alt="image" class="image5">
+                <img src="../IMG/Les_consignes_de_tri_2_ss_poubelle.png" alt="image" class="image4">
+            </div>
         </div>
-        <div id="drop_down1">
-            <img src="../IMG/Les_consignes_de_tri_1_ss_poubelle.png" alt="image" class="image5">
-            <img src="../IMG/Les_consignes_de_tri_2_ss_poubelle.png" alt="image" class="image4">
+        <div id="drop_down_poubelle_noire">
+            <div id="image2">
+                <img src="../IMG/Poubelle_noire.png" alt="image" class="image2" id="poubelle_noire">
+            </div>
+            <div id="drop_down2">
+                <img src="../IMG/Les_consignes_de_tri_3_ss_poubelle.png" alt="image" class="image3">
+            </div>
         </div>
-        <div id="image2">
-            <img src="../IMG/Poubelle_noire.png" alt="image" class="image2" id="poubelle_noire">
-        </div>
-        <div id="drop_down2">
-            <img src="../IMG/Les_consignes_de_tri_3_ss_poubelle.png" alt="image" class="image3">
-
-        </div>
-        <div id="retour">
-            <a href="../index.php">
-                <i class="fas fa-undo"></i>
-            </a>
-            <h3>Menu</h3>
-        </div>
+    </div>
+    <div id="retour">
+        <a href="../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+        <h3>Menu</h3>
     </div>
     <script src="../JS/tri_selectif.js"></script>
 </body>

@@ -29,61 +29,64 @@
     <title>Mon-suivi-electricite</title>
 </head>
 <body>
-    <div id="title_my_follow_up">
-        <img src="../IMG/logo_mon_suivi_bleu" alt="follow" class="follow">
-        <h1>Mon suivi</h1>
+    <div id="container_top">
+        <div id="title_my_follow_up">
+            <img src="../IMG/logo_mon_suivi_bleu" alt="follow" class="follow">
+            <h1>Mon suivi</h1>
+        </div>
+        <div id="suivi_conso">
+            <h2>Ma consommation électrique (kw/h) :</h2>
+        </div>
+        <div id="container_input">
+            <form action="" method="post">
+                <div class="month">
+                    <label for="month"></label>
+                    <select class="select-test" name="month" id="month">
+                        <option value="janvier">Janvier</option>
+                        <option value="fevrier">Février</option>
+                        <option value="mars">Mars</option>
+                        <option value="avril">Avril</option>
+                        <option value="mai">Mai</option>
+                        <option value="juin">Juin</option>
+                        <option value="juillet">Juillet</option>
+                        <option value="aout">Août</option>
+                        <option value="septembre">Septembre</option>
+                        <option value="octobre">Octobre</option>
+                        <option value="novembre">Novembre</option>
+                        <option value="decembre">Décembre</option>
+                    </select>
+                </div>
+                <div class="kilowatt">
+                    <input class="input-test" type="number" name="consommation_kwh" placeholder="Kw/h">
+                </div>
+                <input type="submit" name="submit" value="Ajouter conso" id="ajout_conso">
+            </form>
+        </div>
     </div>
-    <div id="suivi_conso">
-        <h2>Ma consommation électrique (kw/h) :</h2>
-    </div>
-    <div id="container_input">
-        <form action="" method="post">
-            <div class="month">
-                <label for="month"></label>
-                <select class="select-test" name="month" id="month">
-                    <option value="janvier">Janvier</option>
-                    <option value="fevrier">Février</option>
-                    <option value="mars">Mars</option>
-                    <option value="avril">Avril</option>
-                    <option value="mai">Mai</option>
-                    <option value="juin">Juin</option>
-                    <option value="juillet">Juillet</option>
-                    <option value="aout">Août</option>
-                    <option value="septembre">Septembre</option>
-                    <option value="octobre">Octobre</option>
-                    <option value="novembre">Novembre</option>
-                    <option value="decembre">Décembre</option>
-                </select>
-            </div>
-            <div class="kilowatt">
-                <input class="input-test" type="number" name="consommation_kwh" placeholder="Kw/h">
-            </div>
-            <input type="submit" name="submit" value="Ajouter conso">
-        </form>
-    </div>
-    <!-- Graphique consommations -->
-    <div id="data"> <?php
-        // Création de spans masqués contenant les informations.
-        foreach($consos as $conso) {
-            /* @var Consommation $conso */ ?>
-            <span style="display: none"
-                  id="<?= $conso->getId() ?>"
-                  data-month="<?= $conso->getMonth() ?>"
-                  data-qty="<?= $conso->getQuantity() ?>"
-                  data-unitprice="<?= $conso->getConsommationType()->getUnitPrice() ?>"
-            >
-            </span> <?php
-        } ?>
-    </div>
-    <div id="graphic_one">
-        <canvas id="myChart" width="400" height="400"></canvas>
-    </div>
-    <div id="suivi_depense">
-        <h2>Mes dépenses (€) :</h2>
-    </div>
-    <div id="graphic_two">
-        <canvas id="myGraphic" width="400" height="400"></canvas>
-    </div>
+        <!-- Graphique consommations -->
+        <div id="data"> <?php
+            // Création de spans masqués contenant les informations.
+            foreach($consos as $conso) {
+                /* @var Consommation $conso */ ?>
+                <span style="display: none"
+                      id="<?= $conso->getId() ?>"
+                      data-month="<?= $conso->getMonth() ?>"
+                      data-qty="<?= $conso->getQuantity() ?>"
+                      data-unitprice="<?= $conso->getConsommationType()->getUnitPrice() ?>"
+                >
+                </span> <?php
+            } ?>
+        </div>
+        <div id="graphic_one">
+            <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+        <div id="suivi_depense">
+            <h2>Mes dépenses (€) :</h2>
+        </div>
+        <div id="graphic_two">
+            <canvas id="myGraphic" width="400" height="400"></canvas>
+        </div>
+
     <div id="retour">
         <a href="../index.php">
             <i class="fas fa-undo"></i>
