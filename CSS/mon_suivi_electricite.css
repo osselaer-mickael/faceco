@@ -77,11 +77,6 @@ input {
 }
 
 
-#graphic_one, #graphic_two {
-    margin: 1rem;
-    padding: 1rem;
-}
-
 #retour {
     margin: 2rem;
     display: flex;
@@ -163,10 +158,7 @@ input[type=number] {
 }
 
 @media screen and (min-width: 600px) {
-    .chartjs-render-monitor {
-        height: 450px;
-        width: 450px;
-    }
+
 }
 
 @media screen and (min-width: 760px) {

@@ -78,13 +78,13 @@
             } ?>
         </div>
         <div id="graphic_one">
-            <canvas id="myChart" width="400" height="400"></canvas>
+            <canvas id="myChart"></canvas>
         </div>
         <div id="suivi_depense">
             <h2>Mes dépenses (€) :</h2>
         </div>
         <div id="graphic_two">
-            <canvas id="myGraphic" width="400" height="400"></canvas>
+            <canvas id="myGraphic"></canvas>
         </div>
 
     <div id="retour">

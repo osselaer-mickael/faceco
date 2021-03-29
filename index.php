@@ -212,7 +212,7 @@ require_once "./includes.php"; ?>
                     </ul>
                 </div>
                 <li class="drop_down_selective_sorting_li">
-                    <a href="https://sitetom.syctom-paris.fr/joue-avec-tom/je-suis-champion-du-tri.html">
+                    <a href="#">
                         <i class="fas fa-gamepad"></i>
                         <span>A vous de jouer !</span>
                     </a>
