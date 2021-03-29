@@ -86,6 +86,7 @@ header {
 #principal_container {
     width: 95%;
     margin-top: 5rem;
+    margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -683,18 +684,6 @@ input {
         width: 35%;
     }
 }
-
-
-/* heigth responsive */
-
-
-/*@media screen and (min-height: 400px) {
-
-}
-
-@media screen and (min-height: 560px) {
-
-}*/
 
 /*I create an adaptation for all browsers*/
 

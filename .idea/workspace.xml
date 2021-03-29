@@ -4,7 +4,8 @@
     <list default="true" id="fdb8bc14-5cac-4025-85c8-5f8aec340d8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/Des_chffres_qui_parlent_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/Des_chffres_qui_parlent_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/Des_chiffres_qui_parlent_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/Des_chiffres_qui_parlent_2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +88,11 @@
       <workItem from="1616745946981" duration="14201000" />
       <workItem from="1616763431640" duration="6232000" />
       <workItem from="1616769774917" duration="2299000" />
-      <workItem from="1616775593263" duration="15689000" />
-    </task>
-    <task id="LOCAL-00004" summary="CREATION de la page salle de bain">
-      <created>1615907449586</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1615907449586</updated>
+      <workItem from="1616775593263" duration="16185000" />
+      <workItem from="1616843842018" duration="1044000" />
+      <workItem from="1616877751383" duration="790000" />
+      <workItem from="1616918066781" duration="971000" />
+      <workItem from="1617001028227" duration="1193000" />
     </task>
     <task id="LOCAL-00005" summary="CREATION de la page salle de bain and merge">
       <created>1615907919387</created>
@@ -432,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616771517510</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="nouveau responsive index">
+      <created>1616792358468</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1616792358468</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +469,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/faceco" />
     </ignored-roots>
-    <MESSAGE value="CREATION de la page salle de bain" />
     <MESSAGE value="CREATION de la page salle de bain and merge" />
     <MESSAGE value="COMMIT 2.0" />
     <MESSAGE value="création du bouton retour" />
@@ -489,6 +493,7 @@
     <MESSAGE value="responsive et changement de logos" />
     <MESSAGE value="reduire ses déchets ajout du texte" />
     <MESSAGE value="ajout icone" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout icone" />
+    <MESSAGE value="nouveau responsive index" />
+    <option name="LAST_COMMIT_MESSAGE" value="nouveau responsive index" />
   </component>
 </project>
