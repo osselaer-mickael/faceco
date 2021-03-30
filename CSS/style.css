@@ -459,6 +459,11 @@ input {
 /* responsive mode */
 /* width responsive*/
 /* TODO the responsive format*/
+@media screen and (min-width: 375px) {
+    #principal_container {
+        margin-top: 10rem;
+    }
+}
 
 @media screen and (min-width: 410px) {
 

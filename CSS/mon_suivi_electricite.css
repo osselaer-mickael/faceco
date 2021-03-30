@@ -68,6 +68,7 @@ input {
 }
 
 #ajout_conso {
+    width: 35%;
     display: flex;
     padding: 1rem;
     margin: auto;
@@ -220,6 +221,8 @@ input[type=number] {
 
     #suivi_depense {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .depense {
@@ -227,12 +230,9 @@ input[type=number] {
     }
 
     #depense {
-        margin-left: 20rem;
+        margin-left: 30rem;
     }
 }
 
-@media screen and (min-width: 1450px) {
-
-}
 
 
