@@ -64,6 +64,7 @@
         </div>
     </div>
         <!-- Graphique consommations -->
+    <div id="container_principal">
         <div id="data"> <?php
             // Création de spans masqués contenant les informations.
             foreach($consos as $conso) {
@@ -77,16 +78,23 @@
                 </span> <?php
             } ?>
         </div>
-        <div id="graphic_one">
-            <canvas id="myChart"></canvas>
+        <div id="conso">
+            <div id="suivi_conso_tab">
+                <h2 class="conso">Ma consommation</h2>
+            </div>
+            <div id="graphic_one">
+                <canvas id="myChart" width="300" height="300"></canvas>
+            </div>
         </div>
-        <div id="suivi_depense">
-            <h2>Mes dépenses (€) :</h2>
+        <div id="depense">
+            <div id="suivi_depense">
+                <h2 class="depense">Mes dépenses (€) :</h2>
+            </div>
+            <div id="graphic_two">
+                <canvas id="myGraphic" width="300" height="300"></canvas>
+            </div>
         </div>
-        <div id="graphic_two">
-            <canvas id="myGraphic"></canvas>
-        </div>
-
+    </div>
     <div id="retour">
         <a href="../index.php">
             <i class="fas fa-undo"></i>

@@ -14,6 +14,8 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #title_my_follow_up {
@@ -46,7 +48,7 @@ h3 {
     color: black;
 }
 
-#suivi_conso, #suivi_depense {
+#suivi_conso, #suivi_depense, #suivi_conso_tab {
     width: 90%;
     margin: 1rem 2rem;
     border-bottom: 2px solid #2c3256;
@@ -150,32 +152,48 @@ input[type=number] {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     h2 {
         text-align: center;
     }
-}
 
-@media screen and (min-width: 600px) {
+    .follow {
+        width: 15%;
+    }
 
+    #suivi_conso, #suivi_depense {
+        width: 55%;
+    }
+
+    input[type="number"] {
+        width: 100%;
+    }
+
+    #ajout_conso {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 760px) {
+    .follow {
+        width: 12%;
+    }
 
-}
-
-@media screen and (min-width: 830px) {
-
+    #suivi_conso, #suivi_depense {
+        width: 35%;
+    }
 }
 
 @media screen and (min-width: 1020px) {
-
+    #myChart, #myGraphic {
+        width: 400px;
+        height: 400px;
+    }
 }
 
 @media screen and (min-width: 1110px) {
-
-
     #container_principal {
         width: 65%;
     }
@@ -183,19 +201,38 @@ input[type=number] {
 
 
 @media screen and (min-width: 1366px) {
+    #container_principal {
+        display: flex;
+        padding: 5rem;
+    }
 
+    #myChart, #myGraphic {
+        width: 500px;
+        height: 500px;
+    }
+
+    #depense, #conso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #suivi_depense {
+        width: 100%;
+    }
+
+    .depense {
+        width: 50%;
+    }
+
+    #depense {
+        margin-left: 20rem;
+    }
 }
 
 @media screen and (min-width: 1450px) {
 
 }
 
-/* height responsive */
 
-@media screen and (min-height: 1280px) {
-
-}
-
-@media screen and (min-height: 1366px) {
-
-}
