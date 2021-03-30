@@ -21,7 +21,7 @@ require_once "./includes.php"; ?>
     <header>
         <div id="container_info_and_user">
             <div id="info">
-                <a href="#" class="lien_info">
+                <a href="PHP/a_propos.php" class="lien_info">
                     <i class="fas fa-info"></i>
                     <span class="info">A propos</span>
                 </a>
