@@ -42,3 +42,82 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
+#retour {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #4093a4;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 414px){
+    #logo_face {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo_face {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .logo_face {
+        width: 55%;
+    }
+
+    #text_one {
+        width: 100%;
+    }
+
+    .italic {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 834px) {
+    .logo_face {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #container_top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #text_one {
+        width: 50%;
+
+    }
+
+    #text_two {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .text_two {
+        width: 50%;
+    }
+
+
+}

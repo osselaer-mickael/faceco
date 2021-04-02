@@ -132,6 +132,19 @@ a {
     width: 100%;
 }
 
+#prix_moyen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.italic {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

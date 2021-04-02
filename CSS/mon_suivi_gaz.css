@@ -26,7 +26,7 @@ body {
 
 .follow {
     width: 20%;
-    height: 6rem;
+
     margin-right: 1rem;
 }
 
@@ -47,7 +47,7 @@ h3 {
     color: black;
 }
 
-#suivi_conso, #suivi_depense {
+#suivi_conso_tab, #suivi_depense {
     width: 90%;
     margin: 1rem 2rem;
     border-bottom: 2px solid #58ac34;
@@ -66,10 +66,20 @@ input {
     border-color: black;
 }
 
+#ajout_conso {
+    width: 100%;
+    background-color: #58ac34;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 #graphic_one, #graphic_two {
     margin: 1rem;
     padding: 1rem;
 }
+
 
 #retour {
     margin: 2rem;
@@ -129,3 +139,96 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+
+/* responsive mode */
+/* width responsive */
+
+@media screen and (min-width: 480px) {
+    #container_top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .follow {
+        width: 15%;
+    }
+
+    #suivi_conso, #suivi_depense {
+        width: 55%;
+    }
+
+    input[type="number"] {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+    .follow {
+        width: 12%;
+    }
+
+    #suivi_conso, #suivi_depense {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #myChart, #myGraphic {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    #container_principal {
+        width: 65%;
+    }
+}
+
+
+@media screen and (min-width: 1366px) {
+    #container_principal {
+        width: 100%;
+        display: flex;
+        padding: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #conso_eau, #my_graphic_eau {
+        width: 500px;
+        height: 500px;
+    }
+
+    #depense, #conso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #suivi_depense {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .depense {
+        width: 50%;
+    }
+
+    #depense {
+        margin-left: 30rem;
+    }
+}
+
+
+

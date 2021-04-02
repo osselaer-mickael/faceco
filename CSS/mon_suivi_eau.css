@@ -16,6 +16,15 @@ body {
     flex-direction: column;
 }
 
+#container_top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 #title_my_follow_up {
     margin: 2rem;
     display: flex;
@@ -26,7 +35,6 @@ body {
 
 .follow {
     width: 20%;
-    height: 6rem;
     margin-right: 1rem;
 }
 
@@ -47,10 +55,20 @@ h3 {
     color: black;
 }
 
-#suivi_conso, #suivi_depense {
+#suivi_conso_tab, #suivi_depense {
     width: 90%;
     margin: 1rem 2rem;
     border-bottom: 2px solid #4093a4;
+    text-align: center;
+}
+
+#ajout_conso {
+    width: 100%;
+    border: none;
+    background-color: #4093a4;
+    color: white;
+    outline: none;
+    cursor: pointer;
 }
 
 .month, .eau {
@@ -60,7 +78,7 @@ h3 {
 }
 
 input {
-    width: 25%;
+    width: 100%;
     padding: 0.5rem;
     border-radius: 5px;
     border-color: black;
@@ -113,6 +131,20 @@ a {
     outline: none;
 }
 
+#prix_moyen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.italic {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
 .select-test:focus, .select-test:active {
     outline: 0;
     border-bottom-color: #4093a4;
@@ -129,3 +161,103 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+
+/* responsive mode */
+/* width responsive */
+
+@media screen and (min-width: 480px) {
+    #container_top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .follow {
+        width: 15%;
+    }
+
+    #suivi_conso, #suivi_depense {
+        width: 55%;
+    }
+
+    input[type="number"] {
+        width: 100%;
+    }
+
+    #ajout_conso {
+        width: 100%;
+        border: none;
+        background-color: #4093a4;
+        color: white;
+        outline: none;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .follow {
+        width: 12%;
+    }
+
+    #suivi_conso, #suivi_depense {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    #myChart, #myGraphic {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    #container_principal {
+        width: 65%;
+    }
+}
+
+
+@media screen and (min-width: 1366px) {
+    #container_principal {
+        width: 100%;
+        display: flex;
+        padding: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #conso_eau, #my_graphic_eau {
+        width: 500px;
+        height: 500px;
+    }
+
+    #depense, #conso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #suivi_depense {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .depense {
+        width: 50%;
+    }
+
+    #depense {
+        margin-left: 30rem;
+    }
+}
+
+
+

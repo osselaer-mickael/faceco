@@ -346,9 +346,7 @@ require_once "./includes.php"; ?>
                 </a>
             </div>
             <div id="face_thierache">
-                <a href="#">
-                    <img src="IMG/logoFace.png" alt="logo_face" class="logo_face">
-                </a>
+                <img src="IMG/logoFace.png" alt="logo_face" class="logo_face">
             </div>
             <div id="twitter">
                 <a href="https://twitter.com/Facethierache">

@@ -88,10 +88,14 @@
         </div>
         <div id="depense">
             <div id="suivi_depense">
-                <h2 class="depense">Mes dépenses (€) :</h2>
+                <h2 class="depense">Mes dépenses (€)* :</h2>
             </div>
             <div id="graphic_two">
                 <canvas id="myGraphic" width="300" height="300"></canvas>
+            </div>
+            <div id="prix_moyen">
+                <span class="italic">*0.1582 € prix moyen du kw/h en France hors abonnement.</span>
+                <span class="italic"></span>
             </div>
         </div>
     </div>

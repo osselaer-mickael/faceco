@@ -64,6 +64,12 @@ h3 {
     margin: 2rem ;
 }
 
+#text_three {
+    margin-bottom: 0;
+}
+
+
+
 p {
     line-height: 2rem;
     font-family: 'Open Sans', sans-serif;
@@ -104,7 +110,6 @@ p {
 }
 
 #image3, #image4 {
-    margin-top: 2rem;
     margin-left: 5rem;
 }
 
