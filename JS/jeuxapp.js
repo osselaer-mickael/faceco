@@ -3,6 +3,9 @@ let preBuffer = document.createElement("img");
 let modal = document.getElementById("modal");
 let modallost = document.getElementById("modall");
 
+/**
+ *List of wastes
+ */
 let bigSize = [
     "../images/poubelle-noir/boite_en_polystyrene.png",
     "../images/poubelle-noir/Coquille_doeufs.png",
@@ -37,7 +40,9 @@ let bigSize = [
     "../images/poubelle-verte/Papier_journal.png"
 ];
 
-
+/**
+ * random images
+ */
 function display_random_image (){
     preBuffer.src = bigSize[getRandomInt()];
     random.append(preBuffer);
@@ -95,6 +100,9 @@ function fonction_drop(ev){
     let data=ev.dataTransfer.getData("img");
 }
 
+/**
+ * Modal Win
+ */
 function displayModal() {
 
     let modalClose = document.getElementsByClassName("close")[0];
@@ -114,6 +122,9 @@ function displayModal() {
     };
 }
 
+/**
+ * Modal lost
+ */
 function displayModallost() {
 
     const modalClose = document.getElementsByClassName("close")[0];
@@ -134,6 +145,9 @@ function displayModallost() {
 }
 
 
+/*
+ * check if the images fit in the correct bin
+ */
 function onDrop(event) {
     const draggableElement = document.getElementById('random');
     let erreur = 0;

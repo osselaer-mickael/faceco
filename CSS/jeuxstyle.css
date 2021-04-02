@@ -109,17 +109,11 @@
         width: 80%;
     }
 
-    /* The Close Button */
-    .close {
-        align-self: flex-end;
-        color: #28e;
-        font-size: 5em;
-    }
-
-    .close:hover,
-    .close:focus {
-        color: #5cf;
-        text-decoration: none;
-        cursor: pointer;
+    #retour {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

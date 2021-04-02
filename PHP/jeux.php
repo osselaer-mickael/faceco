@@ -55,6 +55,13 @@
     </div>
 </section>
 
+<div id="retour">
+    <a href="../index.php">
+        <i class="fas fa-undo"></i>
+    </a>
+    <h3>Retour menu</h3>
+</div>
+
     <script src="../JS/jeuxapp.js"></script>
 </body>
 </html>
