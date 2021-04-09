@@ -212,7 +212,7 @@ require_once "./includes.php"; ?>
                     </ul>
                 </div>
                 <li class="drop_down_selective_sorting_li">
-                    <a href="#">
+                    <a href="./PHP/jeux.php">
                         <i class="fas fa-gamepad"></i>
                         <span>A vous de jouer !</span>
                     </a>
