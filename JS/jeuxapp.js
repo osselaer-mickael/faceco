@@ -146,7 +146,7 @@ function displayModallost() {
 
 
 /*
- * check if the images fit in the correct bin
+ * check if the images fit in the correct binn
  */
 function onDrop(event) {
     const draggableElement = document.getElementById('random');
